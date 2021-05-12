@@ -229,6 +229,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/images\/story2.jpg" : {
+      "ft" : 16384,
+      "iS" : 355773,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/story2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/story3.jpg" : {
+      "ft" : 16384,
+      "iS" : 495002,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/story3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/images\/thanks-2 (1).jpg" : {
       "ft" : 16384,
       "iS" : 251745,
