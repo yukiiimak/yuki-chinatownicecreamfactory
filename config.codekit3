@@ -138,6 +138,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/images\/hero 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 197184,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/hero 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/images\/ice-cream-hero-2 (1).jpg" : {
       "ft" : 16384,
       "iS" : 135091,
