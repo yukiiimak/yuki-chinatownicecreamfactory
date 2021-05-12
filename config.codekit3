@@ -48,6 +48,14 @@
       "oAP" : "\/design\/Chinatown Ice Cream Factory.sketch",
       "oF" : 0
     },
+    "\/dev\/content\/_nav.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_nav.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
