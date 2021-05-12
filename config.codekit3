@@ -190,12 +190,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/images\/masks  (1).jpeg" : {
+    "\/deploy\/images\/masks (1).jpeg" : {
       "ft" : 16384,
       "iS" : 379171,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/images\/masks  (1).jpg",
+      "oAP" : "\/deploy\/images\/masks (1).jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -385,6 +385,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/_ourstory.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_shop.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_shop.html",
       "oF" : 0
     },
     "\/dev\/content\/_spotlight.kit" : {
