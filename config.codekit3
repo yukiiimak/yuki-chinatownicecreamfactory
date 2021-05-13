@@ -363,6 +363,14 @@
       "oAP" : "\/dev\/content\/_hero.html",
       "oF" : 0
     },
+    "\/dev\/content\/_hourslocations.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_hourslocations.html",
+      "oF" : 0
+    },
     "\/dev\/content\/_icecream.kit" : {
       "cB" : 0,
       "ft" : 2048,
