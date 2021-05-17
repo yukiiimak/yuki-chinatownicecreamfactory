@@ -14,3 +14,17 @@ ul {
 		list-style: none;
 	}
 }
+
+.content {
+	display: grid;
+	grid-template-areas: 
+		"nav"
+		"hero"
+		"icecream"
+		"ourstory"
+		"spotlight"
+		"contact"
+		"shop"
+		"hourslocations"
+		"footer";
+}
