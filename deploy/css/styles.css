@@ -377,7 +377,20 @@ ul li {
 .content .nav ul li {
   display: inline;
 }
+.content .hero {
+  grid-area: hero;
+}
 .content .hero h1 {
+  position: absolute;
+  top: 98%;
+}
+.content .icecream {
+  grid-area: icecream;
+}
+.content .icecream .smallhide {
+  display: none;
+}
+.content .icecream .smallmain {
   display: grid;
 }
 

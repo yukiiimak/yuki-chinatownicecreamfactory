@@ -39,7 +39,22 @@ ul {
 	}
 
 	.hero {
+		grid-area: hero;
+
 		h1 {
+			position: absolute;
+			top: 98%;
+		}
+	}
+
+	.icecream {
+		grid-area: icecream;
+
+		.smallhide {
+			display: none;
+		}
+
+		.smallmain {
 			display: grid;
 		}
 	}
