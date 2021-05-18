@@ -803,43 +803,109 @@ p {
   background: url("../images/Masks.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 350px;
+}
+@media (min-width: 576px) {
+  .shop .masks {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (min-width: 768px) {
+  .shop .masks {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .masks {
+    width: 300px;
+    height: 300px;
+  }
 }
 .shop .tshirt {
   background: url("../images/TShirt.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 350px;
+}
+@media (min-width: 768px) {
+  .shop .tshirt {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .tshirt {
+    width: 300px;
+    height: 300px;
+  }
 }
 .shop .bag {
   background: url("../images/Bag.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 350px;
+}
+@media (min-width: 768px) {
+  .shop .bag {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .bag {
+    width: 300px;
+    height: 300px;
+  }
 }
 .shop .pin {
   background: url("../images/Pin.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 350px;
+}
+@media (min-width: 768px) {
+  .shop .pin {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .pin {
+    width: 300px;
+    height: 300px;
+  }
 }
 .shop .plush {
   background: url("../images/Plush.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 350px;
+}
+@media (min-width: 768px) {
+  .shop .plush {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .plush {
+    width: 300px;
+    height: 300px;
+  }
 }
 .shop .card {
   background: url("../images/Gift Card.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 350px;
+}
+@media (min-width: 768px) {
+  .shop .card {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .card {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 /* =============
