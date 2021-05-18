@@ -382,7 +382,7 @@ ul li {
 }
 .content .hero h1 {
   position: absolute;
-  top: 70%;
+  top: 95%;
 }
 .content .icecream {
   grid-area: icecream;
@@ -548,6 +548,14 @@ ul li {
 }
 .content .shop {
   grid-area: shop;
+}
+@media (min-width: 576px) {
+  .content .shop .title {
+    display: grid;
+    grid-template-columns: 80px 10px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media (min-width: 576px) {
   .content .shop .shophide {

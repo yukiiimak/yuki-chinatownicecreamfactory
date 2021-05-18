@@ -44,7 +44,7 @@ ul {
 
 		h1 {
 			position: absolute;
-			top: 70%;
+			top: 95%;
 		}
 	}
 
@@ -240,6 +240,15 @@ ul {
 
 	.shop {
 		grid-area: shop;
+
+		.title {
+			@include sm {
+				display: grid;
+				grid-template-columns: 80px 10px;
+				align-items: center;
+				justify-content: center;
+			}
+		}
 
 		.shophide {
 			@include sm {
