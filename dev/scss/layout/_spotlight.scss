@@ -3,8 +3,11 @@
         background: url("../images/Video.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 800px;
+
+        @include sm {
+            height: 315px;
+            width: 320px;
+        }
     }
 
     .gallery1 {

@@ -18,7 +18,7 @@ ul {
 .content {
 	display: grid;
 	grid-template-areas: 
-		"nav"
+		"header"
 		"hero"
 		"icecream"
 		"ourstory"
@@ -29,13 +29,14 @@ ul {
 		"footer";
 
 	.nav {
-		grid-area: nav;
+		grid-area: header;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr); 
 
 		ul li {
 			display: inline;
 		}
+
 	}
 
 
@@ -53,6 +54,10 @@ ul {
 
 		.smallhide {
 			display: none;
+
+			@include md {
+				display: grid;
+			}
 		}
 
 		.smallmain {
@@ -66,6 +71,26 @@ ul {
 		.story2 {
 			display: none;
 		}
+
+		@include lg {
+			.story2 {
+				display: grid;
+			}
+		}
+	}
+
+	.spotlight {
+		grid-area: spotlight;
+
+		.gallery1 {
+			@include sm{
+				display: none;
+			}
+	
+			@include lg {
+				display: grid;
+			}
+		}
 	}
 
 	.shop {
@@ -73,6 +98,10 @@ ul {
 
 		.shophide {
 			display: none;
+
+			@include md {
+				display: grid;
+			}
 		}
 	}
 }

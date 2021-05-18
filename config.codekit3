@@ -654,6 +654,14 @@
       "oAP" : "\/dev\/content\/_footer.html",
       "oF" : 0
     },
+    "\/dev\/content\/_header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_header.html",
+      "oF" : 0
+    },
     "\/dev\/content\/_hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -676,14 +684,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/_icecream.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/_nav.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_nav.html",
       "oF" : 0
     },
     "\/dev\/content\/_ourstory.kit" : {
