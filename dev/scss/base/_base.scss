@@ -27,4 +27,20 @@ ul {
 		"shop"
 		"hourslocations"
 		"footer";
+
+	.nav {
+		grid-area: nav;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr); 
+
+		ul li {
+			display: inline;
+		}
+	}
+
+	.hero {
+		h1 {
+			display: grid;
+		}
+	}
 }

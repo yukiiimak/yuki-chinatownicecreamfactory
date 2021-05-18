@@ -369,6 +369,17 @@ ul li {
   display: grid;
   grid-template-areas: "nav" "hero" "icecream" "ourstory" "spotlight" "contact" "shop" "hourslocations" "footer";
 }
+.content .nav {
+  grid-area: nav;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.content .nav ul li {
+  display: inline;
+}
+.content .hero h1 {
+  display: grid;
+}
 
 /* =============
     Typography
