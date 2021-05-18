@@ -502,6 +502,49 @@ p {
   height: 370px;
 }
 
+.shop .masks {
+  background: url("../images/Masks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+.shop .tshirt {
+  background: url("../images/TShirt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+.shop .bag {
+  background: url("../images/Bag.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+.shop .pin {
+  background: url("../images/Pin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+.shop .plush {
+  background: url("../images/Plush.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+.shop .card {
+  background: url("../images/Gift Card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+
 /* =============
     Footer
 ============= */
