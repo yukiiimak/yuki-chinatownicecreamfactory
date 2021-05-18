@@ -52,11 +52,15 @@ ul {
 		grid-area: icecream;
 
 		h1 {
-			text-align: center;
+			@include sm {
+				text-align: center;
+			}
 		}
 
 		h2 {
-			text-align: center;
+			@include sm {
+				text-align: center;
+			}
 		}
 
 		.regularimg {
@@ -92,11 +96,15 @@ ul {
 		}
 
 		.cakeinfo {
-			text-align: center;
+			@include sm {
+				text-align: center;
+			}
 		}
 
 		.smallhide {
-			display: none;
+			@include sm {
+				display: none;
+			}
 
 			@include md {
 				display: grid;
@@ -104,35 +112,37 @@ ul {
 		}
 
 		.smallmain {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			grid-template-rows: 20px 20px 20px;
-			text-align: center;
-
-			.flavors {
-				grid-column: 2 / 2;
-
-				.one {
-					grid-row: 1 / 1;
+			@include sm {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-template-rows: 20px 20px 20px;
+				text-align: center;
+	
+				.flavors {
+					grid-column: 2 / 2;
+	
+					.one {
+						grid-row: 1 / 1;
+					}
+	
+					.two {
+						grid-row: 2 / 2;
+					}
+	
+					.three {
+						grid-row: 3 / 3;
+					}
 				}
-
-				.two {
+	
+				.arrowleft {
+					grid-column: 1 / 1;
 					grid-row: 2 / 2;
 				}
-
-				.three {
-					grid-row: 3 / 3;
+	
+				.arrowright {
+					grid-column: 3 / 3;
+					grid-row: 2 / 2;
 				}
-			}
-
-			.arrowleft {
-				grid-column: 1 / 1;
-				grid-row: 2 / 2;
-			}
-
-			.arrowright {
-				grid-column: 3 / 3;
-				grid-row: 2 / 2;
 			}
 		}
 	}
@@ -140,12 +150,42 @@ ul {
 	.ourstory {
 		grid-area: ourstory;
 
-		.story2 {
-			display: none;
+		h1 {
+			@include sm {
+				text-align: center;
+			}
 		}
 
-		@include lg {
-			.story2 {
+		.story1 {
+			@include sm {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.story3 {
+			@include sm {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.storyinfo {
+			@include sm {
+				text-align: center;
+			}
+		}
+
+		.story2 {
+			@include sm {
+				display: none;
+			}
+		}
+
+		.story2 {
+			@include lg {
 				display: grid;
 			}
 		}
@@ -153,6 +193,12 @@ ul {
 
 	.spotlight {
 		grid-area: spotlight;
+
+		h1 {
+			@include sm {
+				text-align: center;
+			}
+		}
 
 		.gallery1 {
 			@include sm{
@@ -163,13 +209,36 @@ ul {
 				display: grid;
 			}
 		}
+
+		.press {
+			@include sm {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		.thanks {
+			@include sm {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		.community {
+			@include sm {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
 	}
 
 	.shop {
 		grid-area: shop;
 
 		.shophide {
-			display: none;
+			@include sm {
+				display: none;
+			}
 
 			@include md {
 				display: grid;
