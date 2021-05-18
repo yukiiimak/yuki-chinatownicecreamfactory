@@ -541,6 +541,11 @@ ul li {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (min-width: 576px) {
+  .content .contact {
+    text-align: center;
+  }
+}
 .content .shop {
   grid-area: shop;
 }

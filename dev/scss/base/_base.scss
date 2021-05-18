@@ -232,6 +232,12 @@ ul {
 		}
 	}
 
+	.contact {
+		@include sm {
+			text-align: center;
+		}
+	}
+
 	.shop {
 		grid-area: shop;
 
