@@ -59,4 +59,20 @@ ul {
 			display: grid;
 		}
 	}
+
+	.ourstory {
+		grid-area: ourstory;
+
+		.story2 {
+			display: none;
+		}
+	}
+
+	.shop {
+		grid-area: shop;
+
+		.shophide {
+			display: none;
+		}
+	}
 }

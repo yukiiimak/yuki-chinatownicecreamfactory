@@ -393,6 +393,18 @@ ul li {
 .content .icecream .smallmain {
   display: grid;
 }
+.content .ourstory {
+  grid-area: ourstory;
+}
+.content .ourstory .story2 {
+  display: none;
+}
+.content .shop {
+  grid-area: shop;
+}
+.content .shop .shophide {
+  display: none;
+}
 
 /* =============
     Typography
