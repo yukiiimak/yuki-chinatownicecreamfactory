@@ -559,22 +559,52 @@ p {
   background: url("../images/OurStory1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 380px;
-  height: 400px;
+}
+@media (min-width: 576px) {
+  .ourstory .story1 {
+    width: 320px;
+    height: 335px;
+  }
+}
+@media (min-width: 1024px) {
+  .ourstory .story1 {
+    width: 380px;
+    height: 395px;
+  }
 }
 .ourstory .story2 {
   background: url("../images/OurStory2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 380px;
-  height: 400px;
+}
+@media (min-width: 1024px) {
+  .ourstory .story2 {
+    width: 380px;
+    height: 370px;
+  }
 }
 .ourstory .story3 {
   background: url("../images/OurStory3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 380px;
-  height: 310px;
+}
+@media (min-width: 576px) {
+  .ourstory .story3 {
+    width: 320px;
+    height: 260px;
+  }
+}
+@media (min-width: 768px) {
+  .ourstory .story3 {
+    width: 410px;
+    height: 335px;
+  }
+}
+@media (min-width: 1024px) {
+  .ourstory .story3 {
+    width: 380px;
+    height: 310px;
+  }
 }
 
 .spotlight .video {

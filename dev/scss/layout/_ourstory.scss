@@ -3,23 +3,47 @@
         background: url("../images/OurStory1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 380px;
-        height: 400px;
+
+        @include sm {
+            width: 320px;
+            height: 335px;
+        }
+
+        @include lg {
+            width: 380px;
+            height: 395px;
+        }
     }
 
     .story2 {
         background: url("../images/OurStory2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 380px;
-        height: 400px;
+
+        @include lg {
+            width: 380px;
+            height: 370px;
+        }
     }
 
     .story3 {
         background: url("../images/OurStory3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 380px;
-        height: 310px;
+
+        @include sm {
+            width: 320px;
+            height: 260px;
+        }
+
+        @include md {
+            width: 410px;
+            height: 335px;
+        }
+
+        @include lg {
+            width: 380px;
+            height: 310px;
+        }
     }
 }
