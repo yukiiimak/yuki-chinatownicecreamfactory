@@ -1,0 +1,33 @@
+.icecream {
+    .regularimg {
+        background: url("../images/Regular.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 290px;
+        height: 450px;
+    }
+
+    .exoticimg {
+        background: url("../images/Exotic.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 290px;
+        height: 400px;
+    }
+
+    .specialimg {
+        background: url("../images/Special.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 290px;
+        height: 510px;
+    }
+
+    .cakeimg {
+        background: url("../images/Cakes.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 290px;
+        height: 430px;
+    }
+}
