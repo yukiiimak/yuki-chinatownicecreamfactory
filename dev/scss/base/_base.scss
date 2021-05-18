@@ -44,7 +44,7 @@ ul {
 
 		h1 {
 			position: absolute;
-			top: 95%;
+			top: 70%;
 		}
 	}
 
@@ -114,9 +114,10 @@ ul {
 		.smallmain {
 			@include sm {
 				display: grid;
-				grid-template-columns: repeat(3, 1fr);
+				grid-template-columns: 10px 200px 10px;
 				grid-template-rows: 20px 20px 20px;
 				text-align: center;
+				justify-content: center;
 	
 				.flavors {
 					grid-column: 2 / 2;
@@ -213,21 +214,24 @@ ul {
 		.press {
 			@include sm {
 				display: grid;
-				grid-template-columns: repeat(2, 1fr);
+				grid-template-columns: 200px 200px;
+				justify-content: center;
 			}
 		}
 
 		.thanks {
 			@include sm {
 				display: grid;
-				grid-template-columns: repeat(2, 1fr);
+				grid-template-columns: 200px 200px;
+				justify-content: center;
 			}
 		}
 
 		.community {
 			@include sm {
 				display: grid;
-				grid-template-columns: repeat(2, 1fr);
+				grid-template-columns: 200px 200px;
+				justify-content: center;
 			}
 		}
 	}

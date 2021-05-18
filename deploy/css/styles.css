@@ -382,7 +382,7 @@ ul li {
 }
 .content .hero h1 {
   position: absolute;
-  top: 95%;
+  top: 70%;
 }
 .content .icecream {
   grid-area: icecream;
@@ -443,9 +443,10 @@ ul li {
 @media (min-width: 576px) {
   .content .icecream .smallmain {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 10px 200px 10px;
     grid-template-rows: 20px 20px 20px;
     text-align: center;
+    justify-content: center;
   }
   .content .icecream .smallmain .flavors {
     grid-column: 2/2;
@@ -526,19 +527,22 @@ ul li {
 @media (min-width: 576px) {
   .content .spotlight .press {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 200px 200px;
+    justify-content: center;
   }
 }
 @media (min-width: 576px) {
   .content .spotlight .thanks {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 200px 200px;
+    justify-content: center;
   }
 }
 @media (min-width: 576px) {
   .content .spotlight .community {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 200px 200px;
+    justify-content: center;
   }
 }
 @media (min-width: 576px) {
