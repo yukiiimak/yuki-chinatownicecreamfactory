@@ -8,30 +8,89 @@
             height: 315px;
             width: 320px;
         }
+
+        @include md {
+            width: 100%;
+            height: 750px;
+        }
+
+        @include lg {
+            width: 100%;
+            height: 1150px;
+        }
+
+        @include xl {
+            width: 100%;
+            height: 1900px;
+        }
     }
 
     .gallery1 {
         background: url("../images/Gallery1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 400px;
-        height: 320px;
+
+        @include lg {
+            width: 400px;
+            height: 320px;
+        }
+
+        @include xl {
+            width: 565px;
+            height: 450px;
+        }
     }
 
     .gallery2 {
         background: url("../images/Gallery2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 300px;
-        height: 320px;
+
+        @include sm {
+            width: 160px;
+            height: 170px;
+        }
+
+        @include md {
+            width: 370px;
+            height: 400px;
+        }
+
+        @include lg {
+            width: 300px;
+            height: 320px;
+        }
+
+        @include xl {
+            width: 420px;
+            height: 450px;
+        }
     }
 
     .gallery3 {
         background: url("../images/Gallery3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 320px;
-        height: 320px;
+
+        @include sm {
+            width: 160px;
+            height: 170px;
+        }
+
+        @include md {
+            width: 370px;
+            height: 400px;
+        }
+
+        @include lg {
+            width: 325px;
+            height: 320px;
+        }
+
+        @include xl {
+            width: 455px;
+            height: 450px;
+        }
     }
 
     .press {
