@@ -51,6 +51,50 @@ ul {
 	.icecream {
 		grid-area: icecream;
 
+		h1 {
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		.regularimg {
+			@include sm {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.exoticimg {
+			@include sm {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.specialimg {
+			@include sm {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.cakeimg {
+			@include sm {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.cakeinfo {
+			text-align: center;
+		}
+
 		.smallhide {
 			display: none;
 
@@ -63,6 +107,7 @@ ul {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
 			grid-template-rows: 20px 20px 20px;
+			text-align: center;
 
 			.flavors {
 				grid-column: 2 / 2;
