@@ -97,23 +97,77 @@
         background: url("../images/Press.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 230px;
-        height: 370px;
+
+        @include sm {
+            width: 140px;
+            height: 230px;
+        }
+
+        @include md {
+            width: 230px;
+            height: 370px;
+        }
+
+        @include lg {
+            width: 300px;
+            height: 490px;
+        }
+
+        @include xl {
+            width: 430px;
+            height: 700px;
+        }
     }
 
     .thanks {
         background: url("../images/Thanks.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 230px;
-        height: 370px;
+
+        @include sm {
+            width: 140px;
+            height: 230px;
+        }
+
+        @include md {
+            width: 230px;
+            height: 370px;
+        }        
+
+        @include lg {
+            width: 300px;
+            height: 490px;
+        }
+
+        @include xl {
+            width: 430px;
+            height: 700px;
+        }
     }
 
     .community {
         background: url("../images/Community.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 230px;
-        height: 370px;
+
+        @include sm {
+            width: 140px;
+            height: 230px;
+        }
+
+        @include md {
+            width: 230px;
+            height: 370px;
+        }
+
+        @include lg {
+            width: 300px;
+            height: 490px;
+        }
+
+        @include xl {
+            width: 430px;
+            height: 700px;
+        }
     }
 }

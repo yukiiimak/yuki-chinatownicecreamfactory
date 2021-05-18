@@ -715,22 +715,88 @@ p {
   background: url("../images/Press.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 230px;
-  height: 370px;
+}
+@media (min-width: 576px) {
+  .spotlight .press {
+    width: 140px;
+    height: 230px;
+  }
+}
+@media (min-width: 768px) {
+  .spotlight .press {
+    width: 230px;
+    height: 370px;
+  }
+}
+@media (min-width: 1024px) {
+  .spotlight .press {
+    width: 300px;
+    height: 490px;
+  }
+}
+@media (min-width: 1200px) {
+  .spotlight .press {
+    width: 430px;
+    height: 700px;
+  }
 }
 .spotlight .thanks {
   background: url("../images/Thanks.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 230px;
-  height: 370px;
+}
+@media (min-width: 576px) {
+  .spotlight .thanks {
+    width: 140px;
+    height: 230px;
+  }
+}
+@media (min-width: 768px) {
+  .spotlight .thanks {
+    width: 230px;
+    height: 370px;
+  }
+}
+@media (min-width: 1024px) {
+  .spotlight .thanks {
+    width: 300px;
+    height: 490px;
+  }
+}
+@media (min-width: 1200px) {
+  .spotlight .thanks {
+    width: 430px;
+    height: 700px;
+  }
 }
 .spotlight .community {
   background: url("../images/Community.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 230px;
-  height: 370px;
+}
+@media (min-width: 576px) {
+  .spotlight .community {
+    width: 140px;
+    height: 230px;
+  }
+}
+@media (min-width: 768px) {
+  .spotlight .community {
+    width: 230px;
+    height: 370px;
+  }
+}
+@media (min-width: 1024px) {
+  .spotlight .community {
+    width: 300px;
+    height: 490px;
+  }
+}
+@media (min-width: 1200px) {
+  .spotlight .community {
+    width: 430px;
+    height: 700px;
+  }
 }
 
 .shop .masks {
