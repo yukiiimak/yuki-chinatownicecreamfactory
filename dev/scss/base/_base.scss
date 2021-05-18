@@ -254,6 +254,12 @@ ul {
 			}
 		}
 
+		h3 {
+			@include sm {
+				text-align: center;
+			}
+		}
+
 		.shophide {
 			@include sm {
 				display: none;

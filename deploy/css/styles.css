@@ -562,6 +562,11 @@ ul li {
   }
 }
 @media (min-width: 576px) {
+  .content .shop h3 {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
   .content .shop .shophide {
     display: none;
   }
