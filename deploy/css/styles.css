@@ -377,6 +377,14 @@ ul li {
 .content .nav ul li {
   display: inline;
 }
+.content .hourslocations .vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
 .content .hero {
   grid-area: hero;
 }
