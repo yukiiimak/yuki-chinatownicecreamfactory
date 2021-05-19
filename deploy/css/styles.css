@@ -580,6 +580,17 @@ ul li {
   grid-area: hourslocations;
   text-align: center;
 }
+.content .footer .socials {
+  display: flex;
+  grid-gap: 45px;
+  justify-content: center;
+}
+.content .footer .email {
+  text-align: center;
+}
+.content .footer .misclinks {
+  text-align: center;
+}
 
 /* =============
     Typography

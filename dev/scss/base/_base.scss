@@ -275,4 +275,19 @@ ul {
 		grid-area: hourslocations;
 		text-align: center;
 	}
-}
+
+	.footer {
+		.socials{
+			display: flex;
+			grid-gap: 45px;
+			justify-content: center;
+		}
+
+		.email {
+			text-align: center;
+		}
+
+		.misclinks {
+			text-align: center;
+		}
+}	}
