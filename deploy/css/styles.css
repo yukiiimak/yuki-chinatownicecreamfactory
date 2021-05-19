@@ -543,6 +543,22 @@ ul li {
   margin-left: 70px;
   margin-right: 70px;
 }
+.content .shop .mobileshop {
+  display: grid;
+  grid-template-columns: 5px 500px 5px;
+  justify-content: center;
+}
+.content .shop .mobileshop .mobileshoparrowleft {
+  display: grid;
+  align-content: center;
+}
+.content .shop .mobileshop .mobileshoparrowright {
+  display: grid;
+  align-content: center;
+}
+.content .shop .mobileshoptext {
+  text-align: center;
+}
 .content .shop .shophide {
   display: none;
 }

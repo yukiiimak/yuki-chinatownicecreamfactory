@@ -240,6 +240,26 @@ ul {
 			margin-right: 70px;
 		}
 
+		.mobileshop {
+			display: grid;
+			grid-template-columns: 5px 500px 5px;
+			justify-content: center;
+
+			.mobileshoparrowleft {
+				display: grid;
+				align-content: center;
+			}
+
+			.mobileshoparrowright {
+				display: grid;
+				align-content: center;
+			}
+		}
+
+		.mobileshoptext {
+			text-align: center;
+		}
+
 		.shophide {
 			display: none;
 
@@ -268,4 +288,5 @@ ul {
 		.misclinks {
 			text-align: center;
 		}
-}	}
+	}
+}
