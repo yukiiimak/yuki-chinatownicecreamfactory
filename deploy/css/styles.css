@@ -467,20 +467,19 @@ ul li {
 .content .ourstory h1 {
   text-align: center;
 }
+.content .ourstory .story1 {
+  display: grid;
+  grid-template-rows: 500px;
+}
 .content .ourstory .story3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  grid-column: span 1;
+  display: grid;
+  grid-template-rows: 400px;
 }
 .content .ourstory .storyinfo {
   text-align: center;
 }
 .content .ourstory .story2 {
   display: none;
-}
-.content .ourstory .story2 {
-  display: grid;
 }
 .content .spotlight {
   grid-area: spotlight;
@@ -659,12 +658,6 @@ p {
   background: url("../images/OurStory1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media (min-width: 576px) {
-  .ourstory .story1 {
-    width: 100%;
-    height: 335px;
-  }
 }
 @media (min-width: 1024px) {
   .ourstory .story1 {
