@@ -376,6 +376,7 @@ ul li {
 }
 .content .nav ul li {
   display: inline;
+  align-items: center;
 }
 .content .hero {
   grid-area: hero;
