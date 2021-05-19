@@ -508,18 +508,18 @@ ul li {
 }
 .content .spotlight .press {
   display: grid;
-  grid-template-columns: 200px 200px;
-  justify-content: center;
+  grid-template-columns: 300px 200px;
+  grid-template-rows: 500px;
 }
 .content .spotlight .thanks {
   display: grid;
-  grid-template-columns: 200px 200px;
-  justify-content: center;
+  grid-template-columns: 300px 200px;
+  grid-template-rows: 500px;
 }
 .content .spotlight .community {
   display: grid;
-  grid-template-columns: 200px 200px;
-  justify-content: center;
+  grid-template-columns: 300px 200px;
+  grid-template-rows: 500px;
 }
 .content .contact {
   text-align: center;
