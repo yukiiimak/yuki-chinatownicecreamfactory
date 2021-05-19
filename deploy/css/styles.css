@@ -379,197 +379,153 @@ ul li {
 }
 .content .hero {
   grid-area: hero;
+  display: grid;
 }
-.content .hero h1 {
-  position: absolute;
-  top: 70%;
+.content .hero .heroimg {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .content .icecream {
   grid-area: icecream;
 }
-@media (min-width: 576px) {
-  .content .icecream h1 {
-    text-align: center;
-  }
+.content .icecream h1 {
+  text-align: center;
 }
-@media (min-width: 576px) {
-  .content .icecream h2 {
-    text-align: center;
-  }
+.content .icecream h2 {
+  text-align: center;
 }
-@media (min-width: 576px) {
-  .content .icecream .regularimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.content .icecream .exoticimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media (min-width: 576px) {
-  .content .icecream .exoticimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.content .icecream .specialimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media (min-width: 576px) {
-  .content .icecream .specialimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.content .icecream .cakeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media (min-width: 576px) {
-  .content .icecream .cakeimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.content .icecream .cakeinfo {
+  text-align: center;
 }
-@media (min-width: 576px) {
-  .content .icecream .cakeinfo {
-    text-align: center;
-  }
-}
-@media (min-width: 576px) {
-  .content .icecream .smallhide {
-    display: none;
-  }
+.content .icecream .smallhide {
+  display: none;
 }
 @media (min-width: 768px) {
   .content .icecream .smallhide {
     display: grid;
   }
 }
-@media (min-width: 576px) {
-  .content .icecream .smallmain {
-    display: grid;
-    grid-template-columns: 10px 200px 10px;
-    grid-template-rows: 20px 20px 20px;
-    text-align: center;
-    justify-content: center;
-  }
-  .content .icecream .smallmain .flavors {
-    grid-column: 2/2;
-  }
-  .content .icecream .smallmain .flavors .one {
-    grid-row: 1/1;
-  }
-  .content .icecream .smallmain .flavors .two {
-    grid-row: 2/2;
-  }
-  .content .icecream .smallmain .flavors .three {
-    grid-row: 3/3;
-  }
-  .content .icecream .smallmain .arrowleft {
-    grid-column: 1/1;
-    grid-row: 2/2;
-  }
-  .content .icecream .smallmain .arrowright {
-    grid-column: 3/3;
-    grid-row: 2/2;
-  }
+.content .icecream .smallmain {
+  display: grid;
+  grid-template-columns: 10px 200px 10px;
+  grid-template-rows: 20px 20px 20px;
+  text-align: center;
+  justify-content: center;
+}
+.content .icecream .smallmain .flavors {
+  grid-column: 2/2;
+}
+.content .icecream .smallmain .flavors .one {
+  grid-row: 1/1;
+}
+.content .icecream .smallmain .flavors .two {
+  grid-row: 2/2;
+}
+.content .icecream .smallmain .flavors .three {
+  grid-row: 3/3;
+}
+.content .icecream .smallmain .arrowleft {
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+.content .icecream .smallmain .arrowright {
+  grid-column: 3/3;
+  grid-row: 2/2;
 }
 .content .ourstory {
   grid-area: ourstory;
 }
-@media (min-width: 576px) {
-  .content .ourstory h1 {
-    text-align: center;
-  }
+.content .ourstory h1 {
+  text-align: center;
 }
-@media (min-width: 576px) {
-  .content .ourstory .story1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.content .ourstory .story3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: span 1;
 }
-@media (min-width: 576px) {
-  .content .ourstory .story3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.content .ourstory .storyinfo {
+  text-align: center;
 }
-@media (min-width: 576px) {
-  .content .ourstory .storyinfo {
-    text-align: center;
-  }
+.content .ourstory .story2 {
+  display: none;
 }
-@media (min-width: 576px) {
-  .content .ourstory .story2 {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  .content .ourstory .story2 {
-    display: grid;
-  }
+.content .ourstory .story2 {
+  display: grid;
 }
 .content .spotlight {
   grid-area: spotlight;
 }
-@media (min-width: 576px) {
-  .content .spotlight h1 {
-    text-align: center;
-  }
+.content .spotlight h1 {
+  text-align: center;
 }
-@media (min-width: 576px) {
-  .content .spotlight .gallery1 {
-    display: none;
-  }
+.content .spotlight .gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 500px 300px;
+}
+.content .spotlight .gallery .video {
+  grid-column: span 2;
+}
+.content .spotlight .gallery .gallery2 {
+  grid-column: span 1;
+}
+.content .spotlight .gallery1 {
+  display: none;
 }
 @media (min-width: 1024px) {
   .content .spotlight .gallery1 {
     display: grid;
   }
 }
-@media (min-width: 576px) {
-  .content .spotlight .press {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: center;
-  }
+.content .spotlight .press {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  justify-content: center;
 }
-@media (min-width: 576px) {
-  .content .spotlight .thanks {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: center;
-  }
+.content .spotlight .thanks {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  justify-content: center;
 }
-@media (min-width: 576px) {
-  .content .spotlight .community {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: center;
-  }
+.content .spotlight .community {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  justify-content: center;
 }
-@media (min-width: 576px) {
-  .content .contact {
-    text-align: center;
-  }
+.content .contact {
+  text-align: center;
 }
 .content .shop {
   grid-area: shop;
 }
-@media (min-width: 576px) {
-  .content .shop .title {
-    display: grid;
-    grid-template-columns: 80px 10px;
-    align-items: center;
-    justify-content: center;
-  }
+.content .shop .title {
+  display: grid;
+  grid-template-columns: 80px 10px;
+  align-items: center;
+  justify-content: center;
 }
-@media (min-width: 576px) {
-  .content .shop h3 {
-    text-align: center;
-  }
+.content .shop h3 {
+  text-align: center;
 }
-@media (min-width: 576px) {
-  .content .shop .shophide {
-    display: none;
-  }
+.content .shop .shophide {
+  display: none;
 }
 @media (min-width: 768px) {
   .content .shop .shophide {
@@ -586,9 +542,6 @@ ul li {
   justify-content: center;
 }
 .content .footer .email {
-  text-align: center;
-}
-.content .footer .misclinks {
   text-align: center;
 }
 
@@ -720,7 +673,7 @@ p {
 }
 @media (min-width: 576px) {
   .ourstory .story1 {
-    width: 320px;
+    width: 100%;
     height: 335px;
   }
 }
@@ -770,12 +723,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (min-width: 576px) {
-  .spotlight .video {
-    height: 315px;
-    width: 320px;
-  }
-}
 @media (min-width: 768px) {
   .spotlight .video {
     width: 100%;
@@ -816,12 +763,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (min-width: 576px) {
-  .spotlight .gallery2 {
-    width: 160px;
-    height: 170px;
-  }
-}
 @media (min-width: 768px) {
   .spotlight .gallery2 {
     width: 370px;
@@ -844,12 +785,6 @@ p {
   background: url("../images/Gallery3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media (min-width: 576px) {
-  .spotlight .gallery3 {
-    width: 160px;
-    height: 170px;
-  }
 }
 @media (min-width: 768px) {
   .spotlight .gallery3 {

@@ -4,11 +4,6 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        @include sm {
-            height: 315px;
-            width: 320px;
-        }
-
         @include md {
             width: 100%;
             height: 750px;
@@ -46,11 +41,6 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        @include sm {
-            width: 160px;
-            height: 170px;
-        }
-
         @include md {
             width: 370px;
             height: 400px;
@@ -71,11 +61,6 @@
         background: url("../images/Gallery3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-
-        @include sm {
-            width: 160px;
-            height: 170px;
-        }
 
         @include md {
             width: 370px;

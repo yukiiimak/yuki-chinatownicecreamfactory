@@ -41,10 +41,12 @@ ul {
 
 	.hero {
 		grid-area: hero;
+		display: grid;
 
-		h1 {
-			position: absolute;
-			top: 70%;
+		.heroimg {
+			display: flex;
+			align-items:flex-end;
+			justify-content: center;
 		}
 	}
 
@@ -52,59 +54,43 @@ ul {
 		grid-area: icecream;
 
 		h1 {
-			@include sm {
-				text-align: center;
-			}
+			text-align: center;
 		}
 
 		h2 {
-			@include sm {
-				text-align: center;
-			}
+			text-align: center;
 		}
 
-		.regularimg {
-			@include sm {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
-		}
+		// .regularimg {
+		// 	display: block;
+		// 	margin-left: auto;
+		// 	margin-right: auto;
+		// }
 
 		.exoticimg {
-			@include sm {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.specialimg {
-			@include sm {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.cakeimg {
-			@include sm {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.cakeinfo {
-			@include sm {
-				text-align: center;
-			}
+			text-align: center;
 		}
 
 		.smallhide {
-			@include sm {
-				display: none;
-			}
+			display: none;
 
 			@include md {
 				display: grid;
@@ -112,38 +98,36 @@ ul {
 		}
 
 		.smallmain {
-			@include sm {
-				display: grid;
-				grid-template-columns: 10px 200px 10px;
-				grid-template-rows: 20px 20px 20px;
-				text-align: center;
-				justify-content: center;
-	
-				.flavors {
-					grid-column: 2 / 2;
-	
-					.one {
-						grid-row: 1 / 1;
-					}
-	
-					.two {
-						grid-row: 2 / 2;
-					}
-	
-					.three {
-						grid-row: 3 / 3;
-					}
+			display: grid;
+			grid-template-columns: 10px 200px 10px;
+			grid-template-rows: 20px 20px 20px;
+			text-align: center;
+			justify-content: center;
+
+			.flavors {
+				grid-column: 2 / 2;
+
+				.one {
+					grid-row: 1 / 1;
 				}
-	
-				.arrowleft {
-					grid-column: 1 / 1;
+
+				.two {
 					grid-row: 2 / 2;
 				}
-	
-				.arrowright {
-					grid-column: 3 / 3;
-					grid-row: 2 / 2;
+
+				.three {
+					grid-row: 3 / 3;
 				}
+			}
+
+			.arrowleft {
+				grid-column: 1 / 1;
+				grid-row: 2 / 2;
+			}
+
+			.arrowright {
+				grid-column: 3 / 3;
+				grid-row: 2 / 2;
 			}
 		}
 	}
@@ -152,43 +136,26 @@ ul {
 		grid-area: ourstory;
 
 		h1 {
-			@include sm {
-				text-align: center;
-			}
-		}
-
-		.story1 {
-			@include sm {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
+			text-align: center;
 		}
 
 		.story3 {
-			@include sm {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			grid-column: span 1;
 		}
 
 		.storyinfo {
-			@include sm {
-				text-align: center;
-			}
+			text-align: center;
 		}
 
 		.story2 {
-			@include sm {
-				display: none;
-			}
+			display: none;
 		}
 
 		.story2 {
-			@include lg {
-				display: grid;
-			}
+			display: grid;
 		}
 	}
 
@@ -196,15 +163,25 @@ ul {
 		grid-area: spotlight;
 
 		h1 {
-			@include sm {
-				text-align: center;
+			text-align: center;
+		}
+
+		.gallery {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: 500px 300px;
+
+			.video {
+				grid-column: span 2;
+			}
+
+			.gallery2 {
+				grid-column: span 1;
 			}
 		}
 
 		.gallery1 {
-			@include sm{
-				display: none;
-			}
+			display: none;
 	
 			@include lg {
 				display: grid;
@@ -212,58 +189,44 @@ ul {
 		}
 
 		.press {
-			@include sm {
-				display: grid;
-				grid-template-columns: 200px 200px;
-				justify-content: center;
-			}
+			display: grid;
+			grid-template-columns: 200px 200px;
+			justify-content: center;
 		}
 
 		.thanks {
-			@include sm {
-				display: grid;
-				grid-template-columns: 200px 200px;
-				justify-content: center;
-			}
+			display: grid;
+			grid-template-columns: 200px 200px;
+			justify-content: center;
 		}
 
 		.community {
-			@include sm {
-				display: grid;
-				grid-template-columns: 200px 200px;
-				justify-content: center;
-			}
+			display: grid;
+			grid-template-columns: 200px 200px;
+			justify-content: center;
 		}
 	}
 
 	.contact {
-		@include sm {
-			text-align: center;
-		}
+		text-align: center;
 	}
 
 	.shop {
 		grid-area: shop;
 
 		.title {
-			@include sm {
-				display: grid;
-				grid-template-columns: 80px 10px;
-				align-items: center;
-				justify-content: center;
-			}
+			display: grid;
+			grid-template-columns: 80px 10px;
+			align-items: center;
+			justify-content: center;
 		}
 
 		h3 {
-			@include sm {
-				text-align: center;
-			}
+			text-align: center;
 		}
 
 		.shophide {
-			@include sm {
-				display: none;
-			}
+			display: none;
 
 			@include md {
 				display: grid;
@@ -284,10 +247,6 @@ ul {
 		}
 
 		.email {
-			text-align: center;
-		}
-
-		.misclinks {
 			text-align: center;
 		}
 }	}
