@@ -4,10 +4,10 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        @include sm {
-            width: 180px;
-            height: 180px;
-        }
+        // @include sm {
+        //     width: 180px;
+        //     height: 180px;
+        // }
 
         @include md {
             width: 350px;

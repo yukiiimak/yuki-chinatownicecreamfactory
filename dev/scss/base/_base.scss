@@ -232,6 +232,14 @@ ul {
 			text-align: center;
 		}
 
+		.masks {
+			display: grid;
+			grid-template-columns: 100px 100px;
+			grid-template-rows: 100px 250px;
+			margin-left: 70px;
+			margin-right: 70px;
+		}
+
 		.shophide {
 			display: none;
 
@@ -254,6 +262,10 @@ ul {
 		}
 
 		.email {
+			text-align: center;
+		}
+
+		.misclinks {
 			text-align: center;
 		}
 }	}

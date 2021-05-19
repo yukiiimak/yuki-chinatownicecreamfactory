@@ -536,6 +536,13 @@ ul li {
 .content .shop h3 {
   text-align: center;
 }
+.content .shop .masks {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 250px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
 .content .shop .shophide {
   display: none;
 }
@@ -554,6 +561,9 @@ ul li {
   justify-content: center;
 }
 .content .footer .email {
+  text-align: center;
+}
+.content .footer .misclinks {
   text-align: center;
 }
 
@@ -878,12 +888,6 @@ p {
   background: url("../images/Masks.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media (min-width: 576px) {
-  .shop .masks {
-    width: 180px;
-    height: 180px;
-  }
 }
 @media (min-width: 768px) {
   .shop .masks {
