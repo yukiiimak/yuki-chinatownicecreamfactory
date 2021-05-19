@@ -4,11 +4,6 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        @include sm {
-            width: 180px;
-            height: 210px;
-        }
-
         @include md {
             width: 290px;
             height: 450px;
@@ -24,11 +19,6 @@
         background: url("../images/Exotic.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-
-        @include sm {
-            width: 180px;
-            height: 210px;
-        }
 
         @include md {
             width: 290px;
@@ -46,11 +36,6 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        @include sm {
-            width: 180px;
-            height: 210px;
-        }
-
         @include md {
             width: 290px;
             height: 450px;
@@ -66,11 +51,6 @@
         background: url("../images/Cakes.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-
-        @include sm {
-            width: 180px;
-            height: 210px;
-        }
 
         @include md {
             width: 290px;

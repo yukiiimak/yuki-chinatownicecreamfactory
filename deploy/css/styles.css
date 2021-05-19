@@ -395,20 +395,33 @@ ul li {
 .content .icecream h2 {
   text-align: center;
 }
+.content .icecream .regularimg {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 200px 200px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
 .content .icecream .exoticimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 200px 200px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .content .icecream .specialimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 200px 200px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .content .icecream .cakeimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 200px 200px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .content .icecream .cakeinfo {
   text-align: center;
@@ -578,12 +591,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (min-width: 576px) {
-  .icecream .regularimg {
-    width: 180px;
-    height: 210px;
-  }
-}
 @media (min-width: 768px) {
   .icecream .regularimg {
     width: 290px;
@@ -600,12 +607,6 @@ p {
   background: url("../images/Exotic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media (min-width: 576px) {
-  .icecream .exoticimg {
-    width: 180px;
-    height: 210px;
-  }
 }
 @media (min-width: 768px) {
   .icecream .exoticimg {
@@ -624,12 +625,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (min-width: 576px) {
-  .icecream .specialimg {
-    width: 180px;
-    height: 210px;
-  }
-}
 @media (min-width: 768px) {
   .icecream .specialimg {
     width: 290px;
@@ -646,12 +641,6 @@ p {
   background: url("../images/Cakes.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media (min-width: 576px) {
-  .icecream .cakeimg {
-    width: 180px;
-    height: 210px;
-  }
 }
 @media (min-width: 768px) {
   .icecream .cakeimg {
