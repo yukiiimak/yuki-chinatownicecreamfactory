@@ -512,15 +512,27 @@ ul li {
   grid-template-columns: 300px 200px;
   grid-template-rows: 500px;
 }
+.content .spotlight .press .pressinfo {
+  display: grid;
+  align-content: center;
+}
 .content .spotlight .thanks {
   display: grid;
   grid-template-columns: 300px 200px;
   grid-template-rows: 500px;
 }
+.content .spotlight .thanks .thanksinfo {
+  display: grid;
+  align-content: center;
+}
 .content .spotlight .community {
   display: grid;
   grid-template-columns: 300px 200px;
   grid-template-rows: 500px;
+}
+.content .spotlight .community .communityinfo {
+  display: grid;
+  align-content: center;
 }
 .content .contact {
   text-align: center;

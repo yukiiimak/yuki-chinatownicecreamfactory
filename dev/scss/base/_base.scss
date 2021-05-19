@@ -200,18 +200,34 @@ ul {
 			display: grid;
 			grid-template-columns: 300px 200px;
 			grid-template-rows: 500px;
+
+			.pressinfo {
+				display: grid;
+				align-content: center;
+			}
 		}
 
 		.thanks {
 			display: grid;
 			grid-template-columns: 300px 200px;
 			grid-template-rows: 500px;
+
+			.thanksinfo {
+				display: grid;
+				align-content: center;
+			}
 		}
+
 
 		.community {
 			display: grid;
 			grid-template-columns: 300px 200px;
 			grid-template-rows: 500px;
+
+			.communityinfo {
+				display: grid;
+				align-content: center;
+			}
 		}
 	}
 
