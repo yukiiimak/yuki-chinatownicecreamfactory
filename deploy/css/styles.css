@@ -576,6 +576,10 @@ ul li {
     display: grid;
   }
 }
+.content .hourslocations {
+  grid-area: hourslocations;
+  text-align: center;
+}
 
 /* =============
     Typography
