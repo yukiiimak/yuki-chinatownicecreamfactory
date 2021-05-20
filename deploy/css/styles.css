@@ -658,16 +658,26 @@ ul li {
 }
 @media (min-width: 768px) {
   .content .contact .name {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content .contact .name .first {
+    grid-column: span 1;
+  }
+  .content .contact .name .last {
+    grid-column: span 1;
   }
 }
 @media (min-width: 1024px) {
   .content .contact .questions {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content .contact .questions .question1 {
+    grid-column: span 1;
+  }
+  .content .contact .questions .question2 {
+    grid-column: span 1;
   }
 }
 .content .shop {
@@ -726,14 +736,6 @@ ul li {
     display: none;
   }
 }
-@media (min-width: 768px) {
-  .content .shop .feature {
-    display: grid;
-    grid-template-columns: 350px 200px;
-    grid-gap: 30px;
-    margin-left: 20px;
-  }
-}
 .content .shop .mobileshoptext {
   text-align: center;
 }
@@ -744,6 +746,23 @@ ul li {
   .content .shop .shophide {
     display: grid;
     text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .content .shop .feature {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 35px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .shop .feature {
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
   }
 }
 .content .hourslocations {
@@ -1098,8 +1117,8 @@ p {
 }
 @media (min-width: 1024px) {
   .shop .masks {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 .shop .tshirt {
@@ -1115,8 +1134,8 @@ p {
 }
 @media (min-width: 1024px) {
   .shop .tshirt {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 .shop .bag {
@@ -1132,8 +1151,8 @@ p {
 }
 @media (min-width: 1024px) {
   .shop .bag {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 .shop .pin {
@@ -1149,8 +1168,8 @@ p {
 }
 @media (min-width: 1024px) {
   .shop .pin {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 .shop .plush {
@@ -1166,8 +1185,8 @@ p {
 }
 @media (min-width: 1024px) {
   .shop .plush {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 .shop .card {
@@ -1183,8 +1202,8 @@ p {
 }
 @media (min-width: 1024px) {
   .shop .card {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 

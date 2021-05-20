@@ -4,19 +4,14 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        // @include sm {
-        //     width: 180px;
-        //     height: 180px;
-        // }
-
         @include md {
             width: 350px;
             height: 350px;
         }
 
         @include lg {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
         }
 
     }
@@ -32,8 +27,8 @@
         }
 
         @include lg {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
         }
     }
 
@@ -48,8 +43,8 @@
         }
 
         @include lg {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
         }
     }
 
@@ -61,9 +56,11 @@
         @include md {
             width: 350px;
             height: 350px;
-        }        @include lg {
-            width: 300px;
-            height: 300px;
+        }       
+        
+        @include lg {
+            width: 250px;
+            height: 250px;
         }
 
 
@@ -80,8 +77,8 @@
         }
 
         @include lg {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
         }
     }
 
@@ -96,8 +93,8 @@
         }
 
         @include lg {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
         }
     }
 }

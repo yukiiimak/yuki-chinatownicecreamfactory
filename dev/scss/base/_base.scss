@@ -351,17 +351,31 @@ ul {
 
 		.name {
 			@include md {
-				display: flex;
-				justify-content: space-evenly;
-				margin-left: 20px;
-				margin-right: 20px;
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+
+				.first {
+					grid-column: span 1;
+				}
+
+				.last {
+					grid-column: span 1;
+				}
 			}
 		}
 
 		.questions {
 			@include lg {
-				display: flex;
-				justify-content: space-evenly;
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+
+				.question1 {
+					grid-column: span 1;
+				}
+
+				.question2 {
+					grid-column: span 1;
+				}
 			}
 		}
 		
@@ -431,15 +445,6 @@ ul {
 			}
 		}
 
-		.feature {
-			@include md {
-				display: grid;
-				grid-template-columns: 350px 200px;
-				grid-gap: 30px;
-				margin-left: 20px;
-			}
-		}
-
 		.mobileshoptext {
 			text-align: center;
 		}
@@ -450,6 +455,23 @@ ul {
 			@include md {
 				display: grid;
 				text-align: center;
+			}
+		}
+
+		.feature {
+			@include md {
+				display: grid;
+				grid-template-columns: 350px 350px;
+				grid-gap: 35px;
+				margin-left: 20px;
+			}
+
+			@include lg {
+				display: grid;
+				grid-template-columns: 230px 230px 230px;
+				margin-left: 40px;
+				margin-right: 40px;
+				justify-content: center;
 			}
 		}
 	}
