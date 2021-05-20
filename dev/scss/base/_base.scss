@@ -392,11 +392,29 @@ ul {
 			.mobileshoparrowleft {
 				display: grid;
 				align-content: center;
+
+				@include md {
+					display: none;
+				}
 			}
 
 			.mobileshoparrowright {
 				display: grid;
 				align-content: center;
+
+				@include md {
+					display: none;
+
+				}
+			}
+		}
+
+		.feature {
+			@include md {
+				display: grid;
+				grid-template-columns: 350px 200px;
+				grid-gap: 30px;
+				margin-left: 20px;
 			}
 		}
 
@@ -409,6 +427,7 @@ ul {
 
 			@include md {
 				display: grid;
+				text-align: center;
 			}
 		}
 	}

@@ -688,9 +688,27 @@ ul li {
   display: grid;
   align-content: center;
 }
+@media (min-width: 768px) {
+  .content .shop .mobileshop .mobileshoparrowleft {
+    display: none;
+  }
+}
 .content .shop .mobileshop .mobileshoparrowright {
   display: grid;
   align-content: center;
+}
+@media (min-width: 768px) {
+  .content .shop .mobileshop .mobileshoparrowright {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .content .shop .feature {
+    display: grid;
+    grid-template-columns: 350px 200px;
+    grid-gap: 30px;
+    margin-left: 20px;
+  }
 }
 .content .shop .mobileshoptext {
   text-align: center;
@@ -701,6 +719,7 @@ ul li {
 @media (min-width: 768px) {
   .content .shop .shophide {
     display: grid;
+    text-align: center;
   }
 }
 .content .hourslocations {
