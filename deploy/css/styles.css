@@ -634,6 +634,7 @@ ul li {
 .content .spotlight .press .pressinfo {
   display: grid;
   align-content: center;
+  text-align: center;
 }
 .content .spotlight .thanks {
   display: grid;
@@ -643,6 +644,7 @@ ul li {
 .content .spotlight .thanks .thanksinfo {
   display: grid;
   align-content: center;
+  text-align: center;
 }
 .content .spotlight .community {
   display: grid;
@@ -652,6 +654,7 @@ ul li {
 .content .spotlight .community .communityinfo {
   display: grid;
   align-content: center;
+  text-align: center;
 }
 .content .contact {
   text-align: center;
@@ -754,6 +757,8 @@ ul li {
     grid-template-columns: 350px 350px;
     grid-gap: 35px;
     margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
   }
 }
 @media (min-width: 1024px) {
