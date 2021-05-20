@@ -263,12 +263,28 @@ ul {
 			grid-template-columns: repeat(2, 1fr);
 			grid-template-rows: 500px 300px;
 
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-template-rows: 800px 300px;
+			}
+
 			.video {
 				grid-column: span 2;
 			}
 
 			.gallery2 {
 				grid-column: span 1;
+
+				@include md {
+					grid-column: span 1;
+				}
+			}
+
+			.gallery3 {
+				@include md {
+					grid-column: span 1;
+				}
 			}
 		}
 
