@@ -769,6 +769,26 @@ ul li {
   grid-area: hourslocations;
   text-align: center;
 }
+@media (min-width: 1024px) {
+  .content .hourslocations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .content .hourslocations h1 {
+    grid-column: 2/2;
+  }
+  .content .hourslocations .chinatown {
+    grid-row: 2/2;
+    border-right: solid 3px black;
+  }
+  .content .hourslocations .flushing {
+    grid-row: 2/2;
+    border-right: solid 3px black;
+  }
+  .content .hourslocations .les {
+    grid-row: 2/2;
+  }
+}
 .content .footer .socials {
   display: flex;
   grid-gap: 45px;

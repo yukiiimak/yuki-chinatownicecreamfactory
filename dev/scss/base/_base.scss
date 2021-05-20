@@ -479,6 +479,29 @@ ul {
 	.hourslocations {
 		grid-area: hourslocations;
 		text-align: center;
+
+		@include lg {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+
+			h1 {
+				grid-column: 2 / 2;
+			}
+
+			.chinatown {
+				grid-row: 2 / 2;
+				border-right: solid 3px black;
+			}
+
+			.flushing {
+				grid-row: 2 / 2;
+				border-right: solid 3px black;
+			}
+
+			.les {
+				grid-row: 2 / 2;
+			}
+		}
 	}
 
 	.footer {
