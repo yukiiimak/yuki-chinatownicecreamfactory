@@ -369,7 +369,7 @@ ul {
 
 		.links {
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-evenly;
 		}
 
 		h3 {
@@ -450,6 +450,19 @@ ul {
 
 		.misclinks {
 			text-align: center;
+
+			@include lg {
+				display: flex;
+				justify-content: space-evenly;
+			}
+		}
+
+		.misclinksmini {
+			@include md {
+				display: flex;
+				justify-content: center;
+				grid-gap: 25px;
+			}
 		}
 	}
 }

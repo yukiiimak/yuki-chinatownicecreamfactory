@@ -667,7 +667,7 @@ ul li {
 }
 .content .shop .links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .content .shop h3 {
   text-align: center;
@@ -736,6 +736,19 @@ ul li {
 }
 .content .footer .misclinks {
   text-align: center;
+}
+@media (min-width: 1024px) {
+  .content .footer .misclinks {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 768px) {
+  .content .footer .misclinksmini {
+    display: flex;
+    justify-content: center;
+    grid-gap: 25px;
+  }
 }
 
 /* =============
