@@ -638,6 +638,14 @@ ul li {
 .content .contact {
   text-align: center;
 }
+@media (min-width: 768px) {
+  .content .contact .name {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 .content .shop {
   grid-area: shop;
 }
@@ -646,6 +654,20 @@ ul li {
   grid-template-columns: 80px 10px;
   align-items: center;
   justify-content: center;
+}
+@media (min-width: 768px) {
+  .content .shop h1 {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .content .shop .shoparrow {
+    display: none;
+  }
+}
+.content .shop .links {
+  display: flex;
+  justify-content: space-around;
 }
 .content .shop h3 {
   text-align: center;

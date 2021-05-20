@@ -333,6 +333,16 @@ ul {
 
 	.contact {
 		text-align: center;
+
+		.name {
+			@include md {
+				display: flex;
+				justify-content: space-between;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+		}
+		
 	}
 
 	.shop {
@@ -343,6 +353,23 @@ ul {
 			grid-template-columns: 80px 10px;
 			align-items: center;
 			justify-content: center;
+		}
+
+		h1 {
+			@include md {
+				text-align: center;
+			}
+		}
+
+		.shoparrow {
+			@include md {
+				display: none;
+			}
+		}
+
+		.links {
+			display: flex;
+			justify-content: space-around;
 		}
 
 		h3 {
