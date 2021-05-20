@@ -417,6 +417,7 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .special {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .content .icecream .exoticimg {
