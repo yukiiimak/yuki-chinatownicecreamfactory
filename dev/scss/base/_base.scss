@@ -248,6 +248,10 @@ ul {
 
 		.story2 {
 			display: none;
+
+			@include lg {
+				display: grid;
+			}
 		}
 	}
 

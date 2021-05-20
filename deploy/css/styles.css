@@ -566,6 +566,11 @@ ul li {
 .content .ourstory .story2 {
   display: none;
 }
+@media (min-width: 1024px) {
+  .content .ourstory .story2 {
+    display: grid;
+  }
+}
 .content .spotlight {
   grid-area: spotlight;
 }
