@@ -273,8 +273,27 @@ ul {
 				grid-template-rows: 800px 300px;
 			}
 
+			@include lg {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-template-rows: 1050px 500px;
+			}
+
 			.video {
 				grid-column: span 2;
+
+				@include lg {
+					grid-column: span 3;
+				}
+			}
+
+			.gallery1 {
+				display: none;
+		
+				@include lg {
+					display: grid;
+					grid-column: span 1;
+				}
 			}
 
 			.gallery2 {
@@ -289,14 +308,6 @@ ul {
 				@include md {
 					grid-column: span 1;
 				}
-			}
-		}
-
-		.gallery1 {
-			display: none;
-	
-			@include lg {
-				display: grid;
 			}
 		}
 
