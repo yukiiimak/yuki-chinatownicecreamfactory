@@ -783,7 +783,8 @@ ul li {
 @media (min-width: 1024px) {
   .content .footer .misclinks {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    grid-gap: 25px;
   }
 }
 @media (min-width: 768px) {

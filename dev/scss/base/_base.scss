@@ -497,7 +497,8 @@ ul {
 
 			@include lg {
 				display: flex;
-				justify-content: space-evenly;
+				justify-content: center;
+				grid-gap: 25px;
 			}
 		}
 
