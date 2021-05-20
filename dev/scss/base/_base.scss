@@ -159,7 +159,7 @@ ul {
 
 		.customcakes {
 			text-align: center;
-			
+
 			@include md{
 				justify-content: center;
 			}
@@ -215,18 +215,35 @@ ul {
 			text-align: center;
 		}
 
+		.storyinfo {
+			text-align: center;
+		}
+
+		.storyimg {
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+			}
+		}
+
 		.story1 {
 			display: grid;
 			grid-template-rows: 500px;
+
+			@include md {
+				grid-column: span 1;
+				margin-left: 20px;
+			}
 		}
 
 		.story3 {
 			display: grid;
 			grid-template-rows: 400px;
-		}
 
-		.storyinfo {
-			text-align: center;
+			@include md {
+				grid-column: span 3;
+				margin-right: 20px;
+			}
 		}
 
 		.story2 {
