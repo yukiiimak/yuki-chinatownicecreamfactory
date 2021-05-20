@@ -68,6 +68,24 @@ ul {
 			grid-template-rows: 200px 200px;
 			margin-left: 70px;
 			margin-right: 70px;
+
+			@include md {
+				margin-left: 20px;
+			}
+		}
+
+		.regular {
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr)
+			}
+		}
+
+		.special {
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
 		}
 
 		.exoticimg {
@@ -76,6 +94,21 @@ ul {
 			grid-template-rows: 200px 200px;
 			margin-left: 70px;
 			margin-right: 70px;
+
+			@include md { 
+				grid-column: 2 / 2;
+			}
+		}
+
+		.exotic {
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+
+				.exoticflavors {
+					grid-column: 1 / 1;
+				}
+			}
 		}
 
 		.specialimg {
@@ -84,6 +117,17 @@ ul {
 			grid-template-rows: 200px 200px;
 			margin-left: 70px;
 			margin-right: 70px;
+
+			@include md {
+				margin-left: 20px;
+			}
+		}
+
+		.special {
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
 		}
 
 		.cakeimg {
@@ -92,10 +136,33 @@ ul {
 			grid-template-rows: 200px 200px;
 			margin-left: 70px;
 			margin-right: 70px;
+
+			@include md {
+				grid-column: 2 / 2;
+			}
 		}
 
 		.cakeinfo {
 			text-align: center;
+
+			@include md {
+				grid-column: 1 / 1;
+			}
+		}
+
+		.cakes {
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		.customcakes {
+			text-align: center;
+			
+			@include md{
+				justify-content: center;
+			}
 		}
 
 		.smallhide {

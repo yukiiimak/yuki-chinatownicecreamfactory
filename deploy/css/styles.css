@@ -403,12 +403,42 @@ ul li {
   margin-left: 70px;
   margin-right: 70px;
 }
+@media (min-width: 768px) {
+  .content .icecream .regularimg {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .content .icecream .regular {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .content .icecream .special {
+    display: grid;
+  }
+}
 .content .icecream .exoticimg {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 200px 200px;
   margin-left: 70px;
   margin-right: 70px;
+}
+@media (min-width: 768px) {
+  .content .icecream .exoticimg {
+    grid-column: 2/2;
+  }
+}
+@media (min-width: 768px) {
+  .content .icecream .exotic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content .icecream .exotic .exoticflavors {
+    grid-column: 1/1;
+  }
 }
 .content .icecream .specialimg {
   display: grid;
@@ -417,6 +447,17 @@ ul li {
   margin-left: 70px;
   margin-right: 70px;
 }
+@media (min-width: 768px) {
+  .content .icecream .specialimg {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .content .icecream .special {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .content .icecream .cakeimg {
   display: grid;
   grid-template-columns: 100px 100px 100px;
@@ -424,8 +465,32 @@ ul li {
   margin-left: 70px;
   margin-right: 70px;
 }
+@media (min-width: 768px) {
+  .content .icecream .cakeimg {
+    grid-column: 2/2;
+  }
+}
 .content .icecream .cakeinfo {
   text-align: center;
+}
+@media (min-width: 768px) {
+  .content .icecream .cakeinfo {
+    grid-column: 1/1;
+  }
+}
+@media (min-width: 768px) {
+  .content .icecream .cakes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.content .icecream .customcakes {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .content .icecream .customcakes {
+    justify-content: center;
+  }
 }
 .content .icecream .smallhide {
   display: none;
