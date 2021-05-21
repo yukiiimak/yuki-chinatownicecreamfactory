@@ -91,7 +91,7 @@ ul {
 		.exoticimg {
 			display: grid;
 			grid-template-columns: 100px 100px 100px;
-			grid-template-rows: 200px 200px;
+			// grid-template-rows: 200px 200px;
 			margin-left: 70px;
 			margin-right: 70px;
 
@@ -210,16 +210,21 @@ ul {
 
 	.ourstory {
 		grid-area: ourstory;
+		display: flex;
+		flex-direction: column;
 
 		h1 {
 			text-align: center;
+			order: 1;
 		}
 
 		.storyinfo {
 			text-align: center;
+			order: 3;
 		}
 
 		.storyimg {
+			order: 2;
 			@include md {
 				display: grid;
 				grid-template-columns: repeat(4, 1fr);
@@ -317,10 +322,23 @@ ul {
 			}
 		}
 
+		.ptcspotlight {
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+			}
+			
+		}
+
 		.press {
 			display: grid;
 			grid-template-columns: 300px 200px;
 			grid-template-rows: 500px; 
+
+			@include md {
+				display: grid;
+				grid-template-columns: 1fr;
+			}
 
 			.pressinfo {
 				display: grid;
@@ -334,6 +352,11 @@ ul {
 			grid-template-columns: 300px 200px;
 			grid-template-rows: 500px;
 
+			@include md {
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+
 			.thanksinfo {
 				display: grid;
 				align-content: center;
@@ -346,6 +369,11 @@ ul {
 			display: grid;
 			grid-template-columns: 300px 200px;
 			grid-template-rows: 500px;
+
+			@include md {
+				display: grid;
+				grid-template-columns: 1fr;
+			}
 
 			.communityinfo {
 				display: grid;
