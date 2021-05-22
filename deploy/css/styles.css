@@ -393,70 +393,152 @@ ul li {
 .content .icecream h1 {
   text-align: center;
 }
-.content .icecream h2 {
+.content .icecream .regular h2 {
   text-align: center;
-}
-.content .icecream .regularimg {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 200px 200px;
-  margin-left: 70px;
-  margin-right: 70px;
-}
-@media (min-width: 768px) {
-  .content .icecream .regularimg {
-    margin-left: 20px;
-  }
 }
 @media (min-width: 768px) {
   .content .icecream .regular {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 310px 500px;
+  }
+}
+.content .icecream .regular .mobiledisplay {
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+}
+@media (min-width: 768px) {
+  .content .icecream .regular .mobiledisplay {
+    display: block;
+  }
+}
+.content .icecream .regular .arrow {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .content .icecream .regular .arrow {
+    display: none;
+  }
+}
+.content .icecream .regular .mobilehide {
+  display: none;
+}
+@media (min-width: 768px) {
+  .content .icecream .regular .mobilehide {
+    display: block;
   }
 }
 @media (min-width: 768px) {
-  .content .icecream .special {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .content .icecream .regular .flavors {
+    display: block;
+    grid-template-columns: span 2;
   }
 }
-.content .icecream .exoticimg {
+.content .icecream .regular .regularimg {
   display: grid;
   grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 200px;
   margin-left: 70px;
   margin-right: 70px;
 }
 @media (min-width: 768px) {
-  .content .icecream .exoticimg {
-    grid-column: 2/2;
+  .content .icecream .regular .regularimg {
+    margin-left: 20px;
   }
+}
+.content .icecream .exotic h2 {
+  text-align: center;
 }
 @media (min-width: 768px) {
   .content .icecream .exotic {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .content .icecream .exotic .exoticflavors {
-    grid-column: 1/1;
+    grid-template-columns: 310px 500px;
   }
 }
-.content .icecream .specialimg {
+.content .icecream .exotic .mobiledisplay {
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+}
+@media (min-width: 768px) {
+  .content .icecream .exotic .mobiledisplay {
+    display: block;
+  }
+}
+.content .icecream .exotic .arrow {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .content .icecream .exotic .arrow {
+    display: none;
+  }
+}
+.content .icecream .exotic .mobilehide {
+  display: none;
+}
+@media (min-width: 768px) {
+  .content .icecream .exotic .mobilehide {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .content .icecream .exotic .flavors {
+    display: block;
+  }
+}
+.content .icecream .exotic .exoticimg {
   display: grid;
   grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 100px 200px;
   margin-left: 70px;
   margin-right: 70px;
 }
-@media (min-width: 768px) {
-  .content .icecream .specialimg {
-    margin-left: 20px;
-  }
+.content .icecream .special h2 {
+  text-align: center;
 }
 @media (min-width: 768px) {
   .content .icecream .special {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 310px 500px;
   }
+}
+.content .icecream .special .mobiledisplay {
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+}
+@media (min-width: 768px) {
+  .content .icecream .special .mobiledisplay {
+    display: block;
+  }
+}
+.content .icecream .special .arrow {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .content .icecream .special .arrow {
+    display: none;
+  }
+}
+.content .icecream .special .mobilehide {
+  display: none;
+}
+@media (min-width: 768px) {
+  .content .icecream .special .mobilehide {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .content .icecream .special .flavors {
+    display: block;
+  }
+}
+.content .icecream .special .specialimg {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 200px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .content .icecream .cakeimg {
   display: grid;
@@ -745,8 +827,13 @@ ul li {
   }
 }
 .content .shop .links {
-  display: flex;
-  justify-content: space-evenly;
+  display: none;
+}
+@media (min-width: 768px) {
+  .content .shop .links {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 .content .shop h3 {
   text-align: center;
