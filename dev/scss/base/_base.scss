@@ -250,48 +250,6 @@ ul {
 				justify-content: center;
 			}
 		}
-
-		.smallhide {
-			display: none;
-
-			@include md {
-				display: grid;
-			}
-		}
-
-		.smallmain {
-			display: grid;
-			grid-template-columns: 10px 200px 10px;
-			grid-template-rows: 20px 20px 20px;
-			text-align: center;
-			justify-content: center;
-
-			.flavors {
-				grid-column: 2 / 2;
-
-				.one {
-					grid-row: 1 / 1;
-				}
-
-				.two {
-					grid-row: 2 / 2;
-				}
-
-				.three {
-					grid-row: 3 / 3;
-				}
-			}
-
-			.arrowleft {
-				grid-column: 1 / 1;
-				grid-row: 2 / 2;
-			}
-
-			.arrowright {
-				grid-column: 3 / 3;
-				grid-row: 2 / 2;
-			}
-		}
 	}
 
 	.ourstory {
@@ -472,11 +430,12 @@ ul {
 	.contact {
 		text-align: center;
 
-		@include xl {
-			margin-top: 250px;
-		}
-
 		.name {
+			input {
+				width: 450px;
+				height: 30px;
+			}
+
 			@include md {
 				display: grid;
 				grid-template-columns: repeat(2, 1fr);
@@ -491,7 +450,18 @@ ul {
 			}
 		}
 
+		.email {
+			input {
+				width: 450px;
+				height: 30px;
+			}
+		}
+
 		.questions {
+			input {
+				width: 450px;
+				height: 30px;
+			}
 			@include lg {
 				display: grid;
 				grid-template-columns: repeat(2, 1fr);
@@ -555,6 +525,7 @@ ul {
 			display: grid;
 			grid-template-columns: 5px 480px 5px;
 			justify-content: center;
+
 
 			.mobileshoparrowleft {
 				display: grid;

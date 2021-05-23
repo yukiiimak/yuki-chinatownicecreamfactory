@@ -574,41 +574,6 @@ ul li {
     justify-content: center;
   }
 }
-.content .icecream .smallhide {
-  display: none;
-}
-@media (min-width: 768px) {
-  .content .icecream .smallhide {
-    display: grid;
-  }
-}
-.content .icecream .smallmain {
-  display: grid;
-  grid-template-columns: 10px 200px 10px;
-  grid-template-rows: 20px 20px 20px;
-  text-align: center;
-  justify-content: center;
-}
-.content .icecream .smallmain .flavors {
-  grid-column: 2/2;
-}
-.content .icecream .smallmain .flavors .one {
-  grid-row: 1/1;
-}
-.content .icecream .smallmain .flavors .two {
-  grid-row: 2/2;
-}
-.content .icecream .smallmain .flavors .three {
-  grid-row: 3/3;
-}
-.content .icecream .smallmain .arrowleft {
-  grid-column: 1/1;
-  grid-row: 2/2;
-}
-.content .icecream .smallmain .arrowright {
-  grid-column: 3/3;
-  grid-row: 2/2;
-}
 .content .ourstory {
   grid-area: ourstory;
   display: flex;
@@ -778,10 +743,9 @@ ul li {
 .content .contact {
   text-align: center;
 }
-@media (min-width: 1200px) {
-  .content .contact {
-    margin-top: 250px;
-  }
+.content .contact .name input {
+  width: 450px;
+  height: 30px;
 }
 @media (min-width: 768px) {
   .content .contact .name {
@@ -794,6 +758,14 @@ ul li {
   .content .contact .name .last {
     grid-column: span 1;
   }
+}
+.content .contact .email input {
+  width: 450px;
+  height: 30px;
+}
+.content .contact .questions input {
+  width: 450px;
+  height: 30px;
 }
 @media (min-width: 1024px) {
   .content .contact .questions {
