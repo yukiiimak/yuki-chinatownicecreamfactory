@@ -253,6 +253,11 @@ ul {
 
 		.customcakes {
 			text-align: center;
+			margin-top: 32px;
+			
+			button {
+				margin-top:  32px;
+			}
 
 			@include md{
 				justify-content: center;
@@ -266,6 +271,10 @@ ul {
 		flex-direction: column;
 		margin-top: 48px;
 
+		button {
+			margin-top: 32px;
+		}
+
 		h1 {
 			text-align: center;
 			order: 1;
@@ -274,6 +283,7 @@ ul {
 		.storyinfo {
 			text-align: center;
 			order: 3;
+			margin-top: 16px;
 		}
 
 		.storyimg {
@@ -315,6 +325,7 @@ ul {
 
 	.spotlight {
 		grid-area: spotlight;
+		margin-top: 48px;
 
 		h1 {
 			text-align: center;
@@ -375,6 +386,11 @@ ul {
 			}
 		}
 
+		.viewgallery {
+			margin-top: 32px;
+			margin-left: 190px;
+		}
+
 		.ptcspotlight {
 			@include md {
 				display: grid;
@@ -387,6 +403,9 @@ ul {
 			display: grid;
 			grid-template-columns: 250px 200px;
 			grid-template-rows: 500px; 
+			margin-top: 32px;
+			margin-left: 10px;
+			grid-gap: 20px;
 
 			@include md {
 				display: grid;
@@ -404,6 +423,9 @@ ul {
 			display: grid;
 			grid-template-columns: 250px 200px;
 			grid-template-rows: 500px;
+			margin-top: 32px;
+			margin-left: 10px;
+			grid-gap: 20px;
 
 			@include md {
 				display: grid;
@@ -422,6 +444,9 @@ ul {
 			display: grid;
 			grid-template-columns: 250px 200px;
 			grid-template-rows: 500px;
+			margin-top: 32px;
+			margin-left: 10px;
+			grid-gap: 20px;
 
 			@include md {
 				display: grid;
@@ -438,11 +463,22 @@ ul {
 
 	.contact {
 		text-align: center;
+		margin-top: 48px;
 
 		.name {
+			margin-top: 32px;
+
 			input {
 				width: 450px;
 				height: 30px;
+			}
+
+			.first {
+				margin-bottom: 16px;
+			}
+
+			.last {
+				margin-bottom: 16px;
 			}
 
 			@include md {
@@ -460,6 +496,8 @@ ul {
 		}
 
 		.email {
+			margin-bottom: 32px;
+
 			input {
 				width: 450px;
 				height: 30px;
@@ -470,6 +508,8 @@ ul {
 			input {
 				width: 450px;
 				height: 30px;
+				margin-top: 16px;
+				margin-bottom: 32px;
 			}
 			@include lg {
 				display: grid;
@@ -484,11 +524,20 @@ ul {
 				}
 			}
 		}
+
+		.work {
+			margin-top: 32px;
+
+			button {
+				margin-top: 32px;
+			}
+		}
 		
 	}
 
 	.shop {
 		grid-area: shop;
+		margin-top: 48px;
 
 		.title {
 			display: grid;
@@ -498,6 +547,8 @@ ul {
 		}
 
 		h1 {
+			margin-bottom: 16px;
+
 			@include md {
 				text-align: center;
 			}
@@ -520,6 +571,7 @@ ul {
 
 		h3 {
 			text-align: center;
+			margin-bottom: 32px;
 		}
 
 		.masks {
@@ -528,6 +580,11 @@ ul {
 			grid-template-rows: 100px 250px;
 			margin-left: 70px;
 			margin-right: 70px;
+			margin-bottom: 16px;
+
+			@include md {
+				margin-bottom: 24px;
+			}
 
 			@include lg {
 				margin-left: 85px;
@@ -601,6 +658,11 @@ ul {
 	.hourslocations {
 		grid-area: hourslocations;
 		text-align: center;
+		margin-top: 48px;
+
+		h1 {
+			margin-bottom: 16px;
+		}
 
 		hr {
 			margin-left: 10px;
@@ -637,14 +699,19 @@ ul {
 	}
 
 	.footer {
+		margin-top: 48px;
+
 		.socials{
 			display: flex;
 			grid-gap: 45px;
 			justify-content: center;
+			margin-bottom: 32px;
 		}
 
 		.email {
 			text-align: center;
+			margin-bottom: 32px;
+
 			input {
 				width: 300px;
 				height: 20px;

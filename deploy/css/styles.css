@@ -579,6 +579,10 @@ ul li {
 }
 .content .icecream .customcakes {
   text-align: center;
+  margin-top: 32px;
+}
+.content .icecream .customcakes button {
+  margin-top: 32px;
 }
 @media (min-width: 768px) {
   .content .icecream .customcakes {
@@ -591,6 +595,9 @@ ul li {
   flex-direction: column;
   margin-top: 48px;
 }
+.content .ourstory button {
+  margin-top: 32px;
+}
 .content .ourstory h1 {
   text-align: center;
   order: 1;
@@ -598,6 +605,7 @@ ul li {
 .content .ourstory .storyinfo {
   text-align: center;
   order: 3;
+  margin-top: 16px;
 }
 .content .ourstory .storyimg {
   order: 2;
@@ -638,6 +646,7 @@ ul li {
 }
 .content .spotlight {
   grid-area: spotlight;
+  margin-top: 48px;
 }
 .content .spotlight h1 {
   text-align: center;
@@ -698,6 +707,10 @@ ul li {
     grid-column: span 1;
   }
 }
+.content .spotlight .viewgallery {
+  margin-top: 32px;
+  margin-left: 190px;
+}
 @media (min-width: 768px) {
   .content .spotlight .ptcspotlight {
     display: grid;
@@ -708,6 +721,9 @@ ul li {
   display: grid;
   grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
+  margin-top: 32px;
+  margin-left: 10px;
+  grid-gap: 20px;
 }
 @media (min-width: 768px) {
   .content .spotlight .press {
@@ -724,6 +740,9 @@ ul li {
   display: grid;
   grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
+  margin-top: 32px;
+  margin-left: 10px;
+  grid-gap: 20px;
 }
 @media (min-width: 768px) {
   .content .spotlight .thanks {
@@ -740,6 +759,9 @@ ul li {
   display: grid;
   grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
+  margin-top: 32px;
+  margin-left: 10px;
+  grid-gap: 20px;
 }
 @media (min-width: 768px) {
   .content .spotlight .community {
@@ -754,10 +776,20 @@ ul li {
 }
 .content .contact {
   text-align: center;
+  margin-top: 48px;
+}
+.content .contact .name {
+  margin-top: 32px;
 }
 .content .contact .name input {
   width: 450px;
   height: 30px;
+}
+.content .contact .name .first {
+  margin-bottom: 16px;
+}
+.content .contact .name .last {
+  margin-bottom: 16px;
 }
 @media (min-width: 768px) {
   .content .contact .name {
@@ -771,6 +803,9 @@ ul li {
     grid-column: span 1;
   }
 }
+.content .contact .email {
+  margin-bottom: 32px;
+}
 .content .contact .email input {
   width: 450px;
   height: 30px;
@@ -778,6 +813,8 @@ ul li {
 .content .contact .questions input {
   width: 450px;
   height: 30px;
+  margin-top: 16px;
+  margin-bottom: 32px;
 }
 @media (min-width: 1024px) {
   .content .contact .questions {
@@ -791,14 +828,24 @@ ul li {
     grid-column: span 1;
   }
 }
+.content .contact .work {
+  margin-top: 32px;
+}
+.content .contact .work button {
+  margin-top: 32px;
+}
 .content .shop {
   grid-area: shop;
+  margin-top: 48px;
 }
 .content .shop .title {
   display: grid;
   grid-template-columns: 80px 10px;
   align-items: center;
   justify-content: center;
+}
+.content .shop h1 {
+  margin-bottom: 16px;
 }
 @media (min-width: 768px) {
   .content .shop h1 {
@@ -821,6 +868,7 @@ ul li {
 }
 .content .shop h3 {
   text-align: center;
+  margin-bottom: 32px;
 }
 .content .shop .masks {
   display: grid;
@@ -828,6 +876,12 @@ ul li {
   grid-template-rows: 100px 250px;
   margin-left: 70px;
   margin-right: 70px;
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  .content .shop .masks {
+    margin-bottom: 24px;
+  }
 }
 @media (min-width: 1024px) {
   .content .shop .masks {
@@ -897,6 +951,10 @@ ul li {
 .content .hourslocations {
   grid-area: hourslocations;
   text-align: center;
+  margin-top: 48px;
+}
+.content .hourslocations h1 {
+  margin-bottom: 16px;
 }
 .content .hourslocations hr {
   margin-left: 10px;
@@ -926,13 +984,18 @@ ul li {
     display: none;
   }
 }
+.content .footer {
+  margin-top: 48px;
+}
 .content .footer .socials {
   display: flex;
   grid-gap: 45px;
   justify-content: center;
+  margin-bottom: 32px;
 }
 .content .footer .email {
   text-align: center;
+  margin-bottom: 32px;
 }
 .content .footer .email input {
   width: 300px;
