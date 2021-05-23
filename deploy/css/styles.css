@@ -778,12 +778,36 @@ ul li {
   text-align: center;
   margin-top: 48px;
 }
+@media (min-width: 768px) {
+  .content .contact {
+    margin-top: 80px;
+  }
+}
+.content .contact h2 {
+  margin-top: 16px;
+}
+@media (min-width: 768px) {
+  .content .contact h2 {
+    margin-top: 24px;
+  }
+}
 .content .contact .name {
   margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .content .contact .name {
+    margin-top: 48px;
+  }
 }
 .content .contact .name input {
   width: 450px;
   height: 30px;
+}
+@media (min-width: 768px) {
+  .content .contact .name input {
+    width: 430px;
+    height: 30px;
+  }
 }
 .content .contact .name .first {
   margin-bottom: 16px;
@@ -810,11 +834,24 @@ ul li {
   width: 450px;
   height: 30px;
 }
+@media (min-width: 768px) {
+  .content .contact .email input {
+    width: 885px;
+    height: 30px;
+  }
+}
 .content .contact .questions input {
   width: 450px;
   height: 30px;
   margin-top: 16px;
   margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .content .contact .questions input {
+    width: 885px;
+    height: 80px;
+    margin-bottom: 48px;
+  }
 }
 @media (min-width: 1024px) {
   .content .contact .questions {
@@ -831,8 +868,18 @@ ul li {
 .content .contact .work {
   margin-top: 32px;
 }
+@media (min-width: 768px) {
+  .content .contact .work {
+    margin-top: 48px;
+  }
+}
 .content .contact .work button {
   margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .content .contact .work button {
+    margin-top: 48px;
+  }
 }
 .content .shop {
   grid-area: shop;

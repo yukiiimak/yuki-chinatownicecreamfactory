@@ -465,12 +465,33 @@ ul {
 		text-align: center;
 		margin-top: 48px;
 
+		@include md {
+			margin-top: 80px;
+		}
+
+		h2 {
+			margin-top: 16px;
+
+			@include md {
+				margin-top: 24px;
+			}
+		}
+
 		.name {
 			margin-top: 32px;
+
+			@include md {
+				margin-top: 48px;
+			}
 
 			input {
 				width: 450px;
 				height: 30px;
+
+				@include md {
+					width: 430px;
+					height: 30px;
+				}
 			}
 
 			.first {
@@ -501,6 +522,11 @@ ul {
 			input {
 				width: 450px;
 				height: 30px;
+
+				@include md {
+					width: 885px;
+					height: 30px;
+				}
 			}
 		}
 
@@ -510,6 +536,12 @@ ul {
 				height: 30px;
 				margin-top: 16px;
 				margin-bottom: 32px;
+
+				@include md {
+					width: 885px;
+					height: 80px;
+					margin-bottom: 48px;
+				}
 			}
 			@include lg {
 				display: grid;
@@ -528,8 +560,16 @@ ul {
 		.work {
 			margin-top: 32px;
 
+			@include md {
+				margin-top: 48px;
+			}
+
 			button {
 				margin-top: 32px;
+
+				@include md {
+					margin-top: 48px;
+				}
 			}
 		}
 		
