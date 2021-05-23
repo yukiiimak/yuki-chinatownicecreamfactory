@@ -389,9 +389,14 @@ ul li {
 }
 .content .icecream {
   grid-area: icecream;
+  margin-top: 48px;
 }
 .content .icecream h1 {
   text-align: center;
+  margin-bottom: 16px;
+}
+.content .icecream .regular {
+  margin-bottom: 32px;
 }
 .content .icecream .regular h2 {
   text-align: center;
@@ -446,6 +451,9 @@ ul li {
     margin-left: 20px;
   }
 }
+.content .icecream .exotic {
+  margin-bottom: 32px;
+}
 .content .icecream .exotic h2 {
   text-align: center;
 }
@@ -492,6 +500,9 @@ ul li {
   grid-template-rows: 100px 200px;
   margin-left: 70px;
   margin-right: 70px;
+}
+.content .icecream .special {
+  margin-bottom: 32px;
 }
 .content .icecream .special h2 {
   text-align: center;
@@ -578,6 +589,7 @@ ul li {
   grid-area: ourstory;
   display: flex;
   flex-direction: column;
+  margin-top: 48px;
 }
 .content .ourstory h1 {
   text-align: center;
@@ -817,10 +829,21 @@ ul li {
   margin-left: 70px;
   margin-right: 70px;
 }
+@media (min-width: 1024px) {
+  .content .shop .masks {
+    margin-left: 85px;
+    margin-right: 68px;
+  }
+}
 .content .shop .mobileshop {
   display: grid;
   grid-template-columns: 5px 480px 5px;
   justify-content: center;
+}
+@media (min-width: 768px) {
+  .content .shop .mobileshop {
+    grid-template-columns: auto;
+  }
 }
 .content .shop .mobileshop .mobileshoparrowleft {
   display: grid;

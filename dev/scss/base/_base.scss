@@ -53,12 +53,16 @@ ul {
 
 	.icecream {
 		grid-area: icecream;
+		margin-top: 48px;
 
 		h1 {
 			text-align: center;
+			margin-bottom: 16px;
 		}
 
 		.regular {
+			margin-bottom: 32px;
+
 			h2 {
 				text-align: center;
 			}
@@ -115,6 +119,8 @@ ul {
 		}
 
 		.exotic {
+			margin-bottom: 32px;
+
 			h2 {
 				text-align: center;
 			}
@@ -166,6 +172,8 @@ ul {
 		}
 
 		.special {
+			margin-bottom: 32px;
+
 			h2 {
 				text-align: center;
 			}
@@ -256,6 +264,7 @@ ul {
 		grid-area: ourstory;
 		display: flex;
 		flex-direction: column;
+		margin-top: 48px;
 
 		h1 {
 			text-align: center;
@@ -519,12 +528,21 @@ ul {
 			grid-template-rows: 100px 250px;
 			margin-left: 70px;
 			margin-right: 70px;
+
+			@include lg {
+				margin-left: 85px;
+				margin-right: 68px;
+			}
 		}
 
 		.mobileshop {
 			display: grid;
 			grid-template-columns: 5px 480px 5px;
 			justify-content: center;
+
+			@include md {
+				grid-template-columns: auto;
+			}
 
 
 			.mobileshoparrowleft {
