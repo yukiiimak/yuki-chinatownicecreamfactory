@@ -584,6 +584,12 @@ ul {
 		grid-area: hourslocations;
 		text-align: center;
 
+		hr {
+			margin-left: 10px;
+			margin-right: 10px;
+			border-bottom: solid 2px black;
+		}
+
 		@include lg {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
@@ -594,16 +600,20 @@ ul {
 
 			.chinatown {
 				grid-row: 2 / 2;
-				border-right: solid 3px black;
+				border-right: solid 2px black;
 			}
 
 			.flushing {
 				grid-row: 2 / 2;
-				border-right: solid 3px black;
+				border-right: solid 2px black;
 			}
 
 			.les {
 				grid-row: 2 / 2;
+			}
+
+			hr {
+				display: none;
 			}
 		}
 	}

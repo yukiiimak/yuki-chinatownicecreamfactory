@@ -875,6 +875,11 @@ ul li {
   grid-area: hourslocations;
   text-align: center;
 }
+.content .hourslocations hr {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: solid 2px black;
+}
 @media (min-width: 1024px) {
   .content .hourslocations {
     display: grid;
@@ -885,14 +890,17 @@ ul li {
   }
   .content .hourslocations .chinatown {
     grid-row: 2/2;
-    border-right: solid 3px black;
+    border-right: solid 2px black;
   }
   .content .hourslocations .flushing {
     grid-row: 2/2;
-    border-right: solid 3px black;
+    border-right: solid 2px black;
   }
   .content .hourslocations .les {
     grid-row: 2/2;
+  }
+  .content .hourslocations hr {
+    display: none;
   }
 }
 .content .footer .socials {
