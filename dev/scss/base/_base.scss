@@ -376,7 +376,7 @@ ul {
 
 		.press {
 			display: grid;
-			grid-template-columns: 300px 200px;
+			grid-template-columns: 250px 200px;
 			grid-template-rows: 500px; 
 
 			@include md {
@@ -393,7 +393,7 @@ ul {
 
 		.thanks {
 			display: grid;
-			grid-template-columns: 300px 200px;
+			grid-template-columns: 250px 200px;
 			grid-template-rows: 500px;
 
 			@include md {
@@ -411,7 +411,7 @@ ul {
 
 		.community {
 			display: grid;
-			grid-template-columns: 300px 200px;
+			grid-template-columns: 250px 200px;
 			grid-template-rows: 500px;
 
 			@include md {
@@ -617,6 +617,14 @@ ul {
 
 		.email {
 			text-align: center;
+			input {
+				width: 300px;
+				height: 20px;
+			}
+
+			button {
+				height: 26px;
+			}
 		}
 
 		.misclinks {

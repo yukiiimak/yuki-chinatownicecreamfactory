@@ -694,7 +694,7 @@ ul li {
 }
 .content .spotlight .press {
   display: grid;
-  grid-template-columns: 300px 200px;
+  grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
 }
 @media (min-width: 768px) {
@@ -710,7 +710,7 @@ ul li {
 }
 .content .spotlight .thanks {
   display: grid;
-  grid-template-columns: 300px 200px;
+  grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
 }
 @media (min-width: 768px) {
@@ -726,7 +726,7 @@ ul li {
 }
 .content .spotlight .community {
   display: grid;
-  grid-template-columns: 300px 200px;
+  grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
 }
 @media (min-width: 768px) {
@@ -902,6 +902,13 @@ ul li {
 }
 .content .footer .email {
   text-align: center;
+}
+.content .footer .email input {
+  width: 300px;
+  height: 20px;
+}
+.content .footer .email button {
+  height: 26px;
 }
 .content .footer .misclinks {
   text-align: center;
