@@ -262,7 +262,7 @@ ul {
 				margin-top:  32px;
 			}
 
-			@include md{
+			@include md {
 				justify-content: center;
 			}
 		}
@@ -308,6 +308,7 @@ ul {
 
 		.storyimg {
 			order: 2;
+
 			@include md {
 				display: grid;
 				grid-template-columns: repeat(4, 1fr);
@@ -368,7 +369,7 @@ ul {
 			@include md {
 				display: grid;
 				grid-template-columns: repeat(2, 1fr);
-				grid-template-rows: 800px 300px;
+				grid-template-rows: 900px 300px;
 			}
 
 			@include lg {

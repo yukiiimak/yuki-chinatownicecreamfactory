@@ -696,7 +696,7 @@ ul li {
   .content .spotlight .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 800px 300px;
+    grid-template-rows: 900px 300px;
   }
 }
 @media (min-width: 1024px) {
