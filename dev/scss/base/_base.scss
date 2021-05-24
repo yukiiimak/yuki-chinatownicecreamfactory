@@ -387,9 +387,9 @@ ul {
 			.video {
 				grid-column: span 2;
 
-				@include lg {
-					grid-column: span 3;
-				}
+				// @include lg {
+				// 	grid-column: span 3;
+				// }
 			}
 
 			.gallery1 {
@@ -397,7 +397,7 @@ ul {
 		
 				@include lg {
 					display: grid;
-					grid-column: span 1;
+					// grid-column: span 1;
 				}
 			}
 

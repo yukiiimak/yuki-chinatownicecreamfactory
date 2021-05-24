@@ -716,18 +716,12 @@ ul li {
 .content .spotlight .gallery .video {
   grid-column: span 2;
 }
-@media (min-width: 1024px) {
-  .content .spotlight .gallery .video {
-    grid-column: span 3;
-  }
-}
 .content .spotlight .gallery .gallery1 {
   display: none;
 }
 @media (min-width: 1024px) {
   .content .spotlight .gallery .gallery1 {
     display: grid;
-    grid-column: span 1;
   }
 }
 .content .spotlight .gallery .gallery2 {
@@ -1413,7 +1407,6 @@ p {
 }
 @media (min-width: 1024px) {
   .spotlight .video {
-    width: 100%;
     height: 1050px;
   }
 }
@@ -1430,7 +1423,6 @@ p {
 }
 @media (min-width: 1024px) {
   .spotlight .gallery1 {
-    width: 400px;
     height: 320px;
   }
 }
@@ -1452,7 +1444,6 @@ p {
 }
 @media (min-width: 1024px) {
   .spotlight .gallery2 {
-    width: 320px;
     height: 320px;
   }
 }
@@ -1474,7 +1465,6 @@ p {
 }
 @media (min-width: 1024px) {
   .spotlight .gallery3 {
-    width: 325px;
     height: 320px;
   }
 }
