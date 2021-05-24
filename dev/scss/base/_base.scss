@@ -431,6 +431,10 @@ ul {
 				margin-top: 160px;
 				margin-left: 500px;
 			}
+
+			@include xl {
+				margin-left: 700px;
+			}
 		}
 
 		.ptcspotlight {
@@ -443,6 +447,11 @@ ul {
 				display: grid;
 				grid-template-columns: 300px 300px 300px;
 				grid-template-rows: 550px;
+			}
+
+			@include xl {
+				grid-template-columns: 350px 350px 350px;
+				grid-template-rows: 1070px;
 			}
 			
 		}
@@ -466,6 +475,10 @@ ul {
 			@include lg {
 				grid-template-columns: 300px;
 				grid-template-rows: 520px;
+			}
+
+			@include xl {
+				grid-template-columns: 400px;
 			}
 
 			.pressinfo {
@@ -500,6 +513,10 @@ ul {
 				grid-template-rows: 520px;
 			}
 
+			@include xl {
+				grid-template-columns: 400px;
+			}
+
 			.thanksinfo {
 				display: grid;
 				align-content: center;
@@ -518,7 +535,6 @@ ul {
 				}
 			}
 		}
-
 
 		.community {
 			display: grid;
@@ -541,6 +557,10 @@ ul {
 				grid-template-rows: 520px;
 			}
 
+			@include xl {
+				grid-template-columns: 400px;
+			}
+
 			.communityinfo {
 				display: grid;
 				align-content: center;
@@ -551,6 +571,10 @@ ul {
 
 					@include lg {
 						margin-top: 14px;
+					}
+
+					@include xl {
+						margin-top: 32px;
 					}
 				}
 			}
@@ -567,6 +591,10 @@ ul {
 
 		@include lg {
 			margin-top: 200px;
+		}
+
+		@include xl {
+			margin-top: 1745px;
 		}
 
 		h2 {
@@ -695,6 +723,10 @@ ul {
 
 		@include lg {
 			margin-top: 112px;
+		}
+
+		@include xl {
+			margin-top: 128px;
 		}
 
 		.title {
@@ -838,6 +870,10 @@ ul {
 			margin-top: 112px;
 		}
 
+		@include xl {
+			margin-top: 128px;
+		}
+
 		h1 {
 			margin-bottom: 16px;
 
@@ -948,6 +984,10 @@ ul {
 
 		@include lg {
 			margin-top: 112px;
+		}
+
+		@include xl {
+			margin-top: 128px;
 		}
 
 		.socials{

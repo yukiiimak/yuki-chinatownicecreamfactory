@@ -759,6 +759,11 @@ ul li {
     margin-left: 500px;
   }
 }
+@media (min-width: 1200px) {
+  .content .spotlight .viewgallery {
+    margin-left: 700px;
+  }
+}
 @media (min-width: 768px) {
   .content .spotlight .ptcspotlight {
     display: flex;
@@ -770,6 +775,12 @@ ul li {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 550px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .spotlight .ptcspotlight {
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 1070px;
   }
 }
 .content .spotlight .press {
@@ -793,6 +804,11 @@ ul li {
   .content .spotlight .press {
     grid-template-columns: 300px;
     grid-template-rows: 520px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .spotlight .press {
+    grid-template-columns: 400px;
   }
 }
 .content .spotlight .press .pressinfo {
@@ -824,6 +840,11 @@ ul li {
   .content .spotlight .thanks {
     grid-template-columns: 300px;
     grid-template-rows: 520px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .spotlight .thanks {
+    grid-template-columns: 400px;
   }
 }
 .content .spotlight .thanks .thanksinfo {
@@ -867,6 +888,11 @@ ul li {
     grid-template-rows: 520px;
   }
 }
+@media (min-width: 1200px) {
+  .content .spotlight .community {
+    grid-template-columns: 400px;
+  }
+}
 .content .spotlight .community .communityinfo {
   display: grid;
   align-content: center;
@@ -878,6 +904,11 @@ ul li {
 @media (min-width: 1024px) {
   .content .spotlight .community .communityinfo button {
     margin-top: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .spotlight .community .communityinfo button {
+    margin-top: 32px;
   }
 }
 .content .contact {
@@ -892,6 +923,11 @@ ul li {
 @media (min-width: 1024px) {
   .content .contact {
     margin-top: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .contact {
+    margin-top: 1745px;
   }
 }
 .content .contact h2 {
@@ -1016,6 +1052,11 @@ ul li {
 @media (min-width: 1024px) {
   .content .shop {
     margin-top: 112px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .shop {
+    margin-top: 128px;
   }
 }
 .content .shop .title {
@@ -1155,6 +1196,11 @@ ul li {
     margin-top: 112px;
   }
 }
+@media (min-width: 1200px) {
+  .content .hourslocations {
+    margin-top: 128px;
+  }
+}
 .content .hourslocations h1 {
   margin-bottom: 16px;
 }
@@ -1256,6 +1302,11 @@ ul li {
 @media (min-width: 1024px) {
   .content .footer {
     margin-top: 112px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .footer {
+    margin-top: 128px;
   }
 }
 .content .footer .socials {
