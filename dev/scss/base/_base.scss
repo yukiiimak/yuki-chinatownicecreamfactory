@@ -691,6 +691,10 @@ ul {
 			margin-top: 80px;
 		}
 
+		@include lg {
+			margin-top: 112px;
+		}
+
 		.title {
 			display: grid;
 			grid-template-columns: 80px 10px;
@@ -826,6 +830,10 @@ ul {
 
 		@include md {
 			margin-top: 80px;
+		}
+
+		@include lg {
+			margin-top: 112px;
 		}
 
 		h1 {
