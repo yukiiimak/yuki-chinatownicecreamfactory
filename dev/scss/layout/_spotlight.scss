@@ -21,7 +21,7 @@
         }
 
         @include xl {
-            width: 700px;
+            // width: 700px;
             height: 500px;
         }
     }
@@ -41,7 +41,7 @@
         }
 
         @include xl {
-            width: 450px;
+            // width: 450px;
             height: 500px;
         }
     }
@@ -61,7 +61,7 @@
         }
 
         @include xl {
-            width: 550px;
+            // width: 550px;
             height: 500px;
         }
     }
@@ -71,23 +71,16 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        @include sm {
-            width: 140px;
-            height: 230px;
-        }
-
         @include md {
-            width: 230px;
             height: 370px;
         }
 
         @include lg {
-            width: 300px;
             height: 490px;
         }
 
         @include xl {
-            width: 430px;
+            // width: 430px;
             height: 700px;
         }
     }
@@ -97,23 +90,16 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        @include sm {
-            width: 140px;
-            height: 230px;
-        }
-
         @include md {
-            width: 230px;
             height: 370px;
         }        
 
         @include lg {
-            width: 300px;
             height: 490px;
         }
 
         @include xl {
-            width: 430px;
+            // width: 430px;
             height: 700px;
         }
     }
@@ -123,23 +109,16 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        @include sm {
-            width: 140px;
-            height: 230px;
-        }
-
         @include md {
-            width: 230px;
             height: 370px;
         }
 
         @include lg {
-            width: 300px;
             height: 490px;
         }
 
         @include xl {
-            width: 430px;
+            // width: 430px;
             height: 700px;
         }
     }

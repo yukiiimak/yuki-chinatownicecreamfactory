@@ -296,6 +296,48 @@ ul {
 			}
 		}
 
+		.storyimg {
+			order: 2;
+
+			@include md {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+			}
+
+			.story1 {
+				display: grid;
+				grid-template-rows: 500px;
+	
+				@include md {
+					grid-column: span 1;
+					margin-left: 20px;
+				}
+
+				@include lg {
+					grid-column: span 1;
+					margin-left: 42px;
+				}
+			}
+	
+			.story3 {
+				display: grid;
+				grid-template-rows: 400px;
+	
+				@include md {
+					grid-column: span 3;
+					margin-right: 20px;
+				}
+			}
+	
+			.story2 {
+				display: none;
+	
+				@include lg {
+					display: grid;
+				}
+			}
+		}
+
 		.storyinfo {
 			text-align: center;
 			order: 3;
@@ -306,42 +348,6 @@ ul {
 			}
 		}
 
-		.storyimg {
-			order: 2;
-
-			@include md {
-				display: grid;
-				grid-template-columns: repeat(4, 1fr);
-			}
-		}
-
-		.story1 {
-			display: grid;
-			grid-template-rows: 500px;
-
-			@include md {
-				grid-column: span 1;
-				margin-left: 20px;
-			}
-		}
-
-		.story3 {
-			display: grid;
-			grid-template-rows: 400px;
-
-			@include md {
-				grid-column: span 3;
-				margin-right: 20px;
-			}
-		}
-
-		.story2 {
-			display: none;
-
-			@include lg {
-				display: grid;
-			}
-		}
 	}
 
 	.spotlight {
@@ -560,7 +566,7 @@ ul {
 		}
 
 		@include lg {
-			margin-top: 112px;
+			margin-top: 200px;
 		}
 
 		h2 {
@@ -587,10 +593,6 @@ ul {
 				.last {
 					grid-column: span 1;
 				}
-			}
-
-			@include lg {
-				grid-gap: 20px;
 			}
 
 			input {
