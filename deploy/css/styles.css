@@ -605,6 +605,7 @@ ul li {
 .content .ourstory h1 {
   text-align: center;
   order: 1;
+  margin-bottom: 16px;
 }
 .content .ourstory .storyinfo {
   text-align: center;
@@ -654,6 +655,7 @@ ul li {
 }
 .content .spotlight h1 {
   text-align: center;
+  margin-bottom: 16px;
 }
 .content .spotlight .gallery {
   display: grid;
@@ -740,6 +742,9 @@ ul li {
   align-content: center;
   text-align: center;
 }
+.content .spotlight .press .pressinfo button {
+  margin-top: 32px;
+}
 .content .spotlight .thanks {
   display: grid;
   grid-template-columns: 250px 200px;
@@ -759,6 +764,9 @@ ul li {
   align-content: center;
   text-align: center;
 }
+.content .spotlight .thanks .thanksinfo button {
+  margin-top: 32px;
+}
 .content .spotlight .community {
   display: grid;
   grid-template-columns: 250px 200px;
@@ -777,6 +785,9 @@ ul li {
   display: grid;
   align-content: center;
   text-align: center;
+}
+.content .spotlight .community .communityinfo button {
+  margin-top: 32px;
 }
 .content .contact {
   text-align: center;
