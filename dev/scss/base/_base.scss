@@ -436,7 +436,7 @@ ul {
 			@include lg {
 				display: grid;
 				grid-template-columns: 300px 300px 300px;
-				grid-template-rows: 800px;
+				grid-template-rows: 550px;
 			}
 			
 		}
@@ -459,6 +459,7 @@ ul {
 
 			@include lg {
 				grid-template-columns: 300px;
+				grid-template-rows: 520px;
 			}
 
 			.pressinfo {
@@ -490,6 +491,7 @@ ul {
 
 			@include lg {
 				grid-template-columns: 300px;
+				grid-template-rows: 520px;
 			}
 
 			.thanksinfo {
@@ -502,6 +504,10 @@ ul {
 
 					@include md {
 						margin-top: 48px;
+					}
+
+					@include lg {
+						margin-top: 32px;
 					}
 				}
 			}
@@ -526,6 +532,7 @@ ul {
 
 			@include lg {
 				grid-template-columns: 300px;
+				grid-template-rows: 520px;
 			}
 
 			.communityinfo {
@@ -535,6 +542,10 @@ ul {
 
 				button {
 					margin-top: 32px;
+
+					@include lg {
+						margin-top: 14px;
+					}
 				}
 			}
 		}
@@ -546,6 +557,10 @@ ul {
 
 		@include md {
 			margin-top: 80px;
+		}
+
+		@include lg {
+			margin-top: 112px;
 		}
 
 		h2 {

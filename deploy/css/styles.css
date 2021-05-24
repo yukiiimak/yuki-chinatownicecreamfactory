@@ -763,7 +763,7 @@ ul li {
   .content .spotlight .ptcspotlight {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 800px;
+    grid-template-rows: 550px;
   }
 }
 .content .spotlight .press {
@@ -786,6 +786,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .spotlight .press {
     grid-template-columns: 300px;
+    grid-template-rows: 520px;
   }
 }
 .content .spotlight .press .pressinfo {
@@ -816,6 +817,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .spotlight .thanks {
     grid-template-columns: 300px;
+    grid-template-rows: 520px;
   }
 }
 .content .spotlight .thanks .thanksinfo {
@@ -829,6 +831,11 @@ ul li {
 @media (min-width: 768px) {
   .content .spotlight .thanks .thanksinfo button {
     margin-top: 48px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .spotlight .thanks .thanksinfo button {
+    margin-top: 32px;
   }
 }
 .content .spotlight .community {
@@ -851,6 +858,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .spotlight .community {
     grid-template-columns: 300px;
+    grid-template-rows: 520px;
   }
 }
 .content .spotlight .community .communityinfo {
@@ -861,6 +869,11 @@ ul li {
 .content .spotlight .community .communityinfo button {
   margin-top: 32px;
 }
+@media (min-width: 1024px) {
+  .content .spotlight .community .communityinfo button {
+    margin-top: 14px;
+  }
+}
 .content .contact {
   text-align: center;
   margin-top: 48px;
@@ -868,6 +881,11 @@ ul li {
 @media (min-width: 768px) {
   .content .contact {
     margin-top: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .contact {
+    margin-top: 112px;
   }
 }
 .content .contact h2 {
