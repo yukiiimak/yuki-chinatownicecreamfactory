@@ -619,6 +619,10 @@ ul {
 		.work {
 			margin-top: 32px;
 
+			h2 {
+				margin-bottom: 16px;
+			}
+
 			@include md {
 				margin-top: 48px;
 			}
@@ -908,6 +912,16 @@ ul {
 		}
 
 		.misclinksmini {
+			margin-bottom: 8px;
+
+			.contactus {
+				margin-bottom: 8px;
+			}
+
+			.privacy {
+				margin-bottom: 8px;
+			}
+
 			@include md {
 				display: flex;
 				justify-content: center;

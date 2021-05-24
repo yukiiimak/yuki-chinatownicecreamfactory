@@ -933,6 +933,9 @@ ul li {
 .content .contact .work {
   margin-top: 32px;
 }
+.content .contact .work h2 {
+  margin-bottom: 16px;
+}
 @media (min-width: 768px) {
   .content .contact .work {
     margin-top: 48px;
@@ -1197,6 +1200,15 @@ ul li {
     justify-content: center;
     grid-gap: 25px;
   }
+}
+.content .footer .misclinksmini {
+  margin-bottom: 8px;
+}
+.content .footer .misclinksmini .contactus {
+  margin-bottom: 8px;
+}
+.content .footer .misclinksmini .privacy {
+  margin-bottom: 8px;
 }
 @media (min-width: 768px) {
   .content .footer .misclinksmini {
