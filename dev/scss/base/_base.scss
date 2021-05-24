@@ -936,6 +936,10 @@ ul {
 			margin-top: 80px;
 		}
 
+		@include lg {
+			margin-top: 112px;
+		}
+
 		.socials{
 			display: flex;
 			grid-gap: 45px;

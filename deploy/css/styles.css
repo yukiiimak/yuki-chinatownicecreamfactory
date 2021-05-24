@@ -1242,6 +1242,11 @@ ul li {
     margin-top: 80px;
   }
 }
+@media (min-width: 1024px) {
+  .content .footer {
+    margin-top: 112px;
+  }
+}
 .content .footer .socials {
   display: flex;
   grid-gap: 45px;
