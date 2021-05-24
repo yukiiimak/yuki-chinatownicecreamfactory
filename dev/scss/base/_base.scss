@@ -375,7 +375,7 @@ ul {
 			@include lg {
 				display: grid;
 				grid-template-columns: repeat(3, 1fr);
-				grid-template-rows: 1050px 500px;
+				grid-template-rows: 1100px 200px;
 			}
 
 			@include xl {
@@ -385,11 +385,7 @@ ul {
 			}
 
 			.video {
-				grid-column: span 2;
-
-				// @include lg {
-				// 	grid-column: span 3;
-				// }
+				grid-column: span 3;
 			}
 
 			.gallery1 {
@@ -424,12 +420,23 @@ ul {
 				margin-top: 140px;
 				margin-left: 390px;
 			}
+
+			@include lg {
+				margin-top: 160px;
+				margin-left: 500px;
+			}
 		}
 
 		.ptcspotlight {
 			@include md {
 				display: flex;
 				justify-content: space-evenly;
+			}
+
+			@include lg {
+				display: grid;
+				grid-template-columns: 300px 300px 300px;
+				grid-template-rows: 800px;
 			}
 			
 		}
@@ -448,6 +455,10 @@ ul {
 				grid-gap: 0px;
 				grid-template-rows: 400px;
 				margin-top: 48px;
+			}
+
+			@include lg {
+				grid-template-columns: 300px;
 			}
 
 			.pressinfo {
@@ -475,6 +486,10 @@ ul {
 				grid-gap: 0px;
 				grid-template-rows: 400px;
 				margin-top: 48px;
+			}
+
+			@include lg {
+				grid-template-columns: 300px;
 			}
 
 			.thanksinfo {
@@ -509,6 +524,10 @@ ul {
 				margin-top: 48px;
 			}
 
+			@include lg {
+				grid-template-columns: 300px;
+			}
+
 			.communityinfo {
 				display: grid;
 				align-content: center;
@@ -541,8 +560,22 @@ ul {
 			margin-top: 32px;
 
 			@include md {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
 				margin-top: 48px;
 				margin-bottom: 24px;
+
+				.first {
+					grid-column: span 1;
+				}
+
+				.last {
+					grid-column: span 1;
+				}
+			}
+
+			@include lg {
+				grid-gap: 20px;
 			}
 
 			input {
@@ -562,19 +595,6 @@ ul {
 			.last {
 				margin-bottom: 16px;
 			}
-
-			@include md {
-				display: grid;
-				grid-template-columns: repeat(2, 1fr);
-
-				.first {
-					grid-column: span 1;
-				}
-
-				.last {
-					grid-column: span 1;
-				}
-			}
 		}
 
 		.email {
@@ -592,6 +612,10 @@ ul {
 					width: 885px;
 					height: 30px;
 				}
+
+				@include lg {
+					width: 825px;
+				}
 			}
 		}
 
@@ -607,18 +631,18 @@ ul {
 					height: 80px;
 					margin-bottom: 48px;
 				}
+
+				@include lg {
+					width: 400px;
+					height: 150px;
+				}
 			}
+
 			@include lg {
 				display: grid;
-				grid-template-columns: repeat(2, 1fr);
-
-				.question1 {
-					grid-column: span 1;
-				}
-
-				.question2 {
-					grid-column: span 1;
-				}
+				grid-template-columns: 400px 400px;
+				grid-gap: 20px;
+				justify-content: center;
 			}
 		}
 

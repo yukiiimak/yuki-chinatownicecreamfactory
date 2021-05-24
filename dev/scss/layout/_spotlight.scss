@@ -3,17 +3,12 @@
         background: url("../images/Video.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-
-        @include lg {
-            // width: 100%;
-            height: 1050px;
-        }
+    }
 
         @include xl {
             width: 100%;
             height: 1700px;
         }
-    }
 
     .gallery1 {
         background: url("../images/Gallery1.jpg");
