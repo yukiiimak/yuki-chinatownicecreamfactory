@@ -862,6 +862,7 @@ ul li {
 @media (min-width: 768px) {
   .content .contact .name {
     margin-top: 48px;
+    margin-bottom: 24px;
   }
 }
 .content .contact .name input {
@@ -894,6 +895,11 @@ ul li {
 }
 .content .contact .email {
   margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .content .contact .email {
+    margin-bottom: 48px;
+  }
 }
 .content .contact .email input {
   width: 450px;
@@ -1101,20 +1107,50 @@ ul li {
 .content .hourslocations .chinatown h2 {
   margin-bottom: 32px;
 }
+@media (min-width: 768px) {
+  .content .hourslocations .chinatown h2 {
+    margin-bottom: 48px;
+  }
+}
 .content .hourslocations .chinatown .chinatowntimes {
   margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .content .hourslocations .chinatown .chinatowntimes {
+    margin-bottom: 48px;
+  }
 }
 .content .hourslocations .flushing .flushingwebsite {
   margin-bottom: 32px;
 }
+@media (min-width: 768px) {
+  .content .hourslocations .flushing .flushingwebsite {
+    margin-bottom: 48px;
+  }
+}
 .content .hourslocations .flushing .flushingtimes {
   margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .content .hourslocations .flushing .flushingtimes {
+    margin-bottom: 48px;
+  }
 }
 .content .hourslocations .les .leswebsite {
   margin-bottom: 32px;
 }
+@media (min-width: 768px) {
+  .content .hourslocations .les .leswebsite {
+    margin-bottom: 48px;
+  }
+}
 .content .hourslocations .les .lestimes {
   margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .content .hourslocations .les .lestimes {
+    margin-bottom: 48px;
+  }
 }
 .content .hourslocations hr {
   margin-left: 10px;
@@ -1207,15 +1243,24 @@ ul li {
 .content .footer .misclinksmini .contactus {
   margin-bottom: 8px;
 }
+@media (min-width: 768px) {
+  .content .footer .misclinksmini .contactus {
+    margin-bottom: 0px;
+  }
+}
 .content .footer .misclinksmini .privacy {
   margin-bottom: 8px;
+}
+@media (min-width: 768px) {
+  .content .footer .misclinksmini .privacy {
+    margin-bottom: 0px;
+  }
 }
 @media (min-width: 768px) {
   .content .footer .misclinksmini {
     display: flex;
     justify-content: center;
     grid-gap: 25px;
-    margin-bottom: 5px;
   }
 }
 

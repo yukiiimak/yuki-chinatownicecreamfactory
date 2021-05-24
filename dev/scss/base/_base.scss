@@ -541,6 +541,7 @@ ul {
 
 			@include md {
 				margin-top: 48px;
+				margin-bottom: 24px;
 			}
 
 			input {
@@ -577,6 +578,10 @@ ul {
 
 		.email {
 			margin-bottom: 32px;
+
+			@include md {
+				margin-bottom: 48px;
+			}
 
 			input {
 				width: 450px;
@@ -794,30 +799,54 @@ ul {
 		.chinatown {
 			h2 {
 				margin-bottom: 32px;
+
+				@include md {
+					margin-bottom: 48px;
+				}
 			}
 
 			.chinatowntimes {
 				margin-bottom: 32px;
+
+				@include md {
+					margin-bottom: 48px;
+				}
 			}
 		}
 
 		.flushing {
 			.flushingwebsite {
 				margin-bottom: 32px;
+
+				@include md {
+					margin-bottom: 48px;
+				}
 			}
 
 			.flushingtimes {
 				margin-bottom: 32px;
+
+				@include md {
+					margin-bottom: 48px;
+				}
 			}
 		}
 
 		.les {
 			.leswebsite {
 				margin-bottom: 32px;
+
+				@include md {
+					margin-bottom: 48px;
+				}
 			}
 
 			.lestimes {
 				margin-bottom: 32px;
+
+				@include md {
+					margin-bottom: 48px;
+				}
 			}
 		}
 
@@ -916,17 +945,24 @@ ul {
 
 			.contactus {
 				margin-bottom: 8px;
+
+				@include md {
+					margin-bottom: 0px;
+				}
 			}
 
 			.privacy {
 				margin-bottom: 8px;
+
+				@include md {
+					margin-bottom: 0px;
+				}
 			}
 
 			@include md {
 				display: flex;
 				justify-content: center;
 				grid-gap: 25px;
-				margin-bottom: 5px;
 			}
 		}
 	}
