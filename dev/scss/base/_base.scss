@@ -94,14 +94,13 @@ ul {
 				display: none;
 
 				@include md {
-					display: block;
+					display: grid;
 				}
 			}
 
 			.flavors {
 				@include md {
-					display: block;
-					grid-template-columns: span 2;
+					display: grid;
 				}
 			}
 
@@ -221,6 +220,10 @@ ul {
 				grid-template-rows: 100px 200px;
 				margin-left: 70px;
 				margin-right: 70px;
+
+				@include md {
+					margin-left: 20px;
+				}
 			}
 		}
 

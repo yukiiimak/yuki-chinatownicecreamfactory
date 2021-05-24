@@ -430,13 +430,12 @@ ul li {
 }
 @media (min-width: 768px) {
   .content .icecream .regular .mobilehide {
-    display: block;
+    display: grid;
   }
 }
 @media (min-width: 768px) {
   .content .icecream .regular .flavors {
-    display: block;
-    grid-template-columns: span 2;
+    display: grid;
   }
 }
 .content .icecream .regular .regularimg {
@@ -550,6 +549,11 @@ ul li {
   grid-template-rows: 100px 200px;
   margin-left: 70px;
   margin-right: 70px;
+}
+@media (min-width: 768px) {
+  .content .icecream .special .specialimg {
+    margin-left: 20px;
+  }
 }
 .content .icecream .cakeimg {
   display: grid;
@@ -1307,7 +1311,6 @@ p {
 }
 @media (min-width: 768px) {
   .spotlight .gallery2 {
-    width: 390px;
     height: 400px;
   }
 }
@@ -1330,7 +1333,6 @@ p {
 }
 @media (min-width: 768px) {
   .spotlight .gallery3 {
-    width: 390px;
     height: 400px;
   }
 }
