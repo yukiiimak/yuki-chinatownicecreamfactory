@@ -101,6 +101,7 @@ ul {
 			.flavors {
 				@include md {
 					display: grid;
+					grid-template-columns: repeat(2, 1fr);
 				}
 			}
 
@@ -126,7 +127,7 @@ ul {
 
 			@include md {
 				display: grid;
-				grid-template-columns: 310px 500px;
+				grid-template-columns: 500px 310px;
 			}
 
 			.mobiledisplay {
@@ -227,6 +228,13 @@ ul {
 			}
 		}
 
+		.cakes {
+			@include md {
+				display: grid;
+				grid-template-columns: 500px 310px;
+			}
+		}
+
 		.cakeimg {
 			display: grid;
 			grid-template-columns: 100px 100px 100px;
@@ -236,6 +244,7 @@ ul {
 
 			@include md {
 				grid-column: 2 / 2;
+				margin-right: 18px;
 			}
 		}
 
@@ -244,13 +253,6 @@ ul {
 
 			@include md {
 				grid-column: 1 / 1;
-			}
-		}
-
-		.cakes {
-			@include md {
-				display: grid;
-				grid-template-columns: repeat(2, 1fr);
 			}
 		}
 

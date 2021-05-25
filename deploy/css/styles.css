@@ -436,6 +436,7 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .regular .flavors {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .content .icecream .regular .regularimg {
@@ -459,7 +460,7 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .exotic {
     display: grid;
-    grid-template-columns: 310px 500px;
+    grid-template-columns: 500px 310px;
   }
 }
 .content .icecream .exotic .mobiledisplay {
@@ -555,6 +556,12 @@ ul li {
     margin-left: 20px;
   }
 }
+@media (min-width: 768px) {
+  .content .icecream .cakes {
+    display: grid;
+    grid-template-columns: 500px 310px;
+  }
+}
 .content .icecream .cakeimg {
   display: grid;
   grid-template-columns: 100px 100px 100px;
@@ -565,6 +572,7 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .cakeimg {
     grid-column: 2/2;
+    margin-right: 18px;
   }
 }
 .content .icecream .cakeinfo {
@@ -573,12 +581,6 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .cakeinfo {
     grid-column: 1/1;
-  }
-}
-@media (min-width: 768px) {
-  .content .icecream .cakes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 .content .icecream .customcakes {
