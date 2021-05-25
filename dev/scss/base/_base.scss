@@ -278,12 +278,9 @@ ul {
 			margin-top: 80px;
 		}
 
-		button {
-			margin-top: 32px;
-
-			@include md {
-				margin-top: 48px;
-			}
+		@include lg {
+			display: grid;
+			grid-template-columns: 450px auto;
 		}
 
 		h1 {
@@ -293,6 +290,10 @@ ul {
 
 			@include md {
 				margin-bottom: 24px;
+			}
+
+			@include lg {
+				grid-column: 2 / 3;
 			}
 		}
 
@@ -307,6 +308,7 @@ ul {
 			@include lg {
 				display: flex;
 				flex-direction: column;
+				grid-column: 1 / 2;
 			}
 
 			.story1 {
@@ -319,6 +321,15 @@ ul {
 				}
 
 				@include lg {
+					margin-left: 42px;
+				}
+			}
+
+			.story2 {
+				display: none;
+	
+				@include lg {
+					display: grid;
 					margin-left: 42px;
 				}
 			}
@@ -336,15 +347,6 @@ ul {
 					margin-left: 42px;
 				}
 			}
-	
-			.story2 {
-				display: none;
-	
-				@include lg {
-					display: grid;
-					margin-left: 42px;
-				}
-			}
 		}
 
 		.storyinfo {
@@ -354,6 +356,19 @@ ul {
 
 			@include md {
 				margin-top: 24px;
+			}
+
+			@include lg {
+				margin-right: 42px;
+				align-content: center;
+			}
+		}
+
+		button {
+			margin-top: 32px;
+
+			@include md {
+				margin-top: 48px;
 			}
 		}
 
