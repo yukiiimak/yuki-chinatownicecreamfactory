@@ -54,11 +54,13 @@ ul {
 	.icecream {
 		grid-area: icecream;
 		margin-top: 48px;
+		padding-bottom: 32px;
 
 		// target the ul for tablet onward
 
 		h1 {
 			text-align: center;
+			margin-top: 32px;
 			margin-bottom: 16px;
 		}
 
@@ -70,6 +72,7 @@ ul {
 			h2 {
 				text-align: center;
 				order: 1;
+				margin-bottom: 16px;
 			}
 
 			@include md {
@@ -89,6 +92,9 @@ ul {
 
 			.arrow {
 				display: flex;
+				align-items: center;
+				padding-left: 35px;
+				padding-right: 35px;
 				
 				@include md {
 					display: none;
@@ -121,6 +127,7 @@ ul {
 				margin-left: 70px;
 				margin-right: 70px;
 				order: 2;
+				margin-bottom: 16px;
 	
 				@include md {
 					margin-left: 20px;
@@ -131,9 +138,13 @@ ul {
 
 		.exotic {
 			margin-bottom: 32px;
+			display: flex;
+			flex-direction: column;
 
 			h2 {
 				text-align: center;
+				order: 1;
+				margin-bottom: 16px;
 			}
 
 			@include md {
@@ -153,6 +164,9 @@ ul {
 
 			.arrow {
 				display: flex;
+				align-items: center;
+				padding-left: 35px;
+				padding-right: 35px;
 				
 				@include md {
 					display: none;
@@ -168,6 +182,10 @@ ul {
 			}
 
 			.flavors {
+				display: flex;
+				justify-content: center;
+				order: 3;
+
 				@include md {
 					display: block;
 				}
@@ -179,14 +197,20 @@ ul {
 				grid-template-rows: 100px 200px;
 				margin-left: 70px;
 				margin-right: 70px;
+				order: 2;
+				margin-bottom: 16px;
 			}
 		}
 
 		.special {
 			margin-bottom: 32px;
+			display: flex;
+			flex-direction: column;
 
 			h2 {
 				text-align: center;
+				order: 1;
+				margin-bottom: 16px;
 			}
 
 			@include md {
@@ -206,6 +230,9 @@ ul {
 
 			.arrow {
 				display: flex;
+				align-items: center;
+				padding-left: 35px;
+				padding-right: 35px;
 				
 				@include md {
 					display: none;
@@ -221,6 +248,10 @@ ul {
 			}
 
 			.flavors {
+				display: flex;
+				justify-content: center;
+				order: 3;
+
 				@include md {
 					display: block;
 				}
@@ -232,6 +263,8 @@ ul {
 				grid-template-rows: 100px 200px;
 				margin-left: 70px;
 				margin-right: 70px;
+				order: 2;
+				margin-bottom: 16px;
 
 				@include md {
 					margin-left: 20px;
@@ -240,43 +273,56 @@ ul {
 		}
 
 		.cakes {
+			display: flex;
+			flex-direction: column;
+
+			h2 {
+				text-align: center;
+				margin-bottom: 16px;
+			}
+
 			@include md {
 				display: grid;
 				grid-template-columns: 500px 310px;
 			}
-		}
 
-		.cakeimg {
-			display: grid;
-			grid-template-columns: 100px 100px 100px;
-			grid-template-rows: 200px 200px;
-			margin-left: 70px;
-			margin-right: 70px;
-
-			@include md {
-				grid-column: 2 / 2;
-				margin-right: 18px;
+			.cakeimg {
+				display: grid;
+				grid-template-columns: 100px 100px 100px;
+				grid-template-rows: 200px 200px;
+				margin-left: 70px;
+				margin-right: 70px;
+				margin-bottom: 16px;
+	
+				@include md {
+					grid-column: 2 / 2;
+					margin-right: 18px;
+				}
 			}
-		}
-
-		.cakeinfo {
-			text-align: center;
-
-			@include md {
-				grid-column: 1 / 1;
+	
+			.cakeinfo {
+				text-align: center;
+	
+				@include md {
+					grid-column: 1 / 1;
+				}
 			}
-		}
-
-		.customcakes {
-			text-align: center;
-			margin-top: 32px;
-			
-			button {
-				margin-top:  32px;
+	
+			.neapolitan {
+				margin-top: 32px;
 			}
-
-			@include md {
-				justify-content: center;
+	
+			.customcakes {
+				text-align: center;
+				margin-top: 32px;
+				
+				button {
+					margin-top:  32px;
+				}
+	
+				@include md {
+					justify-content: center;
+				}
 			}
 		}
 	}
@@ -390,6 +436,7 @@ ul {
 	.spotlight {
 		grid-area: spotlight;
 		margin-top: 48px;
+		padding-bottom: 32px;
 
 		@include md {
 			margin-top: 80px;
@@ -490,131 +537,131 @@ ul {
 				grid-template-columns: 350px 350px 350px;
 				grid-template-rows: 1070px;
 			}
+
+			.press {
+				display: grid;
+				grid-template-columns: 250px 200px;
+				grid-template-rows: 500px; 
+				margin-top: 32px;
+				margin-left: 10px;
+				grid-gap: 20px;
+	
+				@include md {
+					display: grid;
+					grid-template-columns: 230px;
+					grid-gap: 0px;
+					grid-template-rows: 400px;
+					margin-top: 48px;
+				}
+	
+				@include lg {
+					grid-template-columns: 300px;
+					grid-template-rows: 520px;
+				}
+	
+				@include xl {
+					grid-template-columns: 400px;
+				}
+	
+				.pressinfo {
+					display: grid;
+					align-content: center;
+					text-align: center;
+	
+					button {
+						margin-top: 32px;
+					}
+				}
+			}
+	
+			.thanks {
+				display: grid;
+				grid-template-columns: 250px 200px;
+				grid-template-rows: 500px;
+				margin-top: 32px;
+				margin-left: 10px;
+				grid-gap: 20px;
+	
+				@include md {
+					display: grid;
+					grid-template-columns: 230px;
+					grid-gap: 0px;
+					grid-template-rows: 400px;
+					margin-top: 48px;
+				}
+	
+				@include lg {
+					grid-template-columns: 300px;
+					grid-template-rows: 520px;
+				}
+	
+				@include xl {
+					grid-template-columns: 400px;
+				}
+	
+				.thanksinfo {
+					display: grid;
+					align-content: center;
+					text-align: center;
+	
+					button {
+						margin-top: 32px;
+	
+						@include md {
+							margin-top: 48px;
+						}
+	
+						@include lg {
+							margin-top: 32px;
+						}
+					}
+				}
+			}
+	
+			.community {
+				display: grid;
+				grid-template-columns: 250px 200px;
+				grid-template-rows: 500px;
+				margin-top: 32px;
+				margin-left: 10px;
+				grid-gap: 20px;
+	
+				@include md {
+					display: grid;
+					grid-template-columns: 230px;
+					grid-gap: 0px;
+					grid-template-rows: 400px;
+					margin-top: 48px;
+				}
+	
+				@include lg {
+					grid-template-columns: 300px;
+					grid-template-rows: 520px;
+				}
+	
+				@include xl {
+					grid-template-columns: 400px;
+				}
+	
+				.communityinfo {
+					display: grid;
+					align-content: center;
+					text-align: center;
+	
+					button {
+						margin-top: 32px;
+	
+						@include lg {
+							margin-top: 14px;
+						}
+	
+						@include xl {
+							margin-top: 32px;
+						}
+					}
+				}
+			}
 			
-		}
-
-		.press {
-			display: grid;
-			grid-template-columns: 250px 200px;
-			grid-template-rows: 500px; 
-			margin-top: 32px;
-			margin-left: 10px;
-			grid-gap: 20px;
-
-			@include md {
-				display: grid;
-				grid-template-columns: 230px;
-				grid-gap: 0px;
-				grid-template-rows: 400px;
-				margin-top: 48px;
-			}
-
-			@include lg {
-				grid-template-columns: 300px;
-				grid-template-rows: 520px;
-			}
-
-			@include xl {
-				grid-template-columns: 400px;
-			}
-
-			.pressinfo {
-				display: grid;
-				align-content: center;
-				text-align: center;
-
-				button {
-					margin-top: 32px;
-				}
-			}
-		}
-
-		.thanks {
-			display: grid;
-			grid-template-columns: 250px 200px;
-			grid-template-rows: 500px;
-			margin-top: 32px;
-			margin-left: 10px;
-			grid-gap: 20px;
-
-			@include md {
-				display: grid;
-				grid-template-columns: 230px;
-				grid-gap: 0px;
-				grid-template-rows: 400px;
-				margin-top: 48px;
-			}
-
-			@include lg {
-				grid-template-columns: 300px;
-				grid-template-rows: 520px;
-			}
-
-			@include xl {
-				grid-template-columns: 400px;
-			}
-
-			.thanksinfo {
-				display: grid;
-				align-content: center;
-				text-align: center;
-
-				button {
-					margin-top: 32px;
-
-					@include md {
-						margin-top: 48px;
-					}
-
-					@include lg {
-						margin-top: 32px;
-					}
-				}
-			}
-		}
-
-		.community {
-			display: grid;
-			grid-template-columns: 250px 200px;
-			grid-template-rows: 500px;
-			margin-top: 32px;
-			margin-left: 10px;
-			grid-gap: 20px;
-
-			@include md {
-				display: grid;
-				grid-template-columns: 230px;
-				grid-gap: 0px;
-				grid-template-rows: 400px;
-				margin-top: 48px;
-			}
-
-			@include lg {
-				grid-template-columns: 300px;
-				grid-template-rows: 520px;
-			}
-
-			@include xl {
-				grid-template-columns: 400px;
-			}
-
-			.communityinfo {
-				display: grid;
-				align-content: center;
-				text-align: center;
-
-				button {
-					margin-top: 32px;
-
-					@include lg {
-						margin-top: 14px;
-					}
-
-					@include xl {
-						margin-top: 32px;
-					}
-				}
-			}
 		}
 	}
 
@@ -755,6 +802,7 @@ ul {
 	.shop {
 		grid-area: shop;
 		margin-top: 48px;
+		padding-bottom: 32px;
 
 		@include md {
 			margin-top: 80px;
@@ -1016,6 +1064,8 @@ ul {
 
 	.footer {
 		margin-top: 48px;
+		padding-top: 32px;
+		padding-bottom: 32px;
 
 		@include md {
 			margin-top: 80px;
