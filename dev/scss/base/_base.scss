@@ -136,10 +136,10 @@ ul {
 				justify-content: center;
 				order: 3;
 
-				@include md {
-					display: grid;
-					grid-template-columns: repeat(2, 1fr);
-				}
+				// @include md {
+				// 	display: grid;
+				// 	grid-template-columns: repeat(2, 1fr);
+				// }
 			}
 
 			.regularimg {
@@ -172,7 +172,7 @@ ul {
 
 			@include md {
 				display: grid;
-				grid-template-columns: 500px 310px;
+				grid-template-columns: 530px 330px;
 			}
 
 			.mobiledisplay {
@@ -204,14 +204,26 @@ ul {
 				}
 			}
 
+			ul {
+				@include md {
+					column-count: 2;
+					column-gap: 100px;
+
+					li {
+						display: inline-block;
+						line-height: 50px;
+					}
+				}
+			}
+
 			.flavors {
 				display: flex;
 				justify-content: center;
 				order: 3;
 
-				@include md {
-					display: block;
-				}
+				// @include md {
+				// 	display: block;
+				// }
 			}
 
 			.exoticimg {
@@ -234,11 +246,15 @@ ul {
 				text-align: center;
 				order: 1;
 				margin-bottom: 16px;
+
+				@include md {
+					grid-column: 2 / 2;
+				}
 			}
 
 			@include md {
 				display: grid;
-				grid-template-columns: 310px 500px;
+				grid-template-columns: 330px auto;
 			}
 
 			.mobiledisplay {
@@ -270,14 +286,26 @@ ul {
 				}
 			}
 
+			ul {
+				@include md {
+					column-count: 2;
+					column-gap: 100px;
+
+					li {
+						display: inline-block;
+						line-height: 50px;
+					}
+				}
+			}
+
 			.flavors {
 				display: flex;
 				justify-content: center;
 				order: 3;
 
-				@include md {
-					display: block;
-				}
+				// @include md {
+				// 	display: block;
+				// }
 			}
 
 			.specialimg {
@@ -291,6 +319,7 @@ ul {
 
 				@include md {
 					margin-left: 20px;
+					grid-column: 1 / 1;
 				}
 			}
 		}
@@ -306,7 +335,7 @@ ul {
 
 			@include md {
 				display: grid;
-				grid-template-columns: 500px 310px;
+				grid-template-columns: 530px 330px;
 			}
 
 			.cakeimg {
@@ -328,11 +357,24 @@ ul {
 	
 				@include md {
 					grid-column: 1 / 1;
+					text-align: left;
+					margin-left: 20px;
+				}
+			}
+
+			.sigcakes {
+				@include md {
+					line-height: 25px;
 				}
 			}
 	
 			.neapolitan {
 				margin-top: 32px;
+
+				@include md {
+					line-height: 25px;
+					margin-top: 48px;
+				}
 			}
 	
 			.customcakes {
