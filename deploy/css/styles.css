@@ -752,13 +752,30 @@ ul li {
   .content .ourstory .storyinfo {
     margin-right: 42px;
     align-content: center;
+    text-align: right;
   }
 }
-.content .ourstory button {
+.content .ourstory .storyinfo .p1 {
+  margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .content .ourstory .storyinfo .p1 {
+    margin-bottom: 48px;
+  }
+}
+.content .ourstory .storyinfo .p2 {
+  margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .content .ourstory .storyinfo .p2 {
+    margin-bottom: 48px;
+  }
+}
+.content .ourstory .storyinfo button {
   margin-top: 32px;
 }
 @media (min-width: 768px) {
-  .content .ourstory button {
+  .content .ourstory .storyinfo button {
     margin-top: 48px;
   }
 }

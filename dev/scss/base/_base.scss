@@ -420,14 +420,31 @@ ul {
 			@include lg {
 				margin-right: 42px;
 				align-content: center;
+				text-align: right;
 			}
-		}
 
-		button {
-			margin-top: 32px;
+			.p1 {
+				margin-bottom: 32px;
 
-			@include md {
-				margin-top: 48px;
+				@include md {
+					margin-bottom: 48px;
+				}
+			}
+
+			.p2 {
+				margin-bottom: 32px;
+
+				@include md {
+					margin-bottom: 48px;
+				}
+			}
+
+			button {
+				margin-top: 32px;
+	
+				@include md {
+					margin-top: 48px;
+				}
 			}
 		}
 
