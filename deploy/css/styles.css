@@ -439,6 +439,7 @@ ul li {
 .content .icecream .regular .flavors {
   display: flex;
   justify-content: center;
+  order: 3;
 }
 @media (min-width: 768px) {
   .content .icecream .regular .flavors {
@@ -452,6 +453,7 @@ ul li {
   grid-template-rows: 100px 200px;
   margin-left: 70px;
   margin-right: 70px;
+  order: 2;
 }
 @media (min-width: 768px) {
   .content .icecream .regular .regularimg {

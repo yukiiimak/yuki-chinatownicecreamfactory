@@ -106,6 +106,7 @@ ul {
 			.flavors {
 				display: flex;
 				justify-content: center;
+				order: 3;
 
 				@include md {
 					display: grid;
@@ -119,6 +120,7 @@ ul {
 				grid-template-rows: 100px 200px;
 				margin-left: 70px;
 				margin-right: 70px;
+				order: 2;
 	
 				@include md {
 					margin-left: 20px;
