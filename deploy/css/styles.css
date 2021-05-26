@@ -397,9 +397,12 @@ ul li {
 }
 .content .icecream .regular {
   margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
 }
 .content .icecream .regular h2 {
   text-align: center;
+  order: 1;
 }
 @media (min-width: 768px) {
   .content .icecream .regular {
@@ -432,6 +435,10 @@ ul li {
   .content .icecream .regular .mobilehide {
     display: grid;
   }
+}
+.content .icecream .regular .flavors {
+  display: flex;
+  justify-content: center;
 }
 @media (min-width: 768px) {
   .content .icecream .regular .flavors {
@@ -981,9 +988,11 @@ ul li {
   }
   .content .contact .name .first {
     grid-column: span 1;
+    width: 50%;
   }
   .content .contact .name .last {
     grid-column: span 1;
+    width: 50%;
   }
 }
 .content .contact .name input {
