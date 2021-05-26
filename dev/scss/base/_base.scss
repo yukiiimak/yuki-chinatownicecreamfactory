@@ -77,12 +77,21 @@ ul {
 				@include md {
 					grid-column: 2 / 2;
 				}
+
+				@include lg {
+					grid-row: 1 / 1;
+				}
 			}
 
 			@include md {
 				display: grid;
 				// grid-template-columns: 310px 500px;
 				grid-template-columns: 330px auto;
+			}
+
+			@include lg {
+				grid-template-rows: repeat(2, 1fr);
+				grid-template-columns: none;
 			}
 
 			.mobiledisplay {
@@ -129,6 +138,16 @@ ul {
 						line-height: 50px;
 					}
 				}
+
+				@include lg {
+					column-count: 3;
+					column-gap: 100px;
+
+					li {
+						display: inline-block;
+						line-height: 50px;
+					}
+				}
 			}
 
 			.flavors {
@@ -154,6 +173,10 @@ ul {
 				@include md {
 					margin-left: 20px;
 					grid-column: 1 / 1;
+				}
+
+				@include lg {
+					grid-row: 1/ 1;
 				}
 			}
 
@@ -331,6 +354,10 @@ ul {
 			h2 {
 				text-align: center;
 				margin-bottom: 16px;
+
+				// @include lg {
+				// 	justify-content: center;
+				// }
 			}
 
 			@include md {
@@ -387,6 +414,10 @@ ul {
 	
 				@include md {
 					justify-content: center;
+				}
+
+				@include lg {
+
 				}
 			}
 		}
