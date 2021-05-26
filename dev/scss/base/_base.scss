@@ -73,11 +73,16 @@ ul {
 				text-align: center;
 				order: 1;
 				margin-bottom: 16px;
+
+				@include md {
+					grid-column: 2 / 2;
+				}
 			}
 
 			@include md {
 				display: grid;
-				grid-template-columns: 310px 500px;
+				// grid-template-columns: 310px 500px;
+				grid-template-columns: 330px auto;
 			}
 
 			.mobiledisplay {
@@ -109,6 +114,23 @@ ul {
 				}
 			}
 
+			ul {
+				@include md {
+					// display: grid;
+					// grid-template-columns: repeat(2, 1fr);
+					// grid-auto-flow: row;
+					// line-height: 24px;
+
+					column-count: 2;
+					column-gap: 100px;
+
+					li {
+						display: inline-block;
+						line-height: 50px;
+					}
+				}
+			}
+
 			.flavors {
 				display: flex;
 				justify-content: center;
@@ -131,6 +153,7 @@ ul {
 	
 				@include md {
 					margin-left: 20px;
+					grid-column: 1 / 1;
 				}
 			}
 

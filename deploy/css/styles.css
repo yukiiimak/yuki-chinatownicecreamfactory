@@ -408,9 +408,14 @@ ul li {
   margin-bottom: 16px;
 }
 @media (min-width: 768px) {
+  .content .icecream .regular h2 {
+    grid-column: 2/2;
+  }
+}
+@media (min-width: 768px) {
   .content .icecream .regular {
     display: grid;
-    grid-template-columns: 310px 500px;
+    grid-template-columns: 330px auto;
   }
 }
 .content .icecream .regular .mobiledisplay {
@@ -442,6 +447,16 @@ ul li {
     display: grid;
   }
 }
+@media (min-width: 768px) {
+  .content .icecream .regular ul {
+    column-count: 2;
+    column-gap: 100px;
+  }
+  .content .icecream .regular ul li {
+    display: inline-block;
+    line-height: 50px;
+  }
+}
 .content .icecream .regular .flavors {
   display: flex;
   justify-content: center;
@@ -465,6 +480,7 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .regular .regularimg {
     margin-left: 20px;
+    grid-column: 1/1;
   }
 }
 .content .icecream .exotic {
