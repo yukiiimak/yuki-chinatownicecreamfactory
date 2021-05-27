@@ -1199,18 +1199,8 @@ ul li {
 }
 @media (min-width: 768px) {
   .content .contact .name {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 48px;
-    margin-bottom: 24px;
-  }
-  .content .contact .name .first {
-    grid-column: span 1;
-    width: 50%;
-  }
-  .content .contact .name .last {
-    grid-column: span 1;
-    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 .content .contact .name input {

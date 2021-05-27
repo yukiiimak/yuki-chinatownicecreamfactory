@@ -895,20 +895,22 @@ ul {
 			margin-top: 32px;
 
 			@include md {
-				display: grid;
-				grid-template-columns: repeat(2, 1fr);
-				margin-top: 48px;
-				margin-bottom: 24px;
+				display: flex;
+				justify-content: space-evenly;
+				// display: grid;
+				// grid-template-columns: repeat(2, 1fr);
+				// margin-top: 48px;
+				// margin-bottom: 24px;
 
-				.first {
-					grid-column: span 1;
-					width: 50%;
-				}
+				// .first {
+				// 	grid-column: span 1;
+				// 	width: 50%;
+				// }
 
-				.last {
-					grid-column: span 1;
-					width: 50%;
-				}
+				// .last {
+				// 	grid-column: span 1;
+				// 	width: 50%;
+				// }
 			}
 
 			input {
