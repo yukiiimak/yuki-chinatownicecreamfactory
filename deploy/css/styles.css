@@ -513,10 +513,21 @@ ul li {
   order: 1;
   margin-bottom: 16px;
 }
+@media (min-width: 1024px) {
+  .content .icecream .exotic h2 {
+    grid-row: 1/1;
+  }
+}
 @media (min-width: 768px) {
   .content .icecream .exotic {
     display: grid;
     grid-template-columns: 530px 330px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream .exotic {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 .content .icecream .exotic .mobiledisplay {
@@ -558,6 +569,17 @@ ul li {
     line-height: 50px;
   }
 }
+@media (min-width: 1024px) {
+  .content .icecream .exotic ul {
+    column-count: 3;
+    column-gap: 100px;
+    margin-left: 20px;
+  }
+  .content .icecream .exotic ul li {
+    display: inline-block;
+    line-height: 50px;
+  }
+}
 .content .icecream .exotic .flavors {
   display: flex;
   justify-content: center;
@@ -571,6 +593,11 @@ ul li {
   margin-right: 70px;
   order: 2;
   margin-bottom: 16px;
+}
+@media (min-width: 1024px) {
+  .content .icecream .exotic .exoticimg {
+    grid-row: 1/1;
+  }
 }
 .content .icecream .special {
   margin-bottom: 32px;
@@ -591,6 +618,12 @@ ul li {
   .content .icecream .special {
     display: grid;
     grid-template-columns: 330px auto;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream .special {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 .content .icecream .special .mobiledisplay {
@@ -632,6 +665,16 @@ ul li {
     line-height: 50px;
   }
 }
+@media (min-width: 1024px) {
+  .content .icecream .special ul {
+    column-count: 3;
+    column-gap: 100px;
+  }
+  .content .icecream .special ul li {
+    display: inline-block;
+    line-height: 50px;
+  }
+}
 .content .icecream .special .flavors {
   display: flex;
   justify-content: center;
@@ -650,6 +693,11 @@ ul li {
   .content .icecream .special .specialimg {
     margin-left: 20px;
     grid-column: 1/1;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream .special .specialimg {
+    grid-row: 1/1;
   }
 }
 .content .icecream .cakes {
