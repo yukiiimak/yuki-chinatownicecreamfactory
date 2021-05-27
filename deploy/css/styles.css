@@ -521,7 +521,7 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .exotic {
     display: grid;
-    grid-template-columns: 530px 330px;
+    grid-template-columns: 530px auto;
   }
 }
 @media (min-width: 1024px) {
@@ -711,7 +711,7 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .cakes {
     display: grid;
-    grid-template-columns: 530px 330px;
+    grid-template-columns: 530px auto;
   }
 }
 .content .icecream .cakes .cakeimg {

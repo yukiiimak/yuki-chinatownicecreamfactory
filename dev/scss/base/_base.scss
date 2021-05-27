@@ -199,7 +199,7 @@ ul {
 
 			@include md {
 				display: grid;
-				grid-template-columns: 530px 330px;
+				grid-template-columns: 530px auto;
 			}
 
 			@include lg {
@@ -405,7 +405,7 @@ ul {
 
 			@include md {
 				display: grid;
-				grid-template-columns: 530px 330px;
+				grid-template-columns: 530px auto;
 			}
 
 			.cakeimg {
