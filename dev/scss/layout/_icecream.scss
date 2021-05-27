@@ -4,11 +4,19 @@
     h1 {
         font-size: 40px;
         font-weight: 400;
+
+        @include md {
+            font-size: 60px;
+        }
     }
 
     h2 {
         font-size: 30px;
         font-weight: 400;
+
+        @include md {
+            font-size: 35px;
+        }
     }
 
     .arrow {
@@ -20,6 +28,10 @@
 
     li {
         font-size: 25px;
+
+        @include md {
+            font-size: 28px;
+        }
     }
 
     .regularimg {
@@ -88,24 +100,44 @@
 
     .sigcakes {
         font-size: 20px;
+
+        @include md {
+            font-size: 28px;
+        }
     }
 
     .neapolitan {
         font-size: 20px;
+
+        @include md {
+            font-size: 28px;
+        }
     }
 
     .cakesubhead {
         font-style: italic;
         font-size: 25px;
+
+        @include md {
+            font-size: 28px;
+        }
     }
 
     .customcakes {
         font-size: 25px;
 
+        @include md {
+            font-size: 28px;
+        }
+
         button {
             font-size: 15px;
             background-color: $lightgreen;
             border: none;
+
+            @include md {
+                font-size: 20px;
+            }
         }
     }
 }

@@ -2,6 +2,10 @@
     h1 {
         font-size: 40px;
         font-weight: 400;
+
+        @include md {
+            font-size: 60px;
+        }
     }
 
     .story1 {
@@ -49,11 +53,19 @@
     .storyinfo {
         font-size: 25px;
 
+        @include md {
+            font-size: 28px;
+        }
+
         button {
             font-size: 15px;
             color: white;
             background-color: $forbiddenfruit;
             border: none;
+
+            @include md {
+                font-size: 20px;
+            }
         }
     }
 }

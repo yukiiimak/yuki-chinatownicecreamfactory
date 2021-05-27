@@ -458,7 +458,7 @@ ul {
 
 			.sigcakes {
 				@include md {
-					line-height: 25px;
+					line-height: 35px;
 				}
 			}
 	
@@ -466,7 +466,7 @@ ul {
 				margin-top: 32px;
 
 				@include md {
-					line-height: 25px;
+					line-height: 35px;
 					margin-top: 48px;
 				}
 			}
@@ -780,7 +780,7 @@ ul {
 					display: grid;
 					grid-template-columns: 230px;
 					grid-gap: 0px;
-					grid-template-rows: 400px;
+					grid-template-rows: 420px;
 					margin-top: 48px;
 				}
 	
@@ -828,7 +828,7 @@ ul {
 					display: grid;
 					grid-template-columns: 230px;
 					grid-gap: 0px;
-					grid-template-rows: 400px;
+					grid-template-rows: 370px;
 					margin-top: 48px;
 				}
 	
@@ -1335,6 +1335,13 @@ ul {
 				padding-right: 7px;
 				padding-left: 7px;
 				margin-left: 10px;
+
+				@include md {
+					padding-top: 7px;
+					padding-bottom: 7px;
+					padding-right: 17px;
+					padding-left: 17px;
+				}
 			}
 		}
 
