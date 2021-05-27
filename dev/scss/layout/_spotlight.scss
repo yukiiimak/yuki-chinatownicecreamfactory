@@ -1,4 +1,6 @@
 .spotlight {
+    background-color: $butteryellow;
+
     .video {
         background: url("../images/Video.jpg");
         background-repeat: no-repeat;
@@ -66,6 +68,22 @@
         }
     }
 
+    .viewgallery {
+        font-size: 15px;
+        background-color: $lightgreen;
+        border: none;
+    }
+
+    .pressinfo {
+        font-size: 25px;
+
+        button {
+            font-size: 15px;
+            background-color: $lightgreen;
+            border: none;
+        }
+    }
+
     .pressimg {
         background: url("../images/Press.jpg");
         background-repeat: no-repeat;
@@ -82,6 +100,26 @@
         @include xl {
             // width: 430px;
             height: 700px;
+        }
+    }
+
+    .thanksinfo {
+        font-size: 25px;
+
+        button {
+            font-size: 15px;
+            background-color: $lightgreen;
+            border: none;
+        }
+    }
+
+    .communityinfo {
+        font-size: 25px;
+
+        button {
+            font-size: 15px;
+            background-color: $lightgreen;
+            border: none;
         }
     }
 

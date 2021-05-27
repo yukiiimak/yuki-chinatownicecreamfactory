@@ -1,4 +1,47 @@
 .shop {
+    background-color: $butteryellow;
+
+    .title {
+        h1 {
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+        .shoparrow {
+            a {
+                color: black;
+            }
+        }
+    }
+
+    .links {
+        a {
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    h3 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .mobileshop {
+        .mobileshoparrowleft {
+            color: black;
+        }
+
+        .mobileshoparrowright {
+            color: black;
+        }
+    }
+
+    .mobileshoptext {
+        font-size: 25px;
+    }
+
     .masks {
         background: url("../images/Masks.jpg");
         background-repeat: no-repeat;

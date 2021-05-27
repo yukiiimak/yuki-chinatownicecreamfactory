@@ -37,6 +37,24 @@ ul {
 			display: inline;
 			align-items: center;
 		}
+
+		.firstbutton {
+			button {
+				padding-top: 22px;
+				padding-bottom: 22px;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+		}
+
+		.lang {
+			button {
+				padding-top: 18px;
+				padding-bottom: 18px;
+				padding-right: 15px;
+				padding-left: 15px;
+			}
+		}
 	}
 
 
@@ -128,9 +146,6 @@ ul {
 			}
 
 			ul {
-				li {
-					line-height: 15px;
-				}
 
 				@include md {
 					// display: grid;
@@ -432,6 +447,7 @@ ul {
 	
 			.cakeinfo {
 				text-align: center;
+				line-height: 30px;
 	
 				@include md {
 					grid-column: 1 / 1;
@@ -461,6 +477,7 @@ ul {
 				
 				button {
 					margin-top:  32px;
+					padding: 10px;
 				}
 	
 				@include md {
@@ -588,6 +605,10 @@ ul {
 
 			button {
 				margin-top: 32px;
+				padding-top: 7px;
+				padding-bottom: 7px;
+				padding-left: 28px;
+				padding-right: 28px;
 	
 				@include md {
 					margin-top: 48px;
@@ -609,6 +630,7 @@ ul {
 		h1 {
 			text-align: center;
 			margin-bottom: 16px;
+			margin-top: 32px;
 
 			@include md {
 				margin-top: 24px;
@@ -669,6 +691,10 @@ ul {
 		.viewgallery {
 			margin-top: 32px;
 			margin-left: 190px;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			padding-right: 10px;
+			padding-left: 10px;
 
 			@include md {
 				margin-top: 140px;
@@ -734,6 +760,10 @@ ul {
 	
 					button {
 						margin-top: 32px;
+						padding-top: 7px;
+						padding-bottom: 7px;
+						padding-right: 3px;
+						padding-left: 3px;
 					}
 				}
 			}
@@ -770,6 +800,10 @@ ul {
 	
 					button {
 						margin-top: 32px;
+						padding-top: 7px;
+						padding-bottom: 7px;
+						padding-right: 3px;
+						padding-left: 3px;
 	
 						@include md {
 							margin-top: 48px;
@@ -814,6 +848,10 @@ ul {
 	
 					button {
 						margin-top: 32px;
+						padding-top: 7px;
+						padding-bottom: 7px;
+						padding-right: 3px;
+						padding-left: 3px;
 	
 						@include lg {
 							margin-top: 14px;
@@ -941,6 +979,13 @@ ul {
 			}
 		}
 
+		button {
+			padding-top: 8px;
+			padding-bottom: 8px;
+			padding-right: 8px;
+			padding-left: 8px;
+		}
+
 		.work {
 			margin-top: 32px;
 
@@ -954,6 +999,10 @@ ul {
 
 			button {
 				margin-top: 32px;
+				padding-top: 8px;
+				padding-bottom: 8px;
+				padding-right: 8px;
+				padding-left: 8px;
 
 				@include md {
 					margin-top: 48px;
@@ -985,10 +1034,12 @@ ul {
 			grid-template-columns: 80px 10px;
 			align-items: center;
 			justify-content: center;
+			grid-gap: 15px;
 		}
 
 		h1 {
 			margin-bottom: 16px;
+			padding-top: 32px;
 
 			@include md {
 				text-align: center;
@@ -997,6 +1048,8 @@ ul {
 		}
 
 		.shoparrow {
+			padding-top: 25px;
+
 			@include md {
 				display: none;
 			}
@@ -1067,6 +1120,7 @@ ul {
 		.mobileshoptext {
 			text-align: center;
 			margin-top: 16px;
+			line-height: 35px;
 
 			@include md {
 				margin-top: 24px;
@@ -1273,7 +1327,12 @@ ul {
 			}
 
 			button {
-				height: 26px;
+				// height: 26px;
+				padding-top: 9px;
+				padding-bottom: 9px;
+				padding-right: 7px;
+				padding-left: 7px;
+				margin-left: 10px;
 			}
 		}
 

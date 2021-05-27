@@ -1,0 +1,49 @@
+.contact {
+    h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .name {
+        font-size: 15px;
+
+        input {
+            border: $forbiddenfruit solid 4px;
+        }
+    }
+
+    .email {
+        font-size: 15px;
+
+        input {
+            border: $forbiddenfruit solid 4px;
+        }
+    }
+
+    .questions {
+        h3 {
+            font-size: 25px;
+            font-weight: 400;
+        }
+
+        input {
+            border: $forbiddenfruit solid 4px;
+        }
+    }
+
+    button {
+        background-color: $forbiddenfruit;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+
+    .work {
+        font-size: 25px;
+    }
+}

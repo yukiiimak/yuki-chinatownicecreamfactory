@@ -1,4 +1,9 @@
 .ourstory {
+    h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
     .story1 {
         background: url("../images/OurStory1.jpg");
         background-repeat: no-repeat;
@@ -38,6 +43,17 @@
         @include lg {
             width: 380px;
             height: 310px;
+        }
+    }
+
+    .storyinfo {
+        font-size: 25px;
+
+        button {
+            font-size: 15px;
+            color: white;
+            background-color: $forbiddenfruit;
+            border: none;
         }
     }
 }
