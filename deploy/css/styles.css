@@ -1622,6 +1622,111 @@ p {
   font-weight: 300;
 }
 
+.nav button {
+  font-family: century-gothic, sans-serif;
+}
+.nav ul {
+  font-family: century-gothic, sans-serif;
+}
+
+.hero h1 {
+  font-family: century-gothic, sans-serif;
+}
+
+.icecream h1 {
+  font-family: ltc-bodoni-175, serif;
+}
+.icecream h2 {
+  font-family: century-gothic, sans-serif;
+}
+.icecream ul {
+  font-family: century-gothic, sans-serif;
+}
+.icecream .cakeinfo {
+  font-family: century-gothic, sans-serif;
+}
+.icecream .customcakes {
+  font-family: century-gothic, sans-serif;
+}
+
+.ourstory h1 {
+  font-family: ltc-bodoni-175, serif;
+}
+.ourstory .storyinfo {
+  font-family: century-gothic, sans-serif;
+}
+
+.spotlight h1 {
+  font-family: ltc-bodoni-175, serif;
+}
+.spotlight .viewgallery {
+  font-family: century-gothic, sans-serif;
+}
+.spotlight .ptcspotlight {
+  font-family: century-gothic, sans-serif;
+}
+
+.contact h1 {
+  font-family: ltc-bodoni-175, serif;
+}
+.contact h2 {
+  font-family: century-gothic, sans-serif;
+}
+.contact h3 {
+  font-family: century-gothic, sans-serif;
+}
+.contact .name {
+  font-family: century-gothic, sans-serif;
+}
+.contact .email {
+  font-family: century-gothic, sans-serif;
+}
+.contact button {
+  font-family: century-gothic, sans-serif;
+}
+.contact .work {
+  font-family: century-gothic, sans-serif;
+}
+
+.shop h1 {
+  font-family: ltc-bodoni-175, serif;
+}
+.shop h3 {
+  font-family: century-gothic, sans-serif;
+}
+.shop .links {
+  font-family: century-gothic, sans-serif;
+}
+.shop .mobileshoptext {
+  font-family: century-gothic, sans-serif;
+}
+.shop .shoptext {
+  font-family: century-gothic, sans-serif;
+}
+
+.hourslocations h1 {
+  font-family: ltc-bodoni-175, serif;
+}
+.hourslocations .chinatown {
+  font-family: century-gothic, sans-serif;
+}
+.hourslocations .flushing {
+  font-family: century-gothic, sans-serif;
+}
+.hourslocations .les {
+  font-family: century-gothic, sans-serif;
+}
+
+.footer h4 {
+  font-family: century-gothic, sans-serif;
+}
+.footer .email {
+  font-family: century-gothic, sans-serif;
+}
+.footer .misclinks {
+  font-family: century-gothic, sans-serif;
+}
+
 .hero .heroimg {
   background: url("../images/Hero.jpg");
   background-repeat: no-repeat;
