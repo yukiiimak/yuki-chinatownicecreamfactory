@@ -1733,6 +1733,18 @@ p {
   font-family: century-gothic, sans-serif;
 }
 
+.nav {
+  background-color: #FFFB72;
+}
+.nav .firstbutton button {
+  background-color: #9DEE8D;
+  border: none;
+}
+.nav .lang button {
+  background-color: #FFFB72;
+  border: #9DEE8D 4px solid;
+}
+
 .hero .heroimg {
   background: url("../images/Hero.jpg");
   background-repeat: no-repeat;

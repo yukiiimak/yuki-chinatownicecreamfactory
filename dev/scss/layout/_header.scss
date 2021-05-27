@@ -1,0 +1,17 @@
+.nav {
+    background-color: $butteryellow;
+    
+
+    .firstbutton {
+        button {
+            background-color: $lightgreen;
+            border: none;
+        }
+    }
+    .lang {
+        button {
+            background-color: $butteryellow;
+            border: $lightgreen 4px solid;
+        }
+    }
+}
