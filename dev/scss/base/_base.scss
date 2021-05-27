@@ -49,6 +49,10 @@ ul {
 			align-items: flex-end;
 			justify-content: center;
 		}
+
+		h1 {
+			padding-bottom: 6px;
+		}
 	}
 
 	.icecream {
@@ -124,6 +128,10 @@ ul {
 			}
 
 			ul {
+				li {
+					line-height: 15px;
+				}
+
 				@include md {
 					// display: grid;
 					// grid-template-columns: repeat(2, 1fr);

@@ -387,6 +387,9 @@ ul li {
   align-items: flex-end;
   justify-content: center;
 }
+.content .hero h1 {
+  padding-bottom: 6px;
+}
 .content .icecream {
   grid-area: icecream;
   margin-top: 48px;
@@ -457,6 +460,9 @@ ul li {
   .content .icecream .regular .mobilehide {
     display: grid;
   }
+}
+.content .icecream .regular ul li {
+  line-height: 15px;
 }
 @media (min-width: 768px) {
   .content .icecream .regular ul {
@@ -1733,6 +1739,11 @@ p {
   background-size: cover;
   width: 100%;
   height: 500px;
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
 }
 
 .icecream .regularimg {
