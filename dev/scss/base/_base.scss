@@ -78,7 +78,17 @@ ul {
 		margin-top: 48px;
 		padding-bottom: 32px;
 
-		// target the ul for tablet onward
+		@include md {
+			margin-top: 80px;
+		}
+
+		@include lg {
+			margin-top: 112px;
+		}
+
+		@include xl {
+			margin-top: 128px;
+		}
 
 		h1 {
 			text-align: center;
@@ -114,6 +124,11 @@ ul {
 			@include lg {
 				grid-template-rows: repeat(2, 1fr);
 				grid-template-columns: none;
+			}
+
+			@include xl {
+				padding-right: 250px;
+				padding-left: 250px;
 			}
 
 			.mobiledisplay {
@@ -230,6 +245,11 @@ ul {
 				grid-template-rows: repeat(2, 1fr);
 			}
 
+			@include xl {
+				padding-right: 250px;
+				padding-left: 250px;
+			}
+
 			.mobiledisplay {
 				display: flex;
 				justify-content: center;
@@ -332,6 +352,11 @@ ul {
 				grid-template-rows: repeat(2, 1fr);
 			}
 
+			@include xl {
+				padding-right: 250px;
+				padding-left: 250px;
+			}
+
 			.mobiledisplay {
 				display: flex;
 				justify-content: center;
@@ -431,6 +456,11 @@ ul {
 				grid-template-columns: 530px auto;
 			}
 
+			@include xl {
+				padding-right: 250px;
+				padding-left: 250px;
+			}
+
 			.cakeimg {
 				display: grid;
 				grid-template-columns: 100px 100px 100px;
@@ -504,6 +534,13 @@ ul {
 		@include lg {
 			display: grid;
 			grid-template-columns: 450px auto;
+			margin-top: 112px;
+		}
+
+		@include xl {
+			padding-right: 250px;
+			padding-left: 250px;
+			margin-top: 128px;
 		}
 
 		h1 {
@@ -627,6 +664,14 @@ ul {
 			margin-top: 80px;
 		}
 
+		@include lg {
+			margin-top: 112px;
+		}
+
+		@include xl {
+			margin-top: 128px;
+		}
+
 		h1 {
 			text-align: center;
 			margin-bottom: 16px;
@@ -651,13 +696,11 @@ ul {
 			@include lg {
 				display: grid;
 				grid-template-columns: repeat(3, 1fr);
-				grid-template-rows: 1100px 200px;
 			}
 
 			@include xl {
 				display: grid;
 				grid-template-columns: repeat(3, 1fr);
-				grid-template-rows: 1700px 500px;
 			}
 
 			.video {
@@ -702,12 +745,13 @@ ul {
 			}
 
 			@include lg {
-				margin-top: 160px;
 				margin-left: 500px;
+				margin-top: 70px;
 			}
 
 			@include xl {
 				margin-left: 700px;
+				margin-top: 250px;
 			}
 		}
 
@@ -720,12 +764,13 @@ ul {
 			@include lg {
 				display: grid;
 				grid-template-columns: 300px 300px 300px;
-				grid-template-rows: 550px;
 			}
 
 			@include xl {
 				grid-template-columns: 350px 350px 350px;
-				grid-template-rows: 1070px;
+				grid-template-rows: 1200px;
+				padding-right: 48px;
+				padding-left: 48px;
 			}
 
 			.press {
@@ -746,7 +791,7 @@ ul {
 	
 				@include lg {
 					grid-template-columns: 300px;
-					grid-template-rows: 520px;
+					grid-template-rows: 505px;
 				}
 	
 				@include xl {
@@ -786,7 +831,7 @@ ul {
 	
 				@include lg {
 					grid-template-columns: 300px;
-					grid-template-rows: 520px;
+					grid-template-rows: 535px;
 				}
 	
 				@include xl {
@@ -811,6 +856,10 @@ ul {
 	
 						@include lg {
 							margin-top: 32px;
+						}
+
+						@include xl {
+							margin-top: 35px;
 						}
 					}
 				}
@@ -858,7 +907,7 @@ ul {
 						}
 	
 						@include xl {
-							margin-top: 32px;
+							margin-top: 18px;
 						}
 					}
 				}
@@ -876,11 +925,11 @@ ul {
 		}
 
 		@include lg {
-			margin-top: 200px;
+			margin-top: 112px;
 		}
 
 		@include xl {
-			margin-top: 1745px;
+			margin-top: 128px;
 		}
 
 		h2 {
@@ -1161,6 +1210,11 @@ ul {
 				margin-right: 40px;
 				justify-content: center;
 			}
+
+			@include xl {
+				padding-right: 250px;
+				padding-left: 250px;
+			}
 		}
 	}
 
@@ -1179,6 +1233,8 @@ ul {
 
 		@include xl {
 			margin-top: 128px;
+			padding-left: 250px;
+			padding-right: 250px;
 		}
 
 		h1 {
@@ -1264,12 +1320,12 @@ ul {
 
 			.chinatown {
 				grid-row: 2 / 2;
-				border-right: solid 2px black;
+				border-right: solid 3px black;
 			}
 
 			.flushing {
 				grid-row: 2 / 2;
-				border-right: solid 2px black;
+				border-right: solid 3px black;
 			}
 
 			.les {
@@ -1341,6 +1397,11 @@ ul {
 					padding-bottom: 7px;
 					padding-right: 17px;
 					padding-left: 17px;
+				}
+
+				@include lg {
+					padding-top: 4px;
+					padding-bottom: 4px;
 				}
 			}
 		}

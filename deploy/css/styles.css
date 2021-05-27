@@ -407,6 +407,21 @@ ul li {
   margin-top: 48px;
   padding-bottom: 32px;
 }
+@media (min-width: 768px) {
+  .content .icecream {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream {
+    margin-top: 112px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .icecream {
+    margin-top: 128px;
+  }
+}
 .content .icecream h1 {
   text-align: center;
   margin-top: 32px;
@@ -442,6 +457,12 @@ ul li {
   .content .icecream .regular {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: none;
+  }
+}
+@media (min-width: 1200px) {
+  .content .icecream .regular {
+    padding-right: 250px;
+    padding-left: 250px;
   }
 }
 .content .icecream .regular .mobiledisplay {
@@ -545,6 +566,12 @@ ul li {
     grid-template-rows: repeat(2, 1fr);
   }
 }
+@media (min-width: 1200px) {
+  .content .icecream .exotic {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
 .content .icecream .exotic .mobiledisplay {
   display: flex;
   justify-content: center;
@@ -641,6 +668,12 @@ ul li {
     grid-template-rows: repeat(2, 1fr);
   }
 }
+@media (min-width: 1200px) {
+  .content .icecream .special {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
 .content .icecream .special .mobiledisplay {
   display: flex;
   justify-content: center;
@@ -729,6 +762,12 @@ ul li {
     grid-template-columns: 530px auto;
   }
 }
+@media (min-width: 1200px) {
+  .content .icecream .cakes {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
 .content .icecream .cakes .cakeimg {
   display: grid;
   grid-template-columns: 100px 100px 100px;
@@ -796,6 +835,14 @@ ul li {
   .content .ourstory {
     display: grid;
     grid-template-columns: 450px auto;
+    margin-top: 112px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .ourstory {
+    padding-right: 250px;
+    padding-left: 250px;
+    margin-top: 128px;
   }
 }
 .content .ourstory h1 {
@@ -923,6 +970,16 @@ ul li {
     margin-top: 80px;
   }
 }
+@media (min-width: 1024px) {
+  .content .spotlight {
+    margin-top: 112px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .spotlight {
+    margin-top: 128px;
+  }
+}
 .content .spotlight h1 {
   text-align: center;
   margin-bottom: 16px;
@@ -949,14 +1006,12 @@ ul li {
   .content .spotlight .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1100px 200px;
   }
 }
 @media (min-width: 1200px) {
   .content .spotlight .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1700px 500px;
   }
 }
 .content .spotlight .gallery .video {
@@ -999,13 +1054,14 @@ ul li {
 }
 @media (min-width: 1024px) {
   .content .spotlight .viewgallery {
-    margin-top: 160px;
     margin-left: 500px;
+    margin-top: 70px;
   }
 }
 @media (min-width: 1200px) {
   .content .spotlight .viewgallery {
     margin-left: 700px;
+    margin-top: 250px;
   }
 }
 @media (min-width: 768px) {
@@ -1018,13 +1074,14 @@ ul li {
   .content .spotlight .ptcspotlight {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 550px;
   }
 }
 @media (min-width: 1200px) {
   .content .spotlight .ptcspotlight {
     grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 1070px;
+    grid-template-rows: 1200px;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 .content .spotlight .ptcspotlight .press {
@@ -1047,7 +1104,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .spotlight .ptcspotlight .press {
     grid-template-columns: 300px;
-    grid-template-rows: 520px;
+    grid-template-rows: 505px;
   }
 }
 @media (min-width: 1200px) {
@@ -1087,7 +1144,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .spotlight .ptcspotlight .thanks {
     grid-template-columns: 300px;
-    grid-template-rows: 520px;
+    grid-template-rows: 535px;
   }
 }
 @media (min-width: 1200px) {
@@ -1115,6 +1172,11 @@ ul li {
 @media (min-width: 1024px) {
   .content .spotlight .ptcspotlight .thanks .thanksinfo button {
     margin-top: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .spotlight .ptcspotlight .thanks .thanksinfo button {
+    margin-top: 35px;
   }
 }
 .content .spotlight .ptcspotlight .community {
@@ -1164,7 +1226,7 @@ ul li {
 }
 @media (min-width: 1200px) {
   .content .spotlight .ptcspotlight .community .communityinfo button {
-    margin-top: 32px;
+    margin-top: 18px;
   }
 }
 .content .contact {
@@ -1178,12 +1240,12 @@ ul li {
 }
 @media (min-width: 1024px) {
   .content .contact {
-    margin-top: 200px;
+    margin-top: 112px;
   }
 }
 @media (min-width: 1200px) {
   .content .contact {
-    margin-top: 1745px;
+    margin-top: 128px;
   }
 }
 .content .contact h2 {
@@ -1446,6 +1508,12 @@ ul li {
     justify-content: center;
   }
 }
+@media (min-width: 1200px) {
+  .content .shop .feature {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
 .content .hourslocations {
   grid-area: hourslocations;
   text-align: center;
@@ -1464,6 +1532,8 @@ ul li {
 @media (min-width: 1200px) {
   .content .hourslocations {
     margin-top: 128px;
+    padding-left: 250px;
+    padding-right: 250px;
   }
 }
 .content .hourslocations h1 {
@@ -1543,11 +1613,11 @@ ul li {
   }
   .content .hourslocations .chinatown {
     grid-row: 2/2;
-    border-right: solid 2px black;
+    border-right: solid 3px black;
   }
   .content .hourslocations .flushing {
     grid-row: 2/2;
-    border-right: solid 2px black;
+    border-right: solid 3px black;
   }
   .content .hourslocations .les {
     grid-row: 2/2;
@@ -1619,6 +1689,12 @@ ul li {
     padding-bottom: 7px;
     padding-right: 17px;
     padding-left: 17px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .footer .email button {
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
 }
 .content .footer .misclinks {
@@ -1811,6 +1887,11 @@ p {
     color: black;
   }
 }
+@media (min-width: 768px) and (min-width: 1024px) {
+  .nav li a {
+    font-size: 20px;
+  }
+}
 
 .hero .heroimg {
   background: url("../images/Hero.jpg");
@@ -1852,6 +1933,11 @@ p {
     font-size: 60px;
   }
 }
+@media (min-width: 1024px) {
+  .icecream h1 {
+    font-size: 80px;
+  }
+}
 .icecream h2 {
   font-size: 30px;
   font-weight: 400;
@@ -1859,6 +1945,11 @@ p {
 @media (min-width: 768px) {
   .icecream h2 {
     font-size: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .icecream h2 {
+    font-size: 50px;
   }
 }
 .icecream .arrow a {
@@ -1871,6 +1962,11 @@ p {
 @media (min-width: 768px) {
   .icecream li {
     font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .icecream li {
+    font-size: 30px;
   }
 }
 .icecream .regularimg {
@@ -1949,12 +2045,22 @@ p {
     font-size: 28px;
   }
 }
+@media (min-width: 1024px) {
+  .icecream .sigcakes {
+    font-size: 30px;
+  }
+}
 .icecream .neapolitan {
   font-size: 20px;
 }
 @media (min-width: 768px) {
   .icecream .neapolitan {
     font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .icecream .neapolitan {
+    font-size: 30px;
   }
 }
 .icecream .cakesubhead {
@@ -1966,12 +2072,22 @@ p {
     font-size: 28px;
   }
 }
+@media (min-width: 1024px) {
+  .icecream .cakesubhead {
+    font-size: 30px;
+  }
+}
 .icecream .customcakes {
   font-size: 25px;
 }
 @media (min-width: 768px) {
   .icecream .customcakes {
     font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .icecream .customcakes {
+    font-size: 30px;
   }
 }
 .icecream .customcakes button {
@@ -1984,6 +2100,11 @@ p {
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .icecream .customcakes button {
+    font-size: 25px;
+  }
+}
 
 .ourstory h1 {
   font-size: 40px;
@@ -1992,6 +2113,11 @@ p {
 @media (min-width: 768px) {
   .ourstory h1 {
     font-size: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .ourstory h1 {
+    font-size: 80px;
   }
 }
 .ourstory .story1 {
@@ -2046,6 +2172,11 @@ p {
     font-size: 28px;
   }
 }
+@media (min-width: 1024px) {
+  .ourstory .storyinfo {
+    font-size: 30px;
+  }
+}
 .ourstory .storyinfo button {
   font-size: 15px;
   color: white;
@@ -2055,6 +2186,11 @@ p {
 @media (min-width: 768px) {
   .ourstory .storyinfo button {
     font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .ourstory .storyinfo button {
+    font-size: 25px;
   }
 }
 
@@ -2070,6 +2206,11 @@ p {
     font-size: 60px;
   }
 }
+@media (min-width: 1024px) {
+  .spotlight h1 {
+    font-size: 80px;
+  }
+}
 .spotlight .video {
   background: url("../images/Video.jpg");
   background-repeat: no-repeat;
@@ -2078,7 +2219,6 @@ p {
 @media (min-width: 1200px) {
   .spotlight {
     width: 100%;
-    height: 1700px;
   }
 }
 .spotlight .gallery1 {
@@ -2146,12 +2286,22 @@ p {
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .spotlight .viewgallery {
+    font-size: 25px;
+  }
+}
 .spotlight .pressinfo {
   font-size: 25px;
 }
 @media (min-width: 768px) {
   .spotlight .pressinfo {
     font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .spotlight .pressinfo {
+    font-size: 30px;
   }
 }
 .spotlight .pressinfo button {
@@ -2162,6 +2312,11 @@ p {
 @media (min-width: 768px) {
   .spotlight .pressinfo button {
     font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .spotlight .pressinfo button {
+    font-size: 25px;
   }
 }
 .spotlight .pressimg {
@@ -2192,6 +2347,11 @@ p {
     font-size: 28px;
   }
 }
+@media (min-width: 1024px) {
+  .spotlight .thanksinfo {
+    font-size: 30px;
+  }
+}
 .spotlight .thanksinfo button {
   font-size: 15px;
   background-color: #9DEE8D;
@@ -2200,6 +2360,11 @@ p {
 @media (min-width: 768px) {
   .spotlight .thanksinfo button {
     font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .spotlight .thanksinfo button {
+    font-size: 25px;
   }
 }
 .spotlight .thanksimg {
@@ -2230,6 +2395,11 @@ p {
     font-size: 28px;
   }
 }
+@media (min-width: 1024px) {
+  .spotlight .communityinfo {
+    font-size: 30px;
+  }
+}
 .spotlight .communityinfo button {
   font-size: 15px;
   background-color: #9DEE8D;
@@ -2238,6 +2408,11 @@ p {
 @media (min-width: 768px) {
   .spotlight .communityinfo button {
     font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .spotlight .communityinfo button {
+    font-size: 25px;
   }
 }
 .spotlight .communityimg {
@@ -2270,6 +2445,11 @@ p {
     font-size: 60px;
   }
 }
+@media (min-width: 1024px) {
+  .contact h1 {
+    font-size: 80px;
+  }
+}
 .contact h2 {
   font-size: 30px;
   font-weight: 400;
@@ -2277,6 +2457,11 @@ p {
 @media (min-width: 768px) {
   .contact h2 {
     font-size: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .contact h2 {
+    font-size: 50px;
   }
 }
 .contact .name {
@@ -2287,11 +2472,26 @@ p {
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .contact .name {
+    font-size: 25px;
+  }
+}
 .contact .name input {
   border: #FF8A8A solid 4px;
 }
 .contact .email {
   font-size: 15px;
+}
+@media (min-width: 768px) {
+  .contact .email {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .contact .email {
+    font-size: 25px;
+  }
 }
 .contact .email input {
   border: #FF8A8A solid 4px;
@@ -2319,8 +2519,23 @@ p {
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .contact button {
+    font-size: 25px;
+  }
+}
 .contact .work {
   font-size: 25px;
+}
+@media (min-width: 768px) {
+  .contact .work {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .contact .work {
+    font-size: 30px;
+  }
 }
 
 .shop {
@@ -2333,6 +2548,11 @@ p {
 @media (min-width: 768px) {
   .shop .title h1 {
     font-size: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .title h1 {
+    font-size: 80px;
   }
 }
 .shop .title .shoparrow a {
@@ -2358,6 +2578,11 @@ p {
     font-size: 28px;
   }
 }
+@media (min-width: 1024px) {
+  .shop h3 {
+    font-size: 30px;
+  }
+}
 .shop .mobileshop .mobileshoparrowleft {
   color: black;
 }
@@ -2372,9 +2597,19 @@ p {
     font-size: 28px;
   }
 }
+@media (min-width: 1024px) {
+  .shop .mobileshoptext {
+    font-size: 30px;
+  }
+}
 @media (min-width: 768px) {
   .shop .shoptext {
     font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .shoptext {
+    font-size: 30px;
   }
 }
 .shop .masks {
@@ -2489,6 +2724,11 @@ p {
     font-size: 60px;
   }
 }
+@media (min-width: 1024px) {
+  .hourslocations h1 {
+    font-size: 80px;
+  }
+}
 .hourslocations h2 {
   font-size: 30px;
   font-weight: 400;
@@ -2496,6 +2736,11 @@ p {
 @media (min-width: 768px) {
   .hourslocations h2 {
     font-size: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .hourslocations h2 {
+    font-size: 50px;
   }
 }
 .hourslocations .chinatown {
@@ -2506,12 +2751,22 @@ p {
     font-size: 28px;
   }
 }
+@media (min-width: 1024px) {
+  .hourslocations .chinatown {
+    font-size: 30px;
+  }
+}
 .hourslocations .flushing {
   font-size: 25px;
 }
 @media (min-width: 768px) {
   .hourslocations .flushing {
     font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .hourslocations .flushing {
+    font-size: 30px;
   }
 }
 .hourslocations .flushing h4 {
@@ -2523,12 +2778,22 @@ p {
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .hourslocations .flushing h4 {
+    font-size: 25px;
+  }
+}
 .hourslocations .les {
   font-size: 25px;
 }
 @media (min-width: 768px) {
   .hourslocations .les {
     font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .hourslocations .les {
+    font-size: 30px;
   }
 }
 .hourslocations .les h4 {
@@ -2538,6 +2803,11 @@ p {
 @media (min-width: 768px) {
   .hourslocations .les h4 {
     font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .hourslocations .les h4 {
+    font-size: 25px;
   }
 }
 .hourslocations a {
@@ -2568,12 +2838,22 @@ p {
     font-size: 15px;
   }
 }
+@media (min-width: 1024px) {
+  .footer h4 {
+    font-size: 20px;
+  }
+}
 .footer .email form {
   font-size: 10px;
 }
 @media (min-width: 768px) {
   .footer .email form {
     font-size: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer .email form {
+    font-size: 20px;
   }
 }
 .footer .email form input {
@@ -2593,5 +2873,10 @@ p {
 @media (min-width: 768px) {
   .footer .misclinks {
     font-size: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer .misclinks {
+    font-size: 20px;
   }
 }

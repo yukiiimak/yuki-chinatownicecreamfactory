@@ -29,6 +29,10 @@
                 font-size: 15px;
                 text-decoration: none;
                 color: black;
+
+                @include lg {
+                    font-size: 20px;
+                }
             }
         }
     }
