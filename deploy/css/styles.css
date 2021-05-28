@@ -2566,7 +2566,12 @@ p {
 }
 @media (min-width: 768px) {
   .shop .links a {
-    font-size: 25px;
+    font-size: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .shop .links a {
+    font-size: 50px;
   }
 }
 .shop h3 {

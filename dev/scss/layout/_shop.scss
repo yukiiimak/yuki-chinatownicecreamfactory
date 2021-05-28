@@ -30,7 +30,11 @@
             color: black;
 
             @include md {
-                font-size: 25px;
+                font-size: 35px;
+            }
+
+            @include lg {
+                font-size: 50px;
             }
         }
     }
