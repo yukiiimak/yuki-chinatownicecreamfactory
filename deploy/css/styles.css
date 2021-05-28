@@ -1860,7 +1860,7 @@ p {
 }
 
 .nav {
-  background-color: #FFFB72;
+  background-color: #fcfac0;
 }
 .nav .firstbutton button {
   background-color: #9DEE8D;
@@ -1872,7 +1872,7 @@ p {
   }
 }
 .nav .lang button {
-  background-color: #FFFB72;
+  background-color: #fcfac0;
   border: #9DEE8D 4px solid;
 }
 @media (min-width: 768px) {
@@ -1922,7 +1922,7 @@ p {
 }
 
 .icecream {
-  background-color: #FFFB72;
+  background-color: #fcfac0;
 }
 .icecream h1 {
   font-size: 40px;
@@ -2195,7 +2195,7 @@ p {
 }
 
 .spotlight {
-  background-color: #FFFB72;
+  background-color: #fcfac0;
 }
 .spotlight h1 {
   font-size: 40px;
@@ -2539,7 +2539,7 @@ p {
 }
 
 .shop {
-  background-color: #FFFB72;
+  background-color: #fcfac0;
 }
 .shop .title h1 {
   font-size: 40px;
