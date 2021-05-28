@@ -1614,6 +1614,7 @@ ul li {
   .content .hourslocations .chinatown {
     grid-row: 2/2;
     border-right: solid 3px black;
+    padding-right: 10px;
   }
   .content .hourslocations .flushing {
     grid-row: 2/2;
