@@ -2871,6 +2871,9 @@ p {
   border: none;
   color: #FF8A8A;
 }
+.footer .email form ::placeholder {
+  color: white;
+}
 .footer .misclinks {
   font-size: 10px;
   color: white;

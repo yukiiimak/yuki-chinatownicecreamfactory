@@ -47,6 +47,10 @@
                 border: none;
                 color: $forbiddenfruit;
             }
+
+            ::placeholder {
+                color: white;
+            }
         }
     }
 
