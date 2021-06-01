@@ -366,7 +366,6 @@ ul li {
 }
 
 .content {
-  display: grid;
   grid-template-areas: "header" "hero" "icecream" "ourstory" "spotlight" "contact" "shop" "hourslocations" "footer";
 }
 .content .nav {
@@ -424,8 +423,13 @@ ul li {
 }
 .content .icecream h1 {
   text-align: center;
-  margin-top: 32px;
+  padding-top: 32px;
   margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  .content .icecream h1 {
+    padding-top: 48px;
+  }
 }
 .content .icecream .regular {
   margin-bottom: 32px;
@@ -445,6 +449,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .icecream .regular h2 {
     grid-row: 1/1;
+    margin-top: 150px;
   }
 }
 @media (min-width: 768px) {
@@ -508,6 +513,8 @@ ul li {
   .content .icecream .regular ul {
     column-count: 3;
     column-gap: 100px;
+    grid-gap: 250px;
+    margin-left: 20px;
   }
   .content .icecream .regular ul li {
     display: inline-block;
@@ -518,6 +525,12 @@ ul li {
   display: flex;
   justify-content: center;
   order: 3;
+}
+@media (min-width: 1024px) {
+  .content .icecream .regular .flavors {
+    display: grid;
+    grid-column: span 3;
+  }
 }
 .content .icecream .regular .regularimg {
   display: grid;
@@ -552,17 +565,19 @@ ul li {
 @media (min-width: 1024px) {
   .content .icecream .exotic h2 {
     grid-row: 1/1;
+    margin-top: 200px;
   }
 }
 @media (min-width: 768px) {
   .content .icecream .exotic {
     display: grid;
     grid-template-columns: 530px auto;
+    grid-template-rows: 70px;
   }
 }
 @media (min-width: 1024px) {
   .content .icecream .exotic {
-    grid-template-columns: none;
+    grid-template-columns: 530px 200px;
     grid-template-rows: repeat(2, 1fr);
   }
 }
@@ -616,6 +631,7 @@ ul li {
     column-count: 3;
     column-gap: 100px;
     margin-left: 20px;
+    grid-gap: 250px;
   }
   .content .icecream .exotic ul li {
     display: inline-block;
@@ -626,6 +642,17 @@ ul li {
   display: flex;
   justify-content: center;
   order: 3;
+}
+@media (min-width: 768px) {
+  .content .icecream .exotic .flavors {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream .exotic .flavors {
+    display: grid;
+    grid-column: span 3;
+  }
 }
 .content .icecream .exotic .exoticimg {
   display: grid;
@@ -639,6 +666,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .icecream .exotic .exoticimg {
     grid-row: 1/1;
+    margin-left: 170px;
   }
 }
 .content .icecream .special {
@@ -654,6 +682,11 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .special h2 {
     grid-column: 2/2;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream .special h2 {
+    margin-top: 150px;
   }
 }
 @media (min-width: 768px) {
@@ -717,6 +750,8 @@ ul li {
   .content .icecream .special ul {
     column-count: 3;
     column-gap: 100px;
+    grid-gap: 200px;
+    margin-left: 20px;
   }
   .content .icecream .special ul li {
     display: inline-block;
@@ -727,6 +762,12 @@ ul li {
   display: flex;
   justify-content: center;
   order: 3;
+}
+@media (min-width: 1024px) {
+  .content .icecream .special .flavors {
+    display: grid;
+    grid-column: span 3;
+  }
 }
 .content .icecream .special .specialimg {
   display: grid;
@@ -756,10 +797,21 @@ ul li {
   text-align: center;
   margin-bottom: 16px;
 }
+@media (min-width: 1024px) {
+  .content .icecream .cakes h2 {
+    margin-top: 220px;
+  }
+}
 @media (min-width: 768px) {
   .content .icecream .cakes {
     display: grid;
     grid-template-columns: 530px auto;
+    grid-template-rows: 70px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream .cakes {
+    grid-template-columns: 620px 550px;
   }
 }
 @media (min-width: 1200px) {
@@ -791,6 +843,12 @@ ul li {
     grid-column: 1/1;
     text-align: left;
     margin-left: 20px;
+    grid-template-rows: 70px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream .cakes .cakeinfo {
+    margin-top: 400px;
   }
 }
 @media (min-width: 768px) {
@@ -818,6 +876,12 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .cakes .customcakes {
     justify-content: center;
+    margin-top: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .icecream .cakes .customcakes {
+    padding-top: 50px;
   }
 }
 .content .ourstory {
@@ -983,11 +1047,11 @@ ul li {
 .content .spotlight h1 {
   text-align: center;
   margin-bottom: 16px;
-  margin-top: 32px;
+  padding-top: 32px;
 }
 @media (min-width: 768px) {
   .content .spotlight h1 {
-    margin-top: 24px;
+    padding-top: 48px;
   }
 }
 .content .spotlight .gallery {
@@ -1622,6 +1686,7 @@ ul li {
   }
   .content .hourslocations .les {
     grid-row: 2/2;
+    padding-left: 10px;
   }
   .content .hourslocations hr {
     display: none;

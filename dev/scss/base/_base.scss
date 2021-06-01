@@ -24,7 +24,7 @@ ul {
 //                     Our Story section (the text is not centering and it is adding another row for the title)
 
 .content {
-	display: grid;
+	// display: grid;
 	grid-template-areas: 
 		"header"
 		"hero"
@@ -100,8 +100,12 @@ ul {
 
 		h1 {
 			text-align: center;
-			margin-top: 32px;
+			padding-top: 32px;
 			margin-bottom: 16px;
+
+			@include md {
+				padding-top: 48px;
+			}
 		}
 
 		.regular {
@@ -120,6 +124,7 @@ ul {
 
 				@include lg {
 					grid-row: 1 / 1;
+					margin-top: 150px;
 				}
 			}
 
@@ -188,6 +193,8 @@ ul {
 				@include lg {
 					column-count: 3;
 					column-gap: 100px;
+					grid-gap: 250px;
+					margin-left: 20px;
 
 					li {
 						display: inline-block;
@@ -205,6 +212,11 @@ ul {
 				// 	display: grid;
 				// 	grid-template-columns: repeat(2, 1fr);
 				// }
+
+				@include lg {
+					display: grid;
+					grid-column: span 3;
+				}
 			}
 
 			.regularimg {
@@ -240,16 +252,18 @@ ul {
 
 				@include lg {
 					grid-row: 1 / 1;
+					margin-top: 200px;
 				}
 			}
 
 			@include md {
 				display: grid;
 				grid-template-columns: 530px auto;
+				grid-template-rows: 70px;
 			}
 
 			@include lg {
-				grid-template-columns: none;
+				grid-template-columns: 530px 200px;
 				grid-template-rows: repeat(2, 1fr);
 			}
 
@@ -302,6 +316,7 @@ ul {
 					column-count: 3;
 					column-gap: 100px;
 					margin-left: 20px;
+					grid-gap: 250px;
 
 					li {
 						display: inline-block;
@@ -315,9 +330,18 @@ ul {
 				justify-content: center;
 				order: 3;
 
+				@include md {
+					margin-left: 20px;
+				}
+
 				// @include md {
 				// 	display: block;
 				// }
+
+				@include lg {
+					display: grid;
+					grid-column: span 3;
+				}
 			}
 
 			.exoticimg {
@@ -331,6 +355,7 @@ ul {
 
 				@include lg {
 					grid-row: 1 / 1;
+					margin-left: 170px;
 				}
 			}
 		}
@@ -347,6 +372,10 @@ ul {
 
 				@include md {
 					grid-column: 2 / 2;
+				}
+
+				@include lg {
+					margin-top: 150px;
 				}
 			}
 
@@ -408,6 +437,8 @@ ul {
 				@include lg {
 					column-count: 3;
 					column-gap: 100px;
+					grid-gap: 200px;
+					margin-left: 20px;
 
 					li {
 						display: inline-block;
@@ -424,6 +455,11 @@ ul {
 				// @include md {
 				// 	display: block;
 				// }
+
+				@include lg {
+					display: grid;
+					grid-column: span 3;
+				}
 			}
 
 			.specialimg {
@@ -457,11 +493,20 @@ ul {
 				// @include lg {
 				// 	justify-content: center;
 				// }
+
+				@include lg {
+					margin-top: 220px;
+				}
 			}
 
 			@include md {
 				display: grid;
 				grid-template-columns: 530px auto;
+				grid-template-rows: 70px;
+			}
+
+			@include lg {
+				grid-template-columns: 620px 550px;
 			}
 
 			@include xl {
@@ -491,6 +536,11 @@ ul {
 					grid-column: 1 / 1;
 					text-align: left;
 					margin-left: 20px;
+					grid-template-rows: 70px;
+				}
+
+				@include lg {
+					margin-top: 400px;
 				}
 			}
 
@@ -520,10 +570,11 @@ ul {
 	
 				@include md {
 					justify-content: center;
+					margin-top: 400px;
 				}
 
 				@include lg {
-
+					padding-top: 50px;
 				}
 			}
 		}
@@ -683,10 +734,10 @@ ul {
 		h1 {
 			text-align: center;
 			margin-bottom: 16px;
-			margin-top: 32px;
+			padding-top: 32px;
 
 			@include md {
-				margin-top: 24px;
+				padding-top: 48px;
 			}
 		}
 
@@ -1339,6 +1390,7 @@ ul {
 
 			.les {
 				grid-row: 2 / 2;
+				padding-left: 10px;
 			}
 
 			hr {
