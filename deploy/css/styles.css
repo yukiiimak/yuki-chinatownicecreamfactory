@@ -899,6 +899,7 @@ ul li {
   .content .ourstory {
     display: grid;
     grid-template-columns: 450px auto;
+    grid-template-rows: 200px 300px 300px 200px;
     margin-top: 112px;
   }
 }
@@ -922,6 +923,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .ourstory h1 {
     grid-column: 2/3;
+    grid-row: 1/1;
   }
 }
 .content .ourstory .storyimg {
@@ -962,6 +964,7 @@ ul li {
   .content .ourstory .storyimg .story2 {
     display: grid;
     margin-left: 42px;
+    grid-template-rows: 450px;
   }
 }
 .content .ourstory .storyimg .story3 {
@@ -977,6 +980,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .ourstory .storyimg .story3 {
     margin-left: 42px;
+    grid-row: 100px;
   }
 }
 .content .ourstory .storyinfo {
@@ -991,6 +995,7 @@ ul li {
 }
 @media (min-width: 1024px) {
   .content .ourstory .storyinfo {
+    grid-column: 2;
     margin-right: 42px;
     align-content: center;
     text-align: right;
@@ -2200,7 +2205,6 @@ p {
 @media (min-width: 1024px) {
   .ourstory .story1 {
     width: 380px;
-    height: 395px;
   }
 }
 .ourstory .story2 {

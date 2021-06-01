@@ -593,6 +593,7 @@ ul {
 		@include lg {
 			display: grid;
 			grid-template-columns: 450px auto;
+			grid-template-rows: 200px 300px 300px 200px;
 			margin-top: 112px;
 		}
 
@@ -613,6 +614,7 @@ ul {
 
 			@include lg {
 				grid-column: 2 / 3;
+				grid-row: 1 / 1;
 			}
 		}
 
@@ -650,6 +652,7 @@ ul {
 				@include lg {
 					display: grid;
 					margin-left: 42px;
+					grid-template-rows: 450px;
 				}
 			}
 	
@@ -664,6 +667,7 @@ ul {
 
 				@include lg {
 					margin-left: 42px;
+					grid-row: 100px;
 				}
 			}
 		}
@@ -678,6 +682,7 @@ ul {
 			}
 
 			@include lg {
+				grid-column: 2;
 				margin-right: 42px;
 				align-content: center;
 				text-align: right;
