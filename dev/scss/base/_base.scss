@@ -667,7 +667,6 @@ ul {
 
 				@include lg {
 					margin-left: 42px;
-					grid-row: 100px;
 				}
 			}
 		}
@@ -1386,6 +1385,7 @@ ul {
 				grid-row: 2 / 2;
 				border-right: solid 3px black;
 				padding-right: 10px;
+				padding-left: 10px;
 			}
 
 			.flushing {
@@ -1396,6 +1396,7 @@ ul {
 			.les {
 				grid-row: 2 / 2;
 				padding-left: 10px;
+				padding-right: 10px;
 			}
 
 			hr {
