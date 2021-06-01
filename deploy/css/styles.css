@@ -1305,8 +1305,12 @@ ul li {
 }
 .content .contact .form {
   display: grid;
-  grid-template-columns: 230px;
+  grid-template-columns: 200px;
   justify-content: center;
+}
+.content .contact .form input {
+  width: 200px;
+  height: 30px;
 }
 .content .contact .form .first {
   margin-bottom: 16px;
@@ -1324,6 +1328,7 @@ ul li {
 }
 .content .contact .form .submit {
   margin-top: 32px;
+  width: 70px;
 }
 .content .contact h2 {
   margin-top: 16px;
@@ -1802,6 +1807,12 @@ p {
   font-family: ltc-bodoni-175, serif;
 }
 .contact h2 {
+  font-family: century-gothic, sans-serif;
+}
+.contact h3 {
+  font-family: century-gothic, sans-serif;
+}
+.contact .form {
   font-family: century-gothic, sans-serif;
 }
 .contact button {
@@ -2453,6 +2464,23 @@ p {
   .contact h2 {
     font-size: 50px;
   }
+}
+.contact .form h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.contact .form .submit {
+  background-color: #FF8A8A;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.contact .form input {
+  border: #FF8A8A solid 3px;
+}
+.contact .form ::placeholder {
+  color: black;
+  font-size: 15px;
 }
 .contact button {
   background-color: #FF8A8A;

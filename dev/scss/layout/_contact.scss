@@ -25,6 +25,29 @@
         }
     }
 
+    .form {
+        h3 {
+            font-size: 25px;
+            font-weight: 400;
+        }
+
+        .submit {
+            background-color: $forbiddenfruit;
+            border: none;
+            color: white;
+            font-size: 15px;
+        }
+
+        input {
+            border: $forbiddenfruit solid 3px;
+        }
+
+        ::placeholder {
+            color: black;
+            font-size: 15px;
+        }
+    }
+
     // .name {
     //     font-size: 15px;
 

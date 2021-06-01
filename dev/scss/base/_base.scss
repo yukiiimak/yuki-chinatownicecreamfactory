@@ -987,8 +987,13 @@ ul {
 
 		.form {
 			display: grid;
-			grid-template-columns: 230px;
+			grid-template-columns: 200px;
 			justify-content: center;
+
+			input {
+				width: 200px;
+				height: 30px;
+			}
 
 			.first {
 				margin-bottom: 16px;
@@ -1010,6 +1015,7 @@ ul {
 
 			.submit {
 				margin-top: 32px;
+				width: 70px;
 			}
 		}
 		// text-align: center;
