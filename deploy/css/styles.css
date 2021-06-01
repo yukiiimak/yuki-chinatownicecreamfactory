@@ -383,6 +383,10 @@ ul li {
   padding-right: 10px;
   padding-left: 10px;
 }
+.content .nav .lang {
+  display: flex;
+  justify-content: flex-end;
+}
 .content .nav .lang button {
   padding-top: 18px;
   padding-bottom: 18px;
