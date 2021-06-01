@@ -987,11 +987,15 @@ ul {
 
 		.form {
 			display: grid;
-			grid-template-columns: 200px;
+			grid-template-columns: 400px;
 			justify-content: center;
 
+			@include md {
+				grid-template-columns: 300px;
+			}
+
 			input {
-				width: 200px;
+				width: 390px;
 				height: 30px;
 			}
 
@@ -1011,6 +1015,18 @@ ul {
 			h3 {
 				margin-bottom: 16px;
 				margin-top: 32px;
+			}
+
+			.questionone {
+				@include md {
+					height: 70px;
+				}
+			}
+
+			.questiontwo {
+				@include md {
+					height: 70px;
+				}
 			}
 
 			.submit {
