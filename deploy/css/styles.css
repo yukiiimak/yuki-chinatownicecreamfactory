@@ -1298,23 +1298,15 @@ ul li {
   }
 }
 .content .contact {
+  grid-area: contact;
+  display: grid;
   text-align: center;
   margin-top: 48px;
 }
-@media (min-width: 768px) {
-  .content .contact {
-    margin-top: 80px;
-  }
-}
-@media (min-width: 1024px) {
-  .content .contact {
-    margin-top: 112px;
-  }
-}
-@media (min-width: 1200px) {
-  .content .contact {
-    margin-top: 128px;
-  }
+.content .contact .form {
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
 }
 .content .contact h2 {
   margin-top: 16px;
@@ -1322,81 +1314,6 @@ ul li {
 @media (min-width: 768px) {
   .content .contact h2 {
     margin-top: 24px;
-  }
-}
-.content .contact .name {
-  margin-top: 32px;
-}
-@media (min-width: 768px) {
-  .content .contact .name {
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-.content .contact .name input {
-  width: 450px;
-  height: 30px;
-}
-@media (min-width: 768px) {
-  .content .contact .name input {
-    width: 430px;
-    height: 30px;
-  }
-}
-.content .contact .name .first {
-  margin-bottom: 16px;
-}
-.content .contact .name .last {
-  margin-bottom: 16px;
-}
-.content .contact .email {
-  margin-bottom: 32px;
-}
-@media (min-width: 768px) {
-  .content .contact .email {
-    margin-bottom: 48px;
-  }
-}
-.content .contact .email input {
-  width: 450px;
-  height: 30px;
-}
-@media (min-width: 768px) {
-  .content .contact .email input {
-    width: 885px;
-    height: 30px;
-  }
-}
-@media (min-width: 1024px) {
-  .content .contact .email input {
-    width: 825px;
-  }
-}
-.content .contact .questions input {
-  width: 450px;
-  height: 30px;
-  margin-top: 16px;
-  margin-bottom: 32px;
-}
-@media (min-width: 768px) {
-  .content .contact .questions input {
-    width: 885px;
-    height: 80px;
-    margin-bottom: 48px;
-  }
-}
-@media (min-width: 1024px) {
-  .content .contact .questions input {
-    width: 400px;
-    height: 150px;
-  }
-}
-@media (min-width: 1024px) {
-  .content .contact .questions {
-    display: grid;
-    grid-template-columns: 400px 400px;
-    grid-gap: 20px;
-    justify-content: center;
   }
 }
 .content .contact button {

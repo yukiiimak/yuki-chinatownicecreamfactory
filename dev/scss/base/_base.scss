@@ -980,20 +980,30 @@ ul {
 	}
 
 	.contact {
+		grid-area: contact;
+		display: grid;
 		text-align: center;
 		margin-top: 48px;
 
-		@include md {
-			margin-top: 80px;
+		.form {
+			display: grid;
+			grid-template-columns: 300px;
+			justify-content: center;
 		}
+		// text-align: center;
+		// margin-top: 48px;
 
-		@include lg {
-			margin-top: 112px;
-		}
+		// @include md {
+		// 	margin-top: 80px;
+		// }
 
-		@include xl {
-			margin-top: 128px;
-		}
+		// @include lg {
+		// 	margin-top: 112px;
+		// }
+
+		// @include xl {
+		// 	margin-top: 128px;
+		// }
 
 		h2 {
 			margin-top: 16px;
@@ -1003,95 +1013,95 @@ ul {
 			}
 		}
 
-		.name {
-			margin-top: 32px;
+		// .name {
+		// 	margin-top: 32px;
 
-			@include md {
-				display: flex;
-				justify-content: space-evenly;
-				// display: grid;
-				// grid-template-columns: repeat(2, 1fr);
-				// margin-top: 48px;
-				// margin-bottom: 24px;
+		// 	@include md {
+		// 		display: flex;
+		// 		justify-content: space-evenly;
+		// 		// display: grid;
+		// 		// grid-template-columns: repeat(2, 1fr);
+		// 		// margin-top: 48px;
+		// 		// margin-bottom: 24px;
 
-				// .first {
-				// 	grid-column: span 1;
-				// 	width: 50%;
-				// }
+		// 		// .first {
+		// 		// 	grid-column: span 1;
+		// 		// 	width: 50%;
+		// 		// }
 
-				// .last {
-				// 	grid-column: span 1;
-				// 	width: 50%;
-				// }
-			}
+		// 		// .last {
+		// 		// 	grid-column: span 1;
+		// 		// 	width: 50%;
+		// 		// }
+		// 	}
 
-			input {
-				width: 450px;
-				height: 30px;
+		// 	input {
+		// 		width: 450px;
+		// 		height: 30px;
 
-				@include md {
-					width: 430px;
-					height: 30px;
-				}
-			}
+		// 		@include md {
+		// 			width: 430px;
+		// 			height: 30px;
+		// 		}
+		// 	}
 
-			.first {
-				margin-bottom: 16px;
-			}
+		// 	.first {
+		// 		margin-bottom: 16px;
+		// 	}
 
-			.last {
-				margin-bottom: 16px;
-			}
-		}
+		// 	.last {
+		// 		margin-bottom: 16px;
+		// 	}
+		// }
 
-		.email {
-			margin-bottom: 32px;
+		// .email {
+		// 	margin-bottom: 32px;
 
-			@include md {
-				margin-bottom: 48px;
-			}
+		// 	@include md {
+		// 		margin-bottom: 48px;
+		// 	}
 
-			input {
-				width: 450px;
-				height: 30px;
+		// 	input {
+		// 		width: 450px;
+		// 		height: 30px;
 
-				@include md {
-					width: 885px;
-					height: 30px;
-				}
+		// 		@include md {
+		// 			width: 885px;
+		// 			height: 30px;
+		// 		}
 
-				@include lg {
-					width: 825px;
-				}
-			}
-		}
+		// 		@include lg {
+		// 			width: 825px;
+		// 		}
+		// 	}
+		// }
 
-		.questions {
-			input {
-				width: 450px;
-				height: 30px;
-				margin-top: 16px;
-				margin-bottom: 32px;
+		// .questions {
+		// 	input {
+		// 		width: 450px;
+		// 		height: 30px;
+		// 		margin-top: 16px;
+		// 		margin-bottom: 32px;
 
-				@include md {
-					width: 885px;
-					height: 80px;
-					margin-bottom: 48px;
-				}
+		// 		@include md {
+		// 			width: 885px;
+		// 			height: 80px;
+		// 			margin-bottom: 48px;
+		// 		}
 
-				@include lg {
-					width: 400px;
-					height: 150px;
-				}
-			}
+		// 		@include lg {
+		// 			width: 400px;
+		// 			height: 150px;
+		// 		}
+		// 	}
 
-			@include lg {
-				display: grid;
-				grid-template-columns: 400px 400px;
-				grid-gap: 20px;
-				justify-content: center;
-			}
-		}
+		// 	@include lg {
+		// 		display: grid;
+		// 		grid-template-columns: 400px 400px;
+		// 		grid-gap: 20px;
+		// 		justify-content: center;
+		// 	}
+		// }
 
 		button {
 			padding-top: 8px;
