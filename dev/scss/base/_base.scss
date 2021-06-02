@@ -58,7 +58,7 @@ ul {
 		.lang {
 			display: flex;
 			justify-content: flex-end;
-			
+
 			button {
 				padding-top: 18px;
 				padding-bottom: 18px;
@@ -841,7 +841,7 @@ ul {
 
 			.press {
 				display: grid;
-				grid-template-columns: 250px 200px;
+				grid-template-columns: 250px 250px;
 				grid-template-rows: 500px; 
 				margin-top: 32px;
 				margin-left: 10px;
@@ -881,7 +881,7 @@ ul {
 	
 			.thanks {
 				display: grid;
-				grid-template-columns: 250px 200px;
+				grid-template-columns: 250px 250px;
 				grid-template-rows: 500px;
 				margin-top: 32px;
 				margin-left: 10px;
@@ -933,7 +933,7 @@ ul {
 	
 			.community {
 				display: grid;
-				grid-template-columns: 250px 200px;
+				grid-template-columns: 250px 250px;
 				grid-template-rows: 500px;
 				margin-top: 32px;
 				margin-left: 10px;

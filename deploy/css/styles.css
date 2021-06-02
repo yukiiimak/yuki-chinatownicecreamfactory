@@ -1158,7 +1158,7 @@ ul li {
 }
 .content .spotlight .ptcspotlight .press {
   display: grid;
-  grid-template-columns: 250px 200px;
+  grid-template-columns: 250px 250px;
   grid-template-rows: 500px;
   margin-top: 32px;
   margin-left: 10px;
@@ -1198,7 +1198,7 @@ ul li {
 }
 .content .spotlight .ptcspotlight .thanks {
   display: grid;
-  grid-template-columns: 250px 200px;
+  grid-template-columns: 250px 250px;
   grid-template-rows: 500px;
   margin-top: 32px;
   margin-left: 10px;
@@ -1253,7 +1253,7 @@ ul li {
 }
 .content .spotlight .ptcspotlight .community {
   display: grid;
-  grid-template-columns: 250px 200px;
+  grid-template-columns: 250px 250px;
   grid-template-rows: 500px;
   margin-top: 32px;
   margin-left: 10px;
