@@ -224,7 +224,7 @@ ul {
 
 			.regularimg {
 				display: grid;
-				grid-template-columns: 100px 100px 100px;
+				// grid-template-columns: 100px 100px 100px;
 				grid-template-rows: 100px 200px;
 				margin-left: 70px;
 				margin-right: 70px;
@@ -349,7 +349,7 @@ ul {
 
 			.exoticimg {
 				display: grid;
-				grid-template-columns: 100px 100px 100px;
+				// grid-template-columns: 100px 100px 100px;
 				grid-template-rows: 100px 200px;
 				margin-left: 70px;
 				margin-right: 70px;
@@ -467,7 +467,7 @@ ul {
 
 			.specialimg {
 				display: grid;
-				grid-template-columns: 100px 100px 100px;
+				// grid-template-columns: 100px 100px 100px;
 				grid-template-rows: 100px 200px;
 				margin-left: 70px;
 				margin-right: 70px;
@@ -519,7 +519,7 @@ ul {
 
 			.cakeimg {
 				display: grid;
-				grid-template-columns: 100px 100px 100px;
+				// grid-template-columns: 100px 100px 100px;
 				grid-template-rows: 200px 200px;
 				margin-left: 70px;
 				margin-right: 70px;
@@ -573,7 +573,8 @@ ul {
 	
 				@include md {
 					justify-content: center;
-					margin-top: 400px;
+					margin-top: 150px;
+					grid-column: span 2;
 				}
 
 				@include lg {
@@ -841,7 +842,7 @@ ul {
 
 			.press {
 				display: grid;
-				grid-template-columns: 250px 250px;
+				grid-template-columns: 250px 200px;
 				grid-template-rows: 500px; 
 				margin-top: 32px;
 				margin-left: 10px;
@@ -881,7 +882,7 @@ ul {
 	
 			.thanks {
 				display: grid;
-				grid-template-columns: 250px 250px;
+				grid-template-columns: 250px 200px;
 				grid-template-rows: 500px;
 				margin-top: 32px;
 				margin-left: 10px;
@@ -933,7 +934,7 @@ ul {
 	
 			.community {
 				display: grid;
-				grid-template-columns: 250px 250px;
+				grid-template-columns: 250px 200px;
 				grid-template-rows: 500px;
 				margin-top: 32px;
 				margin-left: 10px;
@@ -994,7 +995,20 @@ ul {
 			justify-content: center;
 
 			@include md {
-				grid-template-columns: 300px;
+				grid-template-columns: 400px;
+
+				.name {
+					display: flex;
+					justify-content: space-between;
+
+					input {
+						width: 45%;
+					}
+				}
+
+				.last {
+					margin-top: 32px;
+				}
 			}
 
 			input {

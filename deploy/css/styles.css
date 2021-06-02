@@ -538,7 +538,6 @@ ul li {
 }
 .content .icecream .regular .regularimg {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 200px;
   margin-left: 70px;
   margin-right: 70px;
@@ -660,7 +659,6 @@ ul li {
 }
 .content .icecream .exotic .exoticimg {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 200px;
   margin-left: 70px;
   margin-right: 70px;
@@ -775,7 +773,6 @@ ul li {
 }
 .content .icecream .special .specialimg {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 200px;
   margin-left: 70px;
   margin-right: 70px;
@@ -826,7 +823,6 @@ ul li {
 }
 .content .icecream .cakes .cakeimg {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
   grid-template-rows: 200px 200px;
   margin-left: 70px;
   margin-right: 70px;
@@ -880,7 +876,8 @@ ul li {
 @media (min-width: 768px) {
   .content .icecream .cakes .customcakes {
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 150px;
+    grid-column: span 2;
   }
 }
 @media (min-width: 1024px) {
@@ -1158,7 +1155,7 @@ ul li {
 }
 .content .spotlight .ptcspotlight .press {
   display: grid;
-  grid-template-columns: 250px 250px;
+  grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
   margin-top: 32px;
   margin-left: 10px;
@@ -1198,7 +1195,7 @@ ul li {
 }
 .content .spotlight .ptcspotlight .thanks {
   display: grid;
-  grid-template-columns: 250px 250px;
+  grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
   margin-top: 32px;
   margin-left: 10px;
@@ -1253,7 +1250,7 @@ ul li {
 }
 .content .spotlight .ptcspotlight .community {
   display: grid;
-  grid-template-columns: 250px 250px;
+  grid-template-columns: 250px 200px;
   grid-template-rows: 500px;
   margin-top: 32px;
   margin-left: 10px;
@@ -1314,7 +1311,17 @@ ul li {
 }
 @media (min-width: 768px) {
   .content .contact .form {
-    grid-template-columns: 300px;
+    grid-template-columns: 400px;
+  }
+  .content .contact .form .name {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content .contact .form .name input {
+    width: 45%;
+  }
+  .content .contact .form .last {
+    margin-top: 32px;
   }
 }
 .content .contact .form input {
@@ -2581,10 +2588,10 @@ p {
     font-size: 30px;
   }
 }
-.shop .mobileshop .mobileshoparrowleft {
+.shop .mobileshop .mobileshoparrowleft a {
   color: black;
 }
-.shop .mobileshop .mobileshoparrowright {
+.shop .mobileshop .mobileshoparrowright a {
   color: black;
 }
 .shop .mobileshoptext {
