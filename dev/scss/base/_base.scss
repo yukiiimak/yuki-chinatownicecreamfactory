@@ -15,14 +15,6 @@ ul {
 	}
 }
 
-// Tablet: Ice Cream section (it is adding another row for the flavors for exotic and cakes), 
-//         View our gallery button (for all versions, it is not centered because right now I have margin-left), 
-//         PTCSpotlight section (for all version, it is not centered either)
-//         Contact section, the name boxes (for all versions, it is not lined with up the rest of the contact input info)
-
-// Desktop/Desktop HD: Ice Cream section (it is adding columns when I have grid-template-columns: none and the flavors are supposed to span the width of the screen)
-//                     Our Story section (the text is not centering and it is adding another row for the title)
-
 .content {
 	// display: grid;
 	grid-template-areas: 
@@ -355,6 +347,10 @@ ul {
 				margin-right: 70px;
 				order: 2;
 				margin-bottom: 16px;
+
+				@include md {
+					grid-row: span 2;
+				}
 
 				@include lg {
 					grid-row: 1 / 1;

@@ -665,6 +665,11 @@ ul li {
   order: 2;
   margin-bottom: 16px;
 }
+@media (min-width: 768px) {
+  .content .icecream .exotic .exoticimg {
+    grid-row: span 2;
+  }
+}
 @media (min-width: 1024px) {
   .content .icecream .exotic .exoticimg {
     grid-row: 1/1;
