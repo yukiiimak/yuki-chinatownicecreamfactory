@@ -574,7 +574,8 @@ ul {
 				}
 
 				@include lg {
-					padding-top: 50px;
+					padding-top: 300px;
+					grid-column: 2 / 2;
 				}
 			}
 		}
@@ -804,7 +805,7 @@ ul {
 
 			@include md {
 				margin-top: 140px;
-				margin-left: 390px;
+				margin-left: 300px;
 			}
 
 			@include lg {
@@ -1007,6 +1008,17 @@ ul {
 				}
 			}
 
+			@include lg {
+				.questions {
+					display: flex;
+					justify-content: space-between;
+
+					input {
+						width: 90%;
+					}
+				}
+			}
+
 			input {
 				width: 390px;
 				height: 30px;
@@ -1034,11 +1046,19 @@ ul {
 				@include md {
 					height: 70px;
 				}
+
+				@include lg {
+					height: 100px;
+				}
 			}
 
 			.questiontwo {
 				@include md {
 					height: 70px;
+				}
+
+				@include lg {
+					height: 100px;
 				}
 			}
 
@@ -1216,6 +1236,10 @@ ul {
 			align-items: center;
 			justify-content: center;
 			grid-gap: 15px;
+
+			@include md {
+				display: unset;
+			}
 		}
 
 		h1 {

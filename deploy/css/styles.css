@@ -887,7 +887,8 @@ ul li {
 }
 @media (min-width: 1024px) {
   .content .icecream .cakes .customcakes {
-    padding-top: 50px;
+    padding-top: 300px;
+    grid-column: 2/2;
   }
 }
 .content .ourstory {
@@ -1123,7 +1124,7 @@ ul li {
 @media (min-width: 768px) {
   .content .spotlight .viewgallery {
     margin-top: 140px;
-    margin-left: 390px;
+    margin-left: 300px;
   }
 }
 @media (min-width: 1024px) {
@@ -1329,6 +1330,15 @@ ul li {
     margin-top: 32px;
   }
 }
+@media (min-width: 1024px) {
+  .content .contact .form .questions {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content .contact .form .questions input {
+    width: 90%;
+  }
+}
 .content .contact .form input {
   width: 390px;
   height: 30px;
@@ -1352,9 +1362,19 @@ ul li {
     height: 70px;
   }
 }
+@media (min-width: 1024px) {
+  .content .contact .form .questionone {
+    height: 100px;
+  }
+}
 @media (min-width: 768px) {
   .content .contact .form .questiontwo {
     height: 70px;
+  }
+}
+@media (min-width: 1024px) {
+  .content .contact .form .questiontwo {
+    height: 100px;
   }
 }
 .content .contact .form .submit {
@@ -1418,6 +1438,11 @@ ul li {
   align-items: center;
   justify-content: center;
   grid-gap: 15px;
+}
+@media (min-width: 768px) {
+  .content .shop .title {
+    display: unset;
+  }
 }
 .content .shop h1 {
   margin-bottom: 16px;
