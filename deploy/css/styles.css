@@ -460,6 +460,8 @@ ul li {
   .content .icecream .regular {
     display: grid;
     grid-template-columns: 330px auto;
+    grid-template-rows: 60px auto;
+    margin-bottom: 48px;
   }
 }
 @media (min-width: 1024px) {
@@ -530,6 +532,12 @@ ul li {
   justify-content: center;
   order: 3;
 }
+@media (min-width: 768px) {
+  .content .icecream .regular .flavors {
+    grid-row: 2/2;
+    grid-column: 2/2;
+  }
+}
 @media (min-width: 1024px) {
   .content .icecream .regular .flavors {
     display: grid;
@@ -548,6 +556,7 @@ ul li {
   .content .icecream .regular .regularimg {
     margin-left: 20px;
     grid-column: 1/1;
+    grid-row: 1/1;
   }
 }
 @media (min-width: 1024px) {
@@ -576,6 +585,7 @@ ul li {
     display: grid;
     grid-template-columns: 560px auto;
     grid-template-rows: 70px;
+    margin-bottom: 48px;
   }
 }
 @media (min-width: 1024px) {
@@ -702,6 +712,8 @@ ul li {
   .content .icecream .special {
     display: grid;
     grid-template-columns: 330px auto;
+    grid-template-rows: 60px auto;
+    margin-bottom: 48px;
   }
 }
 @media (min-width: 1024px) {
@@ -772,6 +784,12 @@ ul li {
   justify-content: center;
   order: 3;
 }
+@media (min-width: 768px) {
+  .content .icecream .special .flavors {
+    grid-row: 2/2;
+    grid-column: 2/2;
+  }
+}
 @media (min-width: 1024px) {
   .content .icecream .special .flavors {
     display: grid;
@@ -790,6 +808,7 @@ ul li {
   .content .icecream .special .specialimg {
     margin-left: 20px;
     grid-column: 1/1;
+    grid-row: 1/1;
   }
 }
 @media (min-width: 1024px) {
