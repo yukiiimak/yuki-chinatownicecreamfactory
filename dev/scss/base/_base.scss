@@ -992,14 +992,14 @@ ul {
 			justify-content: center;
 
 			@include md {
-				grid-template-columns: 400px;
+				grid-template-columns: unset;
 
 				.name {
 					display: flex;
 					justify-content: space-between;
 
 					input {
-						width: 45%;
+						width: 260px;
 					}
 				}
 
@@ -1011,10 +1011,12 @@ ul {
 			@include lg {
 				.questions {
 					display: flex;
-					justify-content: space-between;
+					gap: 10px;
+				}
 
+				.name {
 					input {
-						width: 90%;
+						width: 480px;
 					}
 				}
 			}
@@ -1022,6 +1024,14 @@ ul {
 			input {
 				width: 390px;
 				height: 30px;
+
+				@include md {
+					width: 550px;
+				}
+
+				@include lg {
+					width: 480px;
+				}
 			}
 
 			.first {
@@ -1035,6 +1045,10 @@ ul {
 
 			.email {
 				margin-bottom: 16px;
+
+				@include lg {
+					width: 99%;
+				}
 			}
 
 			h3 {
@@ -1065,6 +1079,14 @@ ul {
 			.submit {
 				margin-top: 32px;
 				width: 70px;
+
+				@include md {
+					width: 80px;
+				}
+
+				@include lg {
+					width: 100px;
+				}
 			}
 		}
 		// text-align: center;
