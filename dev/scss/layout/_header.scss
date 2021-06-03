@@ -23,6 +23,10 @@
         }
     }
 
+    .navlinks {
+        display: grid;
+    }
+
     li {
         @include md {
             a {
@@ -30,9 +34,9 @@
                 text-decoration: none;
                 color: black;
 
-                @include lg {
-                    font-size: 20px;
-                }
+                // @include lg {
+                //     font-size: 20px;
+                // }
             }
         }
     }
