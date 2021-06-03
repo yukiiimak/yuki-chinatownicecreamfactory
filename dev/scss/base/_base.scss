@@ -534,7 +534,7 @@ ul {
 			}
 
 			@include xl {
-				padding-right: 100px;
+				// padding-right: 100px;
 				padding-left: 100px;
 				grid-template-columns: 525px auto;
 			}
@@ -555,6 +555,10 @@ ul {
 
 				@include lg {
 					margin-right: 20px;
+				}
+
+				@include xl {
+					margin-right: 120px;
 				}
 			}
 	

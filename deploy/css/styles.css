@@ -848,7 +848,6 @@ ul li {
 }
 @media (min-width: 1200px) {
   .content .icecream .cakes {
-    padding-right: 100px;
     padding-left: 100px;
     grid-template-columns: 525px auto;
   }
@@ -870,6 +869,11 @@ ul li {
 @media (min-width: 1024px) {
   .content .icecream .cakes .cakeimg {
     margin-right: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .icecream .cakes .cakeimg {
+    margin-right: 120px;
   }
 }
 .content .icecream .cakes .cakeinfo {
