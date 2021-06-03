@@ -132,7 +132,7 @@ ul {
 			}
 
 			@include lg {
-				grid-template-rows: repeat(2, 1fr);
+				grid-template-rows: 450px;
 				grid-template-columns: none;
 			}
 
@@ -267,8 +267,8 @@ ul {
 			}
 
 			@include lg {
-				grid-template-columns: 530px 200px;
-				grid-template-rows: repeat(2, 1fr);
+				// grid-template-columns: 530px 200px;
+				grid-template-rows: 450px;
 			}
 
 			@include xl {
@@ -345,6 +345,8 @@ ul {
 				@include lg {
 					display: grid;
 					grid-column: span 3;
+					margin-left: unset;
+					margin-right: 5px;
 				}
 			}
 
@@ -365,7 +367,7 @@ ul {
 
 				@include lg {
 					grid-row: 1 / 1;
-					margin-left: 170px;
+					grid-column: 3 / 4;
 				}
 			}
 		}
@@ -398,7 +400,7 @@ ul {
 
 			@include lg {
 				grid-template-columns: none;
-				grid-template-rows: repeat(2, 1fr);
+				grid-template-rows: 450px;
 			}
 
 			@include xl {
@@ -524,7 +526,7 @@ ul {
 			}
 
 			@include lg {
-				grid-template-columns: 620px 550px;
+				grid-template-columns: 560px auto;
 			}
 
 			@include xl {
@@ -545,6 +547,10 @@ ul {
 					margin-right: 20px;
 					margin-left: 30px;
 				}
+
+				@include lg {
+					margin-right: 20px;
+				}
 			}
 	
 			.cakeinfo {
@@ -560,6 +566,7 @@ ul {
 
 				@include lg {
 					margin-top: 400px;
+					margin-left: 70px;
 				}
 			}
 
