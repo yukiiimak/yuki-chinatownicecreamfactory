@@ -119,7 +119,9 @@ ul {
 
 				@include lg {
 					grid-row: 1 / 1;
+					grid-column: 2 / 4;
 					margin-top: 150px;
+					margin-right: 50px;
 				}
 			}
 
@@ -137,8 +139,8 @@ ul {
 			}
 
 			@include xl {
-				padding-right: 250px;
-				padding-left: 250px;
+				padding-right: 200px;
+				padding-left: 100px;
 			}
 
 			.mobiledisplay {
@@ -261,7 +263,7 @@ ul {
 
 			@include md {
 				display: grid;
-				grid-template-columns: 560px auto;
+				grid-template-columns: 470px auto;
 				grid-template-rows: 70px;
 				margin-bottom: 48px;
 			}
@@ -272,8 +274,9 @@ ul {
 			}
 
 			@include xl {
-				padding-right: 250px;
-				padding-left: 250px;
+				padding-right: 200px;
+				padding-left: 100px;
+				grid-template-columns: 530px auto;
 			}
 
 			.mobiledisplay {
@@ -336,6 +339,7 @@ ul {
 
 				@include md {
 					margin-left: 20px;
+					margin-right: 20px;
 				}
 
 				// @include md {
@@ -367,7 +371,7 @@ ul {
 
 				@include lg {
 					grid-row: 1 / 1;
-					grid-column: 3 / 4;
+					grid-column: 2 / 4;
 				}
 			}
 		}
@@ -404,8 +408,8 @@ ul {
 			}
 
 			@include xl {
-				padding-right: 250px;
-				padding-left: 250px;
+				padding-right: 200px;
+				padding-left: 100px;
 			}
 
 			.mobiledisplay {
@@ -521,7 +525,7 @@ ul {
 
 			@include md {
 				display: grid;
-				grid-template-columns: 530px auto;
+				grid-template-columns: 450px auto;
 				grid-template-rows: 70px;
 			}
 
@@ -530,8 +534,9 @@ ul {
 			}
 
 			@include xl {
-				padding-right: 250px;
-				padding-left: 250px;
+				padding-right: 100px;
+				padding-left: 100px;
+				grid-template-columns: 525px auto;
 			}
 
 			.cakeimg {
@@ -545,7 +550,7 @@ ul {
 				@include md {
 					grid-column: 2 / 2;
 					margin-right: 20px;
-					margin-left: 30px;
+					margin-left: 20px;
 				}
 
 				@include lg {
@@ -566,7 +571,10 @@ ul {
 
 				@include lg {
 					margin-top: 400px;
-					margin-left: 70px;
+				}
+
+				@include xl {
+					margin-left: unset;
 				}
 			}
 
@@ -603,6 +611,7 @@ ul {
 				@include lg {
 					padding-top: 300px;
 					grid-column: 2 / 2;
+					margin-right: 15px;
 				}
 			}
 		}
@@ -626,8 +635,8 @@ ul {
 		}
 
 		@include xl {
-			padding-right: 250px;
-			padding-left: 250px;
+			// padding-right: 250px;
+			// padding-left: 250px;
 			margin-top: 128px;
 		}
 
@@ -836,12 +845,12 @@ ul {
 			}
 
 			@include lg {
-				margin-left: 500px;
+				margin-left: 420px;
 				margin-top: 70px;
 			}
 
 			@include xl {
-				margin-left: 700px;
+				margin-left: 530px;
 				margin-top: 250px;
 			}
 		}
@@ -858,10 +867,10 @@ ul {
 			}
 
 			@include xl {
-				grid-template-columns: 350px 350px 350px;
-				grid-template-rows: 1200px;
-				padding-right: 48px;
-				padding-left: 48px;
+				grid-template-columns: 370px 370px 370px;
+				// grid-template-rows: 1200px;
+				// padding-right: 48px;
+				// padding-left: 48px;
 			}
 
 			.press {
@@ -878,6 +887,7 @@ ul {
 					grid-gap: 0px;
 					grid-template-rows: 400px;
 					margin-top: 48px;
+					margin-left: unset;
 				}
 	
 				@include lg {
@@ -886,7 +896,7 @@ ul {
 				}
 	
 				@include xl {
-					grid-template-columns: 400px;
+					grid-template-columns: 360px;
 				}
 	
 				.pressinfo {
@@ -900,6 +910,10 @@ ul {
 						padding-bottom: 7px;
 						padding-right: 3px;
 						padding-left: 3px;
+					}
+
+					@include xl {
+						padding-top: 283px;
 					}
 				}
 			}
@@ -926,7 +940,7 @@ ul {
 				}
 	
 				@include xl {
-					grid-template-columns: 400px;
+					grid-template-columns: 360px;
 				}
 	
 				.thanksinfo {
@@ -953,6 +967,10 @@ ul {
 							margin-top: 35px;
 						}
 					}
+
+					@include xl {
+						padding-top: 250px;
+					}
 				}
 			}
 	
@@ -978,7 +996,7 @@ ul {
 				}
 	
 				@include xl {
-					grid-template-columns: 400px;
+					grid-template-columns: 360px;
 				}
 	
 				.communityinfo {
@@ -1000,6 +1018,10 @@ ul {
 						@include xl {
 							margin-top: 18px;
 						}
+					}
+
+					@include xl {
+						padding-top: 220px;
 					}
 				}
 			}
@@ -1245,6 +1267,13 @@ ul {
 
 			@include md {
 				margin-top: 48px;
+				margin-left: 100px;
+				margin-right: 100px;
+			}
+
+			@include xl {
+				margin-right: 120px;
+				margin-left: 120px;
 			}
 
 			button {
@@ -1330,7 +1359,7 @@ ul {
 
 		.masks {
 			display: grid;
-			grid-template-columns: 100px 100px;
+			// grid-template-columns: 100px 100px;
 			grid-template-rows: 100px 250px;
 			margin-left: 70px;
 			margin-right: 70px;
@@ -1430,14 +1459,10 @@ ul {
 			margin-top: 80px;
 		}
 
-		@include lg {
-			margin-top: 112px;
-		}
-
 		@include xl {
 			margin-top: 128px;
-			padding-left: 250px;
-			padding-right: 250px;
+			// padding-left: 250px;
+			// padding-right: 250px;
 		}
 
 		h1 {
@@ -1515,10 +1540,12 @@ ul {
 
 		@include lg {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: 330px 330px 330px;
+			justify-content: center;
+			margin-top: 112px;
 
 			h1 {
-				grid-column: 2 / 2;
+				grid-column: 1 / 4;
 			}
 
 			.chinatown {
