@@ -2094,6 +2094,7 @@ p {
 @media (min-width: 768px) {
   .nav .navlinks #nav-container ul {
     flex-direction: row;
+    justify-content: center;
   }
 }
 .nav .navlinks #nav-container li a {
