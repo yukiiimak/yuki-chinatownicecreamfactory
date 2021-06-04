@@ -413,7 +413,7 @@ ul li {
   grid-area: icecream;
   margin-top: 48px;
   padding-bottom: 32px;
-  padding-top: 330px;
+  padding-top: 340px;
 }
 @media (min-width: 768px) {
   .content .icecream {
@@ -944,7 +944,7 @@ ul li {
   display: flex;
   flex-direction: column;
   margin-top: 48px;
-  padding-top: 380px;
+  padding-top: 400px;
 }
 @media (min-width: 768px) {
   .content .ourstory {
@@ -1086,6 +1086,7 @@ ul li {
   grid-area: spotlight;
   margin-top: 48px;
   padding-bottom: 32px;
+  padding-top: 340px;
 }
 @media (min-width: 768px) {
   .content .spotlight {
@@ -1369,6 +1370,7 @@ ul li {
   display: grid;
   text-align: center;
   margin-top: 48px;
+  padding-top: 400px;
 }
 .content .contact .form {
   display: grid;
@@ -1509,6 +1511,7 @@ ul li {
   grid-area: shop;
   margin-top: 48px;
   padding-bottom: 32px;
+  padding-top: 340px;
 }
 @media (min-width: 768px) {
   .content .shop {
@@ -1667,6 +1670,7 @@ ul li {
   grid-area: hourslocations;
   text-align: center;
   margin-top: 48px;
+  padding-top: 400px;
 }
 @media (min-width: 768px) {
   .content .hourslocations {
