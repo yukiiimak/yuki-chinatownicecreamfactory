@@ -1,5 +1,9 @@
 .nav {
     background-color: $butteryellow;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
     
     .firstbutton {
         button {
@@ -58,7 +62,8 @@
             grid-area: nav;
             background-color: $butteryellow;
             position: absolute;
-            top: 330px;
+            top: 300px;
+            grid-column: span 2;
             width: 100%;
 
             @include md {
