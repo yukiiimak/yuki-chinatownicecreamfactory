@@ -83,6 +83,7 @@ ul {
 		grid-area: icecream;
 		margin-top: 48px;
 		padding-bottom: 32px;
+		padding-top: 330px;
 
 		@include md {
 			margin-top: 80px;
@@ -629,6 +630,7 @@ ul {
 		display: flex;
 		flex-direction: column;
 		margin-top: 48px;
+		padding-top: 380px;
 
 		@include md {
 			margin-top: 80px;
