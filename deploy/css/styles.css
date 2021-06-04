@@ -698,6 +698,11 @@ ul li {
     grid-column: 2/4;
   }
 }
+@media (min-width: 1200px) {
+  .content .icecream .exotic .exoticimg {
+    grid-column: 3/4;
+  }
+}
 .content .icecream .special {
   margin-bottom: 32px;
   display: flex;
@@ -878,7 +883,7 @@ ul li {
 }
 @media (min-width: 1200px) {
   .content .icecream .cakes .cakeimg {
-    margin-right: 120px;
+    grid-column: 3/4;
   }
 }
 .content .icecream .cakes .cakeinfo {
@@ -937,6 +942,11 @@ ul li {
     padding-top: 300px;
     grid-column: 2/2;
     margin-right: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .content .icecream .cakes .customcakes {
+    grid-column: 2/4;
   }
 }
 .content .ourstory {
@@ -2222,6 +2232,11 @@ p {
     height: 435px;
   }
 }
+@media (min-width: 1200px) {
+  .icecream .exoticimg {
+    width: 460px;
+  }
+}
 .icecream .specialimg {
   background: url("../images/Special.jpg");
   background-repeat: no-repeat;
@@ -2252,6 +2267,11 @@ p {
 @media (min-width: 1024px) {
   .icecream .cakeimg {
     height: 435px;
+  }
+}
+@media (min-width: 1200px) {
+  .icecream .cakeimg {
+    width: 460px;
   }
 }
 .icecream .sigcakes {

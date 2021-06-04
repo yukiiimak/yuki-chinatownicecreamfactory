@@ -377,6 +377,10 @@ ul {
 					grid-row: 1 / 1;
 					grid-column: 2 / 4;
 				}
+
+				@include xl {
+					grid-column: 3 / 4;
+				}
 			}
 		}
 
@@ -562,7 +566,7 @@ ul {
 				}
 
 				@include xl {
-					margin-right: 120px;
+					grid-column: 3 / 4;
 				}
 			}
 	
@@ -620,6 +624,10 @@ ul {
 					padding-top: 300px;
 					grid-column: 2 / 2;
 					margin-right: 15px;
+				}
+
+				@include xl {
+					grid-column: 2 / 4;
 				}
 			}
 		}
