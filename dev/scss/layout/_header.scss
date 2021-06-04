@@ -25,7 +25,10 @@
 
     .mobile-logo {
         display: grid;
-        padding-top: 20px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        grid-column: span 2;
+        justify-content: center;
 
         @include md {
             display: none;
@@ -33,12 +36,13 @@
     }
 
     .navlinks {
-        display: grid;
+        grid-column: span 2;
 
         #burger-container {
             grid-area: burger;
             display: grid;
-            align-items: center;
+            justify-content: center;
+            padding-bottom: 32px;
 
             @include md {
                 display: none !important;
@@ -52,10 +56,10 @@
 
         #nav-container {
             grid-area: nav;
-            padding: 15px;
             background-color: $butteryellow;
             position: absolute;
-            top: 245px;
+            top: 330px;
+            width: 100%;
 
             @include md {
                 display: block !important;
@@ -79,6 +83,9 @@
                 display: flex;
                 flex-direction: column;
                 text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                gap: 5px;
 
                 @include md {
                     flex-direction: row;
@@ -87,12 +94,12 @@
 
             li { 
                 a {
-                    font-size: 15px;
+                    font-size: 20px;
                     text-decoration: none;
                     color: black;
         
                     @include lg {
-                        font-size: 20px;
+                        font-size: 25px;
                     }
                 }
             }
