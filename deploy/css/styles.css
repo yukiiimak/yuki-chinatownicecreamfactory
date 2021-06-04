@@ -399,6 +399,7 @@ ul li {
 .content .hero {
   grid-area: hero;
   display: grid;
+  padding-top: 365px;
 }
 .content .hero .heroimg {
   display: flex;
