@@ -2019,14 +2019,66 @@ p {
     font-size: 20px;
   }
 }
-.nav .navlinks {
+.nav .mobile-logo {
   display: grid;
 }
 @media (min-width: 768px) {
-  .nav li a {
-    font-size: 15px;
-    text-decoration: none;
-    color: black;
+  .nav .mobile-logo {
+    display: none;
+  }
+}
+.nav .navlinks {
+  display: grid;
+  grid-template-columns: 100px;
+}
+.nav .navlinks #burger-container {
+  grid-area: burger;
+  display: grid;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .nav .navlinks #burger-container {
+    display: none !important;
+  }
+}
+.nav .navlinks #burger-container i {
+  cursor: pointer;
+  font-size: 1.875rem;
+}
+.nav .navlinks #nav-container {
+  grid-area: nav;
+  padding: 15px;
+  background-color: #fffed5;
+  position: absolute;
+  top: 240px;
+}
+@media (min-width: 768px) {
+  .nav .navlinks #nav-container {
+    display: block !important;
+    background-color: #fffed5;
+  }
+}
+.nav .navlinks #nav-container .tablet-logo {
+  display: none;
+}
+@media (min-width: 768px) {
+  .nav .navlinks #nav-container .tablet-logo {
+    display: block;
+  }
+}
+.nav .navlinks #nav-container ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.nav .navlinks #nav-container li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+@media (min-width: 1024px) {
+  .nav .navlinks #nav-container li a {
+    font-size: 25px;
   }
 }
 

@@ -23,20 +23,72 @@
         }
     }
 
-    .navlinks {
+    .mobile-logo {
         display: grid;
+
+        @include md {
+            display: none;
+        }
     }
 
-    li {
-        @include md {
-            a {
-                font-size: 15px;
-                text-decoration: none;
-                color: black;
+    .navlinks {
+        display: grid;
+        grid-template-columns: 100px;
+        // grid-template-areas: 
+        // "logo burger";
 
-                // @include lg {
-                //     font-size: 20px;
-                // }
+        #burger-container {
+            grid-area: burger;
+            display: grid;
+            align-items: center;
+            // padding: 10px;
+
+            @include md {
+                display: none !important;
+            }
+
+            i {
+                cursor: pointer;
+                font-size: rem-calc(30);
+            }
+        }
+
+        #nav-container {
+            grid-area: nav;
+            padding: 15px;
+            background-color: $butteryellow;
+            position: absolute;
+            top: 240px;
+
+            @include md {
+                display: block !important;
+                background-color: $butteryellow;
+            }
+
+            .tablet-logo {
+                display: none;
+
+                @include md {
+                    display: block;
+                }
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            li { 
+                a {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: black;
+        
+                    @include lg {
+                        font-size: 25px;
+                    }
+                }
             }
         }
     }
