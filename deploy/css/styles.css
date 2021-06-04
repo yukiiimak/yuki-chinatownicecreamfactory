@@ -371,11 +371,13 @@ ul li {
 .content .nav {
   grid-area: header;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 .content .nav ul li {
   display: inline;
   align-items: center;
+}
+.content .nav .firstbutton {
+  grid-row: 1/1;
 }
 .content .nav .firstbutton button {
   padding-top: 22px;
@@ -386,6 +388,7 @@ ul li {
 .content .nav .lang {
   display: flex;
   justify-content: flex-end;
+  grid-row: 1/1;
 }
 .content .nav .lang button {
   padding-top: 18px;
@@ -2021,6 +2024,7 @@ p {
 }
 .nav .mobile-logo {
   display: grid;
+  padding-top: 20px;
 }
 @media (min-width: 768px) {
   .nav .mobile-logo {
@@ -2029,7 +2033,6 @@ p {
 }
 .nav .navlinks {
   display: grid;
-  grid-template-columns: 100px;
 }
 .nav .navlinks #burger-container {
   grid-area: burger;
@@ -2050,11 +2053,16 @@ p {
   padding: 15px;
   background-color: #fffed5;
   position: absolute;
-  top: 240px;
+  top: 245px;
 }
 @media (min-width: 768px) {
   .nav .navlinks #nav-container {
     display: block !important;
+    position: unset;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: unset;
+    padding-right: unset;
     background-color: #fffed5;
   }
 }
@@ -2071,14 +2079,19 @@ p {
   flex-direction: column;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .nav .navlinks #nav-container ul {
+    flex-direction: row;
+  }
+}
 .nav .navlinks #nav-container li a {
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
   color: black;
 }
 @media (min-width: 1024px) {
   .nav .navlinks #nav-container li a {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 

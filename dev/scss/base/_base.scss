@@ -31,7 +31,6 @@ ul {
 	.nav {
 		grid-area: header;
 		display: grid;
-		grid-template-columns: repeat(2, 1fr); 
 
 		ul li {
 			display: inline;
@@ -39,6 +38,8 @@ ul {
 		}
 
 		.firstbutton {
+			grid-row: 1 / 1;
+
 			button {
 				padding-top: 22px;
 				padding-bottom: 22px;
@@ -50,6 +51,7 @@ ul {
 		.lang {
 			display: flex;
 			justify-content: flex-end;
+			grid-row: 1 / 1;
 
 			button {
 				padding-top: 18px;
