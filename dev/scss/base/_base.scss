@@ -842,26 +842,23 @@ ul {
 		}
 
 		.viewgallery {
-			margin-top: 32px;
-			margin-left: 190px;
+			display: block;
+			margin: 32px auto;
 			padding-top: 7px;
 			padding-bottom: 7px;
 			padding-right: 10px;
 			padding-left: 10px;
 
 			@include md {
-				margin-top: 140px;
-				margin-left: 300px;
+				margin: 140px auto;
 			}
 
 			@include lg {
-				margin-left: 420px;
-				margin-top: 70px;
+				margin: 70px auto;
 			}
 
 			@include xl {
-				margin-left: 530px;
-				margin-top: 250px;
+				margin: 250px auto;
 			}
 		}
 

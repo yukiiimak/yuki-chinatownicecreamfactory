@@ -1162,8 +1162,8 @@ ul li {
   }
 }
 .content .spotlight .viewgallery {
-  margin-top: 32px;
-  margin-left: 190px;
+  display: block;
+  margin: 32px auto;
   padding-top: 7px;
   padding-bottom: 7px;
   padding-right: 10px;
@@ -1171,20 +1171,17 @@ ul li {
 }
 @media (min-width: 768px) {
   .content .spotlight .viewgallery {
-    margin-top: 140px;
-    margin-left: 300px;
+    margin: 140px auto;
   }
 }
 @media (min-width: 1024px) {
   .content .spotlight .viewgallery {
-    margin-left: 420px;
-    margin-top: 70px;
+    margin: 70px auto;
   }
 }
 @media (min-width: 1200px) {
   .content .spotlight .viewgallery {
-    margin-left: 530px;
-    margin-top: 250px;
+    margin: 250px auto;
   }
 }
 @media (min-width: 768px) {
@@ -2103,6 +2100,7 @@ p {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    align-items: baseline;
   }
 }
 .nav .navlinks #nav-container li a {
