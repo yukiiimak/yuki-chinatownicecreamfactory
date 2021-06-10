@@ -30,12 +30,10 @@
         background-size: cover;
 
         @include lg {
-            // width: 400px;
             height: 320px;
         }
 
         @include xl {
-            // width: 700px;
             height: 500px;
         }
     }
@@ -50,12 +48,10 @@
         }
 
         @include lg {
-            // width: 320px;
             height: 320px;
         }
 
         @include xl {
-            // width: 450px;
             height: 500px;
         }
     }
@@ -70,12 +66,10 @@
         }
 
         @include lg {
-            // width: 325px;
             height: 320px;
         }
 
         @include xl {
-            // width: 550px;
             height: 500px;
         }
     }
@@ -134,7 +128,6 @@
         }
 
         @include xl {
-            // width: 430px;
             height: 700px;
         }
     }
@@ -179,7 +172,6 @@
         }
 
         @include xl {
-            // width: 430px;
             height: 700px;
         }
     }
@@ -224,7 +216,6 @@
         }
 
         @include xl {
-            // width: 430px;
             height: 700px;
         }
     }
