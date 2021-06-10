@@ -64,53 +64,6 @@
         }
     }
 
-    // .name {
-    //     font-size: 15px;
-
-    //     @include md {
-    //         font-size: 20px;
-    //     }
-
-    //     @include lg {
-    //         font-size: 25px;
-    //     }
-
-    //     input {
-    //         border: $forbiddenfruit solid 4px;
-    //     }
-    // }
-
-    // .email {
-    //     font-size: 15px;
-
-    //     @include md {
-    //         font-size: 20px;
-    //     }
-
-    //     @include lg {
-    //         font-size: 25px;
-    //     }
-
-    //     input {
-    //         border: $forbiddenfruit solid 4px;
-    //     }
-    // }
-
-    // .questions {
-    //     h3 {
-    //         font-size: 25px;
-    //         font-weight: 400;
-
-    //         @include md {
-    //             font-size: 28px;
-    //         }
-    //     }
-
-    //     input {
-    //         border: $forbiddenfruit solid 4px;
-    //     }
-    // }
-
     button {
         background-color: $forbiddenfruit;
         border: none;
