@@ -65,6 +65,7 @@
             top: 300px;
             grid-column: span 2;
             width: 100%;
+            display: none;
 
             @include md {
                 display: block !important;

@@ -2077,6 +2077,7 @@ p {
   top: 300px;
   grid-column: span 2;
   width: 100%;
+  display: none;
 }
 @media (min-width: 768px) {
   .nav .navlinks #nav-container {
